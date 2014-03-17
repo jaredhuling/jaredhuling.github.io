@@ -18,7 +18,7 @@ library(rfunctions)
 
 ## Accelerated crossprod function
 
-A project I've been working on requires fast evaluation of $X^TX$ for a design matrix $X$. I found a great example in the paper for [RcppEigen](http://www.jstatsoft.org/v52/i05/paper) by Douglas Bates and Dirk Eddelbuettel for just such a thing. **RcppEigen** provides a simple and effective interfact between R and the blazing-fast **Eigen** C++ library for numerical linear algebra. Their example uses **inline**, a nice tool for inline C++ code in R, and I a made a proper **R** function from that. The following showcases the speed of **Eigen**. Note that since $X^TX$ is symmetric, we only have to compute half of the values, which further reduces computation time. 
+A project I've been working on requires fast evaluation of $$X^TX$$ for a design matrix $$X$$. I found a great example in the paper for [RcppEigen](http://www.jstatsoft.org/v52/i05/paper) by Douglas Bates and Dirk Eddelbuettel for just such a thing. **RcppEigen** provides a simple and effective interfact between R and the blazing-fast **Eigen** C++ library for numerical linear algebra. Their example uses **inline**, a nice tool for inline C++ code in R, and I a made a proper **R** function from that. The following showcases the speed of **Eigen**. Note that since $$X^TX$$ is symmetric, we only have to compute half of the values, which further reduces computation time. 
 
 
 {% highlight r %}
@@ -37,8 +37,8 @@ microbenchmark(crossprodcpp(x), crossprod(x), times = 25L)
 {% highlight text %}
 ## Unit: milliseconds
 ##             expr   min    lq median    uq   max neval
-##  crossprodcpp(x) 13.92 14.22  14.46 14.77 23.05    25
-##     crossprod(x) 62.05 62.79  63.44 67.82 90.31    25
+##  crossprodcpp(x) 14.05 14.35  14.94 15.97 23.72    25
+##     crossprod(x) 61.83 62.45  62.91 67.37 75.84    25
 {% endhighlight %}
 
 
@@ -54,7 +54,7 @@ all.equal(crossprodcpp(x), crossprod(x))
 {% endhighlight %}
 
 
-```crossprodcpp``` can also compute a weighted cross product $X^T W X$ where $W$ is a diagonal weight matrix
+```crossprodcpp``` can also compute a weighted cross product $$X^T W X$$ where $$W$$ is a diagonal weight matrix
 
 
 {% highlight r %}
@@ -68,9 +68,9 @@ microbenchmark(crossprodcpp(x, weights), crossprod(x, weights * x), times = 25L)
 
 {% highlight text %}
 ## Unit: milliseconds
-##                       expr    min     lq median     uq    max neval
-##   crossprodcpp(x, weights)  19.01  19.37  19.54  20.93  29.61    25
-##  crossprod(x, weights * x) 122.50 124.70 128.58 133.90 171.49    25
+##                       expr    min    lq median    uq   max neval
+##   crossprodcpp(x, weights)  19.01  19.5  19.76  21.0  24.0    25
+##  crossprod(x, weights * x) 123.00 124.4 125.25 127.3 140.1    25
 {% endhighlight %}
 
 
@@ -89,7 +89,7 @@ all.equal(crossprodcpp(x, weights), crossprod(x, weights * x))
 
 ## Largest Singular Value Computation
 
-The Lanczos algorithm is a well-known method for fast computation of extremal eigenvalues. The Golub-Kahan-Lanczos bidiagonalization algorithm is an extension of this to approximate the largest singular values of a matrix $X$ from below. The function ```gklBidiag``` approximates the largest singular value of a matrix. Since GKL bidiagonalization is initialized from a random vector, we can compute a probabilistic upper bound for the singular value. The following compares the speed of ```gklBidiag``` and the implementation in the popular **Fortran** library **PROPACK** found in the **svd** package 
+The Lanczos algorithm is a well-known method for fast computation of extremal eigenvalues. The Golub-Kahan-Lanczos bidiagonalization algorithm is an extension of this to approximate the largest singular values of a matrix $$X$$ from below. The function ```gklBidiag``` approximates the largest singular value of a matrix. Since GKL bidiagonalization is initialized from a random vector, we can compute a probabilistic upper bound for the singular value. The following compares the speed of ```gklBidiag``` and the implementation in the popular **Fortran** library **PROPACK** found in the **svd** package 
 
 
 {% highlight r %}
@@ -145,8 +145,8 @@ microbenchmark(gklBidiag(x.s.b, v, maxit = 10L, 0L), gklBidiag(x.s.c, v, maxit =
 {% highlight text %}
 ## Unit: milliseconds
 ##                                  expr   min    lq median    uq   max neval
-##  gklBidiag(x.s.b, v, maxit = 10L, 0L) 95.46 97.20  102.0 111.0 142.6   100
-##  gklBidiag(x.s.c, v, maxit = 10L, 0L) 94.94 97.38  100.1 111.9 145.3   100
+##  gklBidiag(x.s.b, v, maxit = 10L, 0L) 95.61 98.09  99.94 103.6 149.8   100
+##  gklBidiag(x.s.c, v, maxit = 10L, 0L) 95.44 98.96 100.40 103.6 126.0   100
 {% endhighlight %}
 
 
@@ -171,7 +171,7 @@ gklBidiag(x.s.c, v, maxit = 10L, 0L)$d
 
 
 {% highlight text %}
-## [1] 35.2
+## [1] 35.37
 {% endhighlight %}
 
 
@@ -191,9 +191,9 @@ microbenchmark(add(A, B), A + B)
 
 {% highlight text %}
 ## Unit: milliseconds
-##       expr    min    lq median    uq   max neval
-##  add(A, B)  89.28  94.7  97.07 104.7 176.2   100
-##      A + B 235.82 253.0 257.44 291.8 400.4   100
+##       expr    min     lq median    uq max neval
+##  add(A, B)  89.09  94.41  97.67 106.8 220   100
+##      A + B 249.16 366.64 376.51 391.0 575   100
 {% endhighlight %}
 
 
@@ -207,8 +207,8 @@ microbenchmark(subtract(A, B), A - B)
 {% highlight text %}
 ## Unit: milliseconds
 ##            expr    min     lq median    uq   max neval
-##  subtract(A, B)  88.74  94.71  99.35 107.9 182.4   100
-##           A - B 238.19 260.45 269.55 290.5 418.4   100
+##  subtract(A, B)  91.62  94.47  96.69 105.4 213.7   100
+##           A - B 252.04 370.01 376.08 386.3 602.1   100
 {% endhighlight %}
 
 
@@ -255,8 +255,8 @@ microbenchmark(add(A, B), A + B)
 {% highlight text %}
 ## Unit: milliseconds
 ##       expr   min    lq median    uq   max neval
-##  add(A, B) 5.497 7.144  7.395 7.930 37.44   100
-##      A + B 1.821 2.435  3.548 3.667 28.65   100
+##  add(A, B) 5.539 5.899  7.218 7.348 24.17   100
+##      A + B 1.847 2.311  3.516 3.587 22.61   100
 {% endhighlight %}
 
 
@@ -270,8 +270,8 @@ microbenchmark(subtract(A, B), A - B)
 {% highlight text %}
 ## Unit: milliseconds
 ##            expr   min    lq median    uq   max neval
-##  subtract(A, B) 5.520 6.362  7.319 7.746 31.82   100
-##           A - B 1.853 2.259  3.507 3.623 23.30   100
+##  subtract(A, B) 5.498 7.260  7.813 9.428 46.53   100
+##           A - B 1.823 2.396  3.576 4.134 37.34   100
 {% endhighlight %}
 
 
