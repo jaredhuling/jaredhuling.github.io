@@ -36,9 +36,9 @@ microbenchmark(crossprodcpp(x), crossprod(x), times = 25L)
 
 {% highlight text %}
 ## Unit: milliseconds
-##             expr  min    lq median    uq   max neval
-##  crossprodcpp(x) 14.0 14.13  14.19 14.43 18.98    25
-##     crossprod(x) 61.6 61.93  62.68 66.53 72.00    25
+##             expr   min    lq median    uq   max neval
+##  crossprodcpp(x) 14.11 14.43  15.06 18.97 23.86    25
+##     crossprod(x) 62.91 64.87  66.59 70.90 77.83    25
 {% endhighlight %}
 
 
@@ -68,9 +68,9 @@ microbenchmark(crossprodcpp(x, weights), crossprod(x, weights * x), times = 25L)
 
 {% highlight text %}
 ## Unit: milliseconds
-##                       expr    min     lq median     uq    max neval
-##   crossprodcpp(x, weights)  18.91  19.13  19.49  19.72  23.87    25
-##  crossprod(x, weights * x) 122.49 124.69 126.49 126.89 146.59    25
+##                       expr   min     lq median     uq    max neval
+##   crossprodcpp(x, weights)  18.9  18.99  19.22  19.75  23.21    25
+##  crossprod(x, weights * x) 122.1 125.33 126.25 129.54 145.19    25
 {% endhighlight %}
 
 
@@ -97,26 +97,33 @@ library(svd)
 
 v <- runif(ncol(x))  #initialization for GKL-bidiag
 opts <- list(kmax = 30L)
-microbenchmark(gklBidiag(x, v, maxit = 30L), propack.svd(x, neig = 1L, opts = opts))
+microbenchmark(gklBidiag(x, v, maxit = 30L), .Call("propack_svd", x, 1L, opts, 
+    PACKAGE = "svd"))
 {% endhighlight %}
 
 
 
 {% highlight text %}
-## Error: "propack_svd" not resolved from current namespace (svd)
+## Unit: milliseconds
+##                                                expr    min     lq median
+##                        gklBidiag(x, v, maxit = 30L)  37.66  38.19  38.99
+##  .Call("propack_svd", x, 1L, opts, PACKAGE = "svd") 346.55 352.13 358.61
+##      uq   max neval
+##   44.59  73.3   100
+##  386.24 674.3   100
 {% endhighlight %}
 
 
 
 {% highlight r %}
 
-gklBidiag(x, v, maxit = 30L)$d - propack.svd(x, neig = 1L, opts = opts)$d
+gklBidiag(x, v, maxit = 30L)$d - .Call("propack_svd", x, 1L, opts, PACKAGE = "svd")$d
 {% endhighlight %}
 
 
 
 {% highlight text %}
-## Error: "propack_svd" not resolved from current namespace (svd)
+## [1] -3.411e-10
 {% endhighlight %}
 
 
@@ -145,8 +152,8 @@ microbenchmark(gklBidiag(x.s.b, v, maxit = 10L, 0L), gklBidiag(x.s.c, v, maxit =
 {% highlight text %}
 ## Unit: milliseconds
 ##                                  expr   min    lq median    uq   max neval
-##  gklBidiag(x.s.b, v, maxit = 10L, 0L) 94.62 95.81  96.50 97.48 130.6   100
-##  gklBidiag(x.s.c, v, maxit = 10L, 0L) 94.60 95.66  96.32 97.46 116.5   100
+##  gklBidiag(x.s.b, v, maxit = 10L, 0L) 94.51 95.38  96.64 99.67 138.8   100
+##  gklBidiag(x.s.c, v, maxit = 10L, 0L) 94.60 95.35  96.46 99.34 143.7   100
 {% endhighlight %}
 
 
@@ -171,7 +178,7 @@ gklBidiag(x.s.c, v, maxit = 10L, 0L)$d
 
 
 {% highlight text %}
-## [1] 35.33
+## [1] 35.71
 {% endhighlight %}
 
 
@@ -192,8 +199,8 @@ microbenchmark(add(A, B), A + B)
 {% highlight text %}
 ## Unit: milliseconds
 ##       expr    min     lq median    uq   max neval
-##  add(A, B)  91.21  93.35  96.54 110.8 244.5   100
-##      A + B 241.62 373.30 379.89 393.0 598.2   100
+##  add(A, B)  87.77  92.54  94.51 104.0 207.6   100
+##      A + B 240.39 354.31 361.31 368.9 482.4   100
 {% endhighlight %}
 
 
@@ -207,8 +214,8 @@ microbenchmark(subtract(A, B), A - B)
 {% highlight text %}
 ## Unit: milliseconds
 ##            expr    min     lq median    uq   max neval
-##  subtract(A, B)  91.64  92.99  94.95 100.7 128.7   100
-##           A - B 242.65 378.47 387.44 404.0 506.8   100
+##  subtract(A, B)  88.12  93.32  95.71 103.9 249.7   100
+##           A - B 243.27 359.10 365.65 371.7 429.7   100
 {% endhighlight %}
 
 
@@ -255,8 +262,8 @@ microbenchmark(add(A, B), A + B)
 {% highlight text %}
 ## Unit: milliseconds
 ##       expr   min    lq median    uq   max neval
-##  add(A, B) 5.540 6.236  7.238 7.444 26.24   100
-##      A + B 1.818 2.465  3.517 3.584 19.68   100
+##  add(A, B) 5.483 5.616  7.157 7.302 17.02   100
+##      A + B 1.822 1.938  2.107 3.527 14.29   100
 {% endhighlight %}
 
 
@@ -270,8 +277,8 @@ microbenchmark(subtract(A, B), A - B)
 {% highlight text %}
 ## Unit: milliseconds
 ##            expr   min    lq median    uq   max neval
-##  subtract(A, B) 5.508 6.148  7.221 7.309 25.18   100
-##           A - B 1.795 2.397  3.506 3.552 26.69   100
+##  subtract(A, B) 5.462 5.552  5.998 7.275 17.54   100
+##           A - B 1.818 1.975  2.187 3.504 13.97   100
 {% endhighlight %}
 
 
