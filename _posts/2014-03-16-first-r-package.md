@@ -18,7 +18,7 @@ library(rfunctions)
 
 ## Accelerated crossprod function
 
-A project I've been working on requires fast evaluation of $$X^TX$$ for a design matrix $$X$$. I found a great example in the paper for [RcppEigen](http://www.jstatsoft.org/v52/i05/paper) by Douglas Bates and Dirk Eddelbuettel for just such a thing. **RcppEigen** provides a simple and effective interfact between R and the blazing-fast **Eigen** C++ library for numerical linear algebra. Their example uses **inline**, a nice tool for inline C++ code in R, and I a made a proper **R** function from that. The following showcases the speed of **Eigen**. Note that since $$X^TX$$ is symmetric, we only have to compute half of the values, which further reduces computation time. 
+A project I've been working on requires fast evaluation of $$X^TX$$ for a design matrix $$X$$. I found a great example in the [paper](http://www.jstatsoft.org/v52/i05/paper) for [RcppEigen](http://cran.r-project.org/web/packages/RcppEigen/index.html) by Douglas Bates and Dirk Eddelbuettel for just such a thing. **RcppEigen** provides a simple and effective interfact between R and the blazing-fast **Eigen** C++ library for numerical linear algebra. Their example uses **inline**, a nice tool for inline C++ code in R, and I a made a proper **R** function from that. The following showcases the speed of **Eigen**. Note that since $$X^TX$$ is symmetric, we only have to compute half of the values, which further reduces computation time. 
 
 
 {% highlight r %}
@@ -36,9 +36,9 @@ microbenchmark(crossprodcpp(x), crossprod(x), times = 25L)
 
 {% highlight text %}
 ## Unit: milliseconds
-##             expr   min    lq median    uq   max neval
-##  crossprodcpp(x) 14.11 14.43  15.06 18.97 23.86    25
-##     crossprod(x) 62.91 64.87  66.59 70.90 77.83    25
+##             expr   min   lq median    uq   max neval
+##  crossprodcpp(x) 11.29 11.6  11.82 12.18 19.39    25
+##     crossprod(x) 50.83 51.3  52.91 54.94 63.01    25
 {% endhighlight %}
 
 
@@ -68,9 +68,9 @@ microbenchmark(crossprodcpp(x, weights), crossprod(x, weights * x), times = 25L)
 
 {% highlight text %}
 ## Unit: milliseconds
-##                       expr   min     lq median     uq    max neval
-##   crossprodcpp(x, weights)  18.9  18.99  19.22  19.75  23.21    25
-##  crossprod(x, weights * x) 122.1 125.33 126.25 129.54 145.19    25
+##                       expr   min     lq median     uq   max neval
+##   crossprodcpp(x, weights) 15.73  15.98  16.12  16.47  19.1    25
+##  crossprod(x, weights * x) 98.50 100.62 102.08 103.63 109.3    25
 {% endhighlight %}
 
 
@@ -96,34 +96,34 @@ The Lanczos algorithm is a well-known method for fast computation of extremal ei
 library(svd)
 
 v <- runif(ncol(x))  #initialization for GKL-bidiag
-opts <- list(kmax = 30L)
-microbenchmark(gklBidiag(x, v, maxit = 30L), .Call("propack_svd", x, 1L, opts, 
-    PACKAGE = "svd"))
+
+propack <- function() .Call("propack_svd", x, 1L, opts = list(kmax = 30L), PACKAGE = "svd")
+gklb <- function(v) gklBidiag(x, v, maxit = 30L)
+
+microbenchmark(gklb(v), propack())
 {% endhighlight %}
 
 
 
 {% highlight text %}
 ## Unit: milliseconds
-##                                                expr    min     lq median
-##                        gklBidiag(x, v, maxit = 30L)  37.66  38.19  38.99
-##  .Call("propack_svd", x, 1L, opts, PACKAGE = "svd") 346.55 352.13 358.61
-##      uq   max neval
-##   44.59  73.3   100
-##  386.24 674.3   100
+##       expr    min     lq median    uq    max neval
+##    gklb(v)  32.03  32.39  32.81  33.8  49.73   100
+##  propack() 228.88 233.61 236.16 241.0 375.01   100
 {% endhighlight %}
 
 
 
 {% highlight r %}
 
-gklBidiag(x, v, maxit = 30L)$d - .Call("propack_svd", x, 1L, opts, PACKAGE = "svd")$d
+gklBidiag(x, v, maxit = 30L)$d - .Call("propack_svd", x, 1L, opts = list(kmax = 30L), 
+    PACKAGE = "svd")$d
 {% endhighlight %}
 
 
 
 {% highlight text %}
-## [1] -3.411e-10
+## [1] -1.085e-09
 {% endhighlight %}
 
 
@@ -151,9 +151,12 @@ microbenchmark(gklBidiag(x.s.b, v, maxit = 10L, 0L), gklBidiag(x.s.c, v, maxit =
 
 {% highlight text %}
 ## Unit: milliseconds
-##                                  expr   min    lq median    uq   max neval
-##  gklBidiag(x.s.b, v, maxit = 10L, 0L) 94.51 95.38  96.64 99.67 138.8   100
-##  gklBidiag(x.s.c, v, maxit = 10L, 0L) 94.60 95.35  96.46 99.34 143.7   100
+##                                  expr   min    lq median     uq   max
+##  gklBidiag(x.s.b, v, maxit = 10L, 0L) 81.77 85.29  87.47 110.03 285.4
+##  gklBidiag(x.s.c, v, maxit = 10L, 0L) 81.93 85.68  88.65  99.21 156.1
+##  neval
+##    100
+##    100
 {% endhighlight %}
 
 
@@ -178,7 +181,7 @@ gklBidiag(x.s.c, v, maxit = 10L, 0L)$d
 
 
 {% highlight text %}
-## [1] 35.71
+## [1] 35.21
 {% endhighlight %}
 
 
@@ -198,9 +201,9 @@ microbenchmark(add(A, B), A + B)
 
 {% highlight text %}
 ## Unit: milliseconds
-##       expr    min     lq median    uq   max neval
-##  add(A, B)  87.77  92.54  94.51 104.0 207.6   100
-##      A + B 240.39 354.31 361.31 368.9 482.4   100
+##       expr    min     lq median     uq   max neval
+##  add(A, B)  76.95  80.39   86.6  95.59 223.3   100
+##      A + B 212.54 319.24  333.4 364.78 589.8   100
 {% endhighlight %}
 
 
@@ -213,9 +216,9 @@ microbenchmark(subtract(A, B), A - B)
 
 {% highlight text %}
 ## Unit: milliseconds
-##            expr    min     lq median    uq   max neval
-##  subtract(A, B)  88.12  93.32  95.71 103.9 249.7   100
-##           A - B 243.27 359.10 365.65 371.7 429.7   100
+##            expr    min     lq median     uq   max neval
+##  subtract(A, B)  76.88  78.85  80.56  87.39 130.5   100
+##           A - B 223.22 328.64 333.62 351.67 452.5   100
 {% endhighlight %}
 
 
@@ -262,8 +265,8 @@ microbenchmark(add(A, B), A + B)
 {% highlight text %}
 ## Unit: milliseconds
 ##       expr   min    lq median    uq   max neval
-##  add(A, B) 5.483 5.616  7.157 7.302 17.02   100
-##      A + B 1.822 1.938  2.107 3.527 14.29   100
+##  add(A, B) 4.931 5.299  6.409 6.718 19.04   100
+##      A + B 1.671 2.002  3.140 3.200 13.77   100
 {% endhighlight %}
 
 
@@ -277,8 +280,8 @@ microbenchmark(subtract(A, B), A - B)
 {% highlight text %}
 ## Unit: milliseconds
 ##            expr   min    lq median    uq   max neval
-##  subtract(A, B) 5.462 5.552  5.998 7.275 17.54   100
-##           A - B 1.818 1.975  2.187 3.504 13.97   100
+##  subtract(A, B) 4.959 5.237  6.407 6.532 16.85   100
+##           A - B 1.698 2.006  3.137 3.183 15.15   100
 {% endhighlight %}
 
 
