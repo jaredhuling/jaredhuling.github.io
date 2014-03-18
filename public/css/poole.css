@@ -155,6 +155,7 @@ code {
   color: #bf616a; 
   background-color: #eaeaea;
   border-radius: 3px;
+  outline: #999999 solid thin;
 }
 pre {
   display: block;
@@ -167,13 +168,14 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  outline:#999999 solid thin;
+  outline: #999999 solid thin;
   background-color: #eaeaea;
 }
 pre code {
   padding: 0;
   font-size: 100%;
   color: inherit;
+  outline: #999999 solid thin;
   background-color: transparent;
 }
 
@@ -181,6 +183,7 @@ pre code {
 .highlight {
   margin-bottom: 1rem;
   border-radius: 4px;
+  outline: #999999 solid thin;
 }
 .highlight pre {
   margin-bottom: 0;
