@@ -145,7 +145,7 @@ abbr[title] {
 }
 
 /* Code */
-/*code,
+code,
 pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
@@ -175,8 +175,8 @@ pre code {
   color: inherit;
   background-color: transparent;
 }
-*/
-/* Pygments via Jekyll
+
+/* Pygments via Jekyll */
 .highlight {
   margin-bottom: 1rem;
   border-radius: 4px;
@@ -184,7 +184,7 @@ pre code {
 .highlight pre {
   margin-bottom: 0;
 }
- */
+ 
 /* Gist via GitHub Pages */
 .gist .gist-file {
   font-family: Menlo, Monaco, "Courier New", monospace !important;
