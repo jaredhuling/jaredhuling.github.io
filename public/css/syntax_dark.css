@@ -65,7 +65,7 @@ font-family: "Consolas", "Courier New", "Courier", "FreeMono", monospace;
 font-size:1em;
 }
 
-.highlight .hll { background-color: #49483e }
+.highlight .hll { background-color: #7B7A69 }
 .highlight  { /*background: #272822;*/ color: #f8f8f2 }
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
