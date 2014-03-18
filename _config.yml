@@ -31,8 +31,8 @@ pages_list:
 # Settings for comments helper
 comments :
   provider : disqus
-    disqus :
-      short_name : casualinference
+#    disqus :
+#      short_name : casualinference
 
 # Settings for analytics helper
 analytics :
