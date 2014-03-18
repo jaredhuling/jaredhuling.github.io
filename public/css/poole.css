@@ -153,7 +153,7 @@ code {
   padding: .25em .5em;
   font-size: 85%;
   /*color: #bf616a; */
-  /*background-color: inherit; /*#eaeaea;*/
+  background-color: #eaeaea;
   border-radius: 3px;
 }
 pre {
@@ -167,7 +167,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #eaeaea;
+  /*background-color: #eaeaea;*/
 }
 pre code {
   padding: 0;
@@ -176,7 +176,7 @@ pre code {
   background-color: transparent;
 }
 
-/* Pygments via Jekyll 
+/* Pygments via Jekyll */
 .highlight {
   margin-bottom: 1rem;
   border-radius: 4px;
@@ -184,7 +184,7 @@ pre code {
 .highlight pre {
   margin-bottom: 0;
 }
- */
+ 
 /* Gist via GitHub Pages */
 .gist .gist-file {
   font-family: Menlo, Monaco, "Courier New", monospace !important;
