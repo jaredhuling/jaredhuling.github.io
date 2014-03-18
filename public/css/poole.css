@@ -144,7 +144,7 @@ abbr[title] {
   border-bottom: 1px dotted #e5e5e5;
 }
 
-/* Code */
+/* Code 
 code,
 pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
@@ -184,7 +184,7 @@ pre code {
 .highlight pre {
   margin-bottom: 0;
 }
- 
+ */
 /* Gist via GitHub Pages */
 .gist .gist-file {
   font-family: Menlo, Monaco, "Courier New", monospace !important;
