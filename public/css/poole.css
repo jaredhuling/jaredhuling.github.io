@@ -145,7 +145,7 @@ abbr[title] {
 }
 
 /* Code */
-code,
+/*code,
 pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
@@ -175,7 +175,7 @@ pre code {
   color: inherit;
   background-color: transparent;
 }
-
+*/
 /* Pygments via Jekyll */
 .highlight {
   margin-bottom: 1rem;
