@@ -152,8 +152,8 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a;
-  background-color: #eaeaea;
+  /*color: #bf616a;
+  background-color: #eaeaea;*/
   border-radius: 3px;
 }
 pre {
