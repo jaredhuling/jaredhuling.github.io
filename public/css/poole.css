@@ -144,6 +144,7 @@ abbr[title] {
 }
 
 /* Code */
+/*
 code,
 pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
@@ -175,7 +176,7 @@ pre code {
   color: inherit;
   background-color: transparent;
 }
-
+*/
 
 
 /* Gist via GitHub Pages */
