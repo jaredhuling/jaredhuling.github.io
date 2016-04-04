@@ -43,9 +43,9 @@ microbenchmark(crossprodcpp(x), crossprod(x), times = 25L)
 
 
 
-```{r}
+{% highlight r %}
 all.equal(crossprodcpp(x), crossprod(x))
-```
+{% endhighlight %}
 
 
 
