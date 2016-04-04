@@ -1,6 +1,8 @@
 # Dependencies
 highlighter:      rouge
 markdown:         kramdown
+syntax-highlighting:
+  enabled : true
 kramdown:
   input: GFM
   auto_ids: true
