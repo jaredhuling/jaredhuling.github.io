@@ -43,7 +43,7 @@ microbenchmark(crossprodcpp(x), crossprod(x), times = 25L)
 
 
 
-```r
+```{r}
 all.equal(crossprodcpp(x), crossprod(x))
 ```
 
