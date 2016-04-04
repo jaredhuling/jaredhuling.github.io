@@ -1,12 +1,12 @@
 # Dependencies
-highlighter:      pygments 
+highlighter:      rouge 
 markdown:         kramdown
 syntax-highlighting:
   enabled : true
 kramdown:
   input: GFM
   auto_ids: true
-  syntax_highlighter: pygments
+  syntax_highlighter: rouge
 
 
 # Permalinks
