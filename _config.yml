@@ -24,6 +24,11 @@ version:          1.0.0
 github:
   repo:           https://github.com/jaredhuling/jaredhuling.github.io
 
+# All Jekyll-Bootstrap specific configurations are namespaced into this hash
+#
+JB :
+  version : 0.3.0
+  
 pages_list:       
   About: '/about'
   Archive: '/archive'
