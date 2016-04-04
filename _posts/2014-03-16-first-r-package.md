@@ -10,10 +10,10 @@ This post is mostly an attempt to familiarize myself with Rmarkdown, jekyll, and
 **rfunctions** is not available on CRAN, but can be installed using the R package **devtools**. **rfunctions** can be installed with the following R code:
 
 
-```r
+{% highlight r %}
 devtools::install_github("jaredhuling/rfunctions")
 library(rfunctions)
-```
+{% endhighlight %}
 
 
 ## Accelerated crossprod function
