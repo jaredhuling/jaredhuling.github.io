@@ -13,6 +13,7 @@
  * https://github.com/poole/poole.
  */
 
+
 /*
  * Contents
  *
@@ -51,7 +52,7 @@ html {
   font-size: 16px;
   line-height: 1.5;
 }
-@media (min-width: 38rem) {
+@media (min-width: 38em) {
   html {
     font-size: 20px;
   }
@@ -68,6 +69,9 @@ body {
 a {
   color: #268bd2;
   text-decoration: none;
+}
+a strong {
+  color: inherit;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
@@ -144,7 +148,6 @@ abbr[title] {
 }
 
 /* Code */
-
 code,
 pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
@@ -152,12 +155,11 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a; 
-  background-color: #eaeaea;
+  color: #bf616a;
+  background-color: #f9f9f9;
   border-radius: 3px;
 }
 pre {
-  border-radius: 5px;
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -168,7 +170,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #eaeaea;
+  background-color: #f9f9f9;
 }
 pre code {
   padding: 0;
@@ -177,7 +179,14 @@ pre code {
   background-color: transparent;
 }
 
-
+/* Pygments via Jekyll */
+.highlight {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+.highlight pre {
+  margin-bottom: 0;
+}
 
 /* Gist via GitHub Pages */
 .gist .gist-file {
@@ -211,7 +220,7 @@ blockquote {
 blockquote p:last-child {
   margin-bottom: 0;
 }
-@media (min-width: 30rem) {
+@media (min-width: 30em) {
   blockquote {
     padding-right: 5rem;
     padding-left: 1.25rem;
@@ -400,7 +409,7 @@ a.pagination-item:hover {
   background-color: #f5f5f5;
 }
 
-@media (min-width: 30rem) {
+@media (min-width: 30em) {
   .pagination {
     margin: 3rem 0;
   }
