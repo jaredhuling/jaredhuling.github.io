@@ -2,6 +2,11 @@
 _gh_pages
 _site
 .ruby-version
+.DS_Store
+nbproject
+*.*~
+.sass-cache
+
 
 # Numerous always-ignore extensions
 *.diff

@@ -1,12 +1,12 @@
 ##The website title
-name: Jared Huling
+name: Blog Name
 ##Markdown processor
 markdown: kramdown
 ##syntax highlighter. change it to pygments
-highlighter: rouge
+highlighter: pygments
 
 ##define base_url for valid usage in sitemap.xml and robots.txt
-base_url: http://casualinference.org
+base_url: http://example.com
 sass:
   sass_dir: _sass
   style: :compressed
@@ -21,12 +21,15 @@ keywords: some, relevant, keywords, for, usage, in metatags
 #disqus: forumname
 
 ##set this to enable google analytics
-ga_id: 'UA-49091606-1'
-ga_domain: casualinference.org
+#ga_id: analyticsID
+#ga_domain: analyticsDomain
 
 ##Some commonly used links
 links:
-  github: jaredhuling
+  facebook: username
+  twitter: username
+  email: username@gmail.com
+  github: username
 
 ##put desired image in img/ directory and set the value accordingly. If not defined, a placeholder image will be used.
 about_image: placeholder.jpg
