@@ -17,6 +17,9 @@ layout: default
               {{ post.excerpt }}
             {% endif %}
           </p>
+          <small>
+            <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">Read More</a>
+          </small>
         </div>
       {% endfor %}
     </div>
