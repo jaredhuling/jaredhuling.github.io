@@ -1,67 +1,38 @@
 ---
 layout: default
 ---
-
-{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
-{% if minutes == 0 %}
-{% assign minutes = 1 %}
-{% endif %}
-
-<div class="post-header mb2">
-  <h1>{{ page.title }}</h1>
-  <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
-  {% if page.update_date %}
-    <span class="post-meta">{{ site.text.post.updated }}: {{ page.update_date | date: site.date_format }}</span><br>
-  {% endif %}
-  <span class="post-meta small">
-  {% if page.minutes %}
-    {{ page.minutes }} {{ site.text.post.minute_read }}
-  {% else %}
-    {{ minutes }} {{ site.text.post.minute_read }}
-  {% endif %}
-  </span>
-</div>
-
-<article class="post-content">
-  {{ content }}
+<div id="home" class="grid post">
+<div class="unit whole">
+<article>
+	<header>
+		<h1>{{ page.title }}</h1>
+		<p class="meta">
+			<time class="timeago postlist-meta" datetime="{{ page.date | date: "%Y-%m-%d" }}"><i class="fa fa-calendar"></i>{{ page.date | date: "%B %-d, %Y" }}</time>
+			<a class="sharer facebook" href="#" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+window.location.href,'_blank','height=300,width=600');return false;"><i class="fa fa-facebook"></i></a>
+			{% if site.twitter %}
+				<a class="sharer twitter" href="#" target="_blank" onclick="window.open('https://twitter.com/share?url='+window.location.href+'&via={{ site.twitter }}','_blank','height=300,width=600');return false;"><i class="fa fa-twitter"></i></a>
+			{% else %}
+				<a class="sharer twitter" href="#" target="_blank" onclick="window.open('https://twitter.com/share?url='+window.location.href,'_blank','height=300,width=600');return false;"><i class="fa fa-twitter"></i></a>
+			{% endif %}
+		</p>
+	</header>
+	<section>
+		{% if page.tags and page.tags.size > 0 %}
+			<div class="tags">
+				Tagged:
+				{% for tag in page.tags %}
+				<span><i class="fa fa-tag"></i>{{ tag }}</span>
+				{% endfor %}
+			</div>
+		{% endif %}
+		{{ content }}
+	</section>
+	{% if site.disqus %}
+	<footer>
+		<p><a href="#" id="showComments">Comments</a></p>
+		<div id="disqus_thread"></div>
+	</footer>
+	{% endif %}
 </article>
-
-{% if site.show_sharing_icons %}
-  {% include share_buttons.html %}
-{% endif %}
-
-{% if site.show_post_footers %}
-  {% include post_footer.html %}
-{% endif %}
-
-{% if site.disqus_shortname %}
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-    var disqus_shortname  = '{{ site.disqus_shortname }}';
-    var disqus_identifier = '{{ page.id }}';
-    var disqus_title      = '{{ page.title }}';
-
-    (function() {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
-
-{% if site.facebook_comments %}
-  <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="{{ site.facebook_comments_number }}"></div>
-{% endif %}
-
-{% if site.show_related_posts %}
-  <h3 class="related-post-title">{{ site.text.post.related_posts }}</h3>
-  {% for post in site.related_posts %}
-    <div class="post ml2">
-      <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-        <h4 class="post-title">{{ post.title }}</h4>
-        <p class="post-summary">{{ post.summary }}</p>
-      </a>
-    </div>
-  {% endfor %}
-{% endif %}
+</div>
+</div>

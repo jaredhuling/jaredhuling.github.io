@@ -1,5 +1,5 @@
 # Dependencies
-highlighter:      rouge 
+highlighter:      rouge
 markdown:         kramdown
 syntax-highlighting:
   enabled : true
@@ -17,15 +17,28 @@ title:            Jared Huling
 tagline:          casual inference
 description:      'my cool github page'
 url:              http://casualinference.org
+base_url:         http://casualinference.org
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+keywords: R, causal inference
 
 author:
   name:           'Jared Huling'
   url:            http://www.stat.wisc.edu/~huling
 
-paginate:         1
+paginate: 5
+paginate_path: "page:num"
 
 # Custom vars
 version:          1.0.0
+
+
+##Some commonly used links
+links:
+  github: jaredhuling
 
 github:
   repo:           https://github.com/jaredhuling/jaredhuling.github.io
@@ -34,11 +47,17 @@ github:
 #
 JB :
   version : 0.3.0
-  
-pages_list:       
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/atom.xml'
+
+##put desired image in img/ directory and set the value accordingly. If not defined, a placeholder image will be used.
+about_image: placeholder.jpg
+
+##comment this if you want full width posts with no sidebar
+sidebar: on
+
+#pages_list:
+#  About: '/about'
+#  Archive: '/archive'
+#  Feed: '/atom.xml'
 
 # Settings for comments helper
 comments :
