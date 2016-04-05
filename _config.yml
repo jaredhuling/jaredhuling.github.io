@@ -25,3 +25,6 @@ analytics :
   provider : google
   google :
     tracking_id : 'UA-49091606-1'
+
+github:
+    repo: https://github.com/jaredhuling
