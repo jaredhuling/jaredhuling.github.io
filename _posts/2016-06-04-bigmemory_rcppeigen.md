@@ -9,7 +9,7 @@ The [bigmemory](www.bigmemory.org) [package](https://cran.r-project.org/web/pack
 
 Since bigmemory works with pointers to C++ objects, it's natural to link bigmemory objects to Eigen matrix objects. I'm not going to go too much into the details of this from the bigmemory/Rcpp side of things, as it's well exposed [here](http://gallery.rcpp.org/articles/using-bigmemory-with-rcpp/). 
 
-In this post I'll create a ```colSums()``` function and a ```crossprod()``` function for ```big.matrix``` objects. ```big.matrix``` objects can have one of 4 types (1, 2, 4, 8), corresponding to (char, short, int, double), so we need to define extra Eigen matrix types like the following (```MatrixXi```/```VectorXi``` for ints and ```MatrixXd```/```VectorXd``` for doubles are already defined):
+In this post I'll create a ```colSums()``` function and a ```crossprod()``` function for ```big.matrix``` objects. All of the code posted below can be found in my [rfunctions](https://github.com/jaredhuling/rfunctions) R package on github.  ```big.matrix``` objects can have one of 4 types (1, 2, 4, 8), corresponding to (char, short, int, double), so we need to define extra Eigen matrix types like the following ```MatrixXi```/```VectorXi``` for ints and ```MatrixXd```/```VectorXd``` for doubles are already defined):
 
 
 {% highlight cpp %}
@@ -23,6 +23,10 @@ Then ``reading'' in a big.matrix object from R to C++ and getting its data type 
 
 
 {% highlight cpp %}
+using namespace Rcpp;
+using namespace RcppEigen;
+#include <bigmemory/BigMatrix.h>
+
 RcppExport SEXP colsums_big(SEXP X_)
 {
   BEGIN_RCPP
@@ -64,6 +68,10 @@ Putting it altogether:
 
 
 {% highlight cpp %}
+using namespace Rcpp;
+using namespace RcppEigen;
+#include <bigmemory/BigMatrix.h>
+
 RcppExport SEXP colsums_big(SEXP X_)
 {
   BEGIN_RCPP
