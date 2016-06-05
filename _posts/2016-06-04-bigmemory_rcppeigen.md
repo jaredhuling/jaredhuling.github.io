@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Linking bigmemory and RcppEigen
+category: R
 tags: [R, C++, Eigen]
 ---
 
