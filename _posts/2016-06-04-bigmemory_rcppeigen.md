@@ -100,7 +100,6 @@ RcppExport SEXP colsums_big(SEXP X_)
       VectorXd colSums = bM.colwise().sum();
       return wrap(colSums);
     } else {
-      // We should never get here, but it resolves compiler warnings.
       throw Rcpp::exception("Undefined type for provided big.matrix");
     }
 
