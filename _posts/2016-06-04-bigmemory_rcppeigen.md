@@ -2,8 +2,6 @@
 
 
 
-## Bigmemory and Eigen
-
 The [bigmemory](www.bigmemory.org) [package](https://cran.r-project.org/web/packages/bigmemory/index.html) offers a set of tools for R which allow for manipulation larger-than-memory objects within R. It has some basic functions but is certainly not comprehensive. The [eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) C++ linear algebra library is a highly efficient numerical linear algebra library and can be interfaced to R through  [RcppEigen](http://cran.r-project.org/web/packages/RcppEigen/index.html) by Douglas Bates and Dirk Eddelbuettel. If bigmemory and Eigen can be linked, then one would be able to do highly efficient linear algebra computation on data that is too big for memory (exactly what you thought R couldn't do). 
 
 Since bigmemory works with pointers to C++ objects, it's natural to link bigmemory objects to Eigen matrix objects. I'm not going to go too much into the details of this from the bigmemory/Rcpp side of things, as it's well exposed [here](http://gallery.rcpp.org/articles/using-bigmemory-with-rcpp/). 
