@@ -110,3 +110,15 @@ gems:
   - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
 exclude: [vendor]
+
+
+Blogroll:
+      - name: r-bloggers
+        href: http://www.r-bloggers.com/
+        title: R-bloggers
+      - name: Karl Broman
+        href: https://kbroman.wordpress.com/
+        title: The stupidest thing...
+      - name: Andrew Gelman 
+        href: http://andrewgelman.com/
+        title: Statistical Modeling, Causal Inference, and Social Science
