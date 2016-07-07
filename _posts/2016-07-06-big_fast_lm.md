@@ -204,13 +204,13 @@ print(summary(res)[,1:7], digits = 4)
 
 
 {% highlight r %}
-max(abs(coef(fastLm.obj) - coef(bigLm.obj)))
+max(abs(coef(fastLm.obj.llt) - coef(bigLm.obj.llt)))
 {% endhighlight %}
 
 
 
 {% highlight text %}
-## Error in coef(fastLm.obj): object 'fastLm.obj' not found
+## [1] 0
 {% endhighlight %}
 
 Future work would be to try to figure out how to make the QR decomposition memory-feasible and also to write a function for generalized linear models. 
