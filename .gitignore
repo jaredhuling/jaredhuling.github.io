@@ -53,8 +53,8 @@ bower_components
 *.Rmd
 _posts/*.Rmd
 _posts/*.R
-_posts/*.png
-*.png
+#_posts/*.png
+#*.png
 *.R
 
 
