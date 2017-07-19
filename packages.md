@@ -1,7 +1,7 @@
 ---
 layout: page
 title: R Packages
-permalink: /packages/
+permalink: /software/
 ---
 
 
