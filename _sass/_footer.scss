@@ -19,11 +19,17 @@
 }
 
 footer {
-  background-color: $footer-bg-color;
+  background-color: $grey-color-dark;
   border-top: $footer-border-top;
   color: $footer-color;
   font-size: $footer-font-size;
   font-weight: $footer-font-weight;
   padding: $footer-padding;
-  text-align: center;
+  position: fixed;
+    left: 0px;
+    bottom: 0px;
+  width: 100%;
+
+  a { color: #fff; }
+  a:hover { color: $theme-color; }
 }
