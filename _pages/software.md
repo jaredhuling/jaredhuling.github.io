@@ -1,6 +1,6 @@
 ---
 layout: page
-title: R Packages
+title: Software
 permalink: /software/
 ---
 
