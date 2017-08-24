@@ -27,8 +27,8 @@ permalink: /software/
 
         <p align="right">
           <a href="http://casualinference.org/oem/" class="button">OEM Site</a>
-          <a href="https://cran.r-project.org/package=oem" class="button">Download on CRAN</a>
-          <a href="https://github.com/jaredhuling/oem" class="button">Source at GitHub</a>
+          <a href="https://cran.r-project.org/package=oem" class="button">Download</a>
+          <a href="https://github.com/jaredhuling/oem" class="button">Source</a>
         </p>
 
       </div>
