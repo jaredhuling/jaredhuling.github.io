@@ -1,124 +1,112 @@
+# -----------------------------------------------------------------------------
 # Site settings
-title:       Jared Huling
-email:       x@y.z where x = huling, y = wisc, z = edu
-author:      Jared Huling
-description: "a blog of R and statistics topics"
-baseurl:     ""
-url:         "http://jaredhuling.org"
-date_format: "%b %-d, %Y"
-website: "http://www.stat.wisc.edu/~huling/"
+# -----------------------------------------------------------------------------
+name: Your Name
+email: you@example.com
+description: > # this means to ignore newlines until "url:"
+  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+footer_text: >
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-# Google services
-google_verification:
-# Use either direct GA implementation or set up GTM account
-# - using both will skew your data (leave blank to not use at all)
-google_analytics: 'UA-49091606-1'
-google_tag_manager: false
+url:  # the base hostname & protocol for your site
+baseurl: /al-folio # the subpath of your site, e.g. /blog/
+last_updated: # leave blank if you don't want to display last updated
 
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+github_username: # put your github username
+twitter_username: # put your twitter username
+linkedin_username: # put your linkedin username
+scholar_authorid: # put your google scholar author id
+contact_note: >
+  You can even add a little note about which of these is the best way to reach you.
 
-# Optional features
-animated:             true
-show_related_posts:   false
-show_post_footers:    false
-show_social_icons:    false
-ajaxify_contact_form: false
-enable_mathjax: true
-extended_fonts: false
-enable_anchorjs: false
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+blog_name: al-folio
+blog_description: a simple whitespace theme for academics
 
-# Disqus post comments
-# (leave blank to disable Disqus)
-disqus_shortname:
-
-# Facebook Comments plugin
-# (leave blank to disable Facebook Comments, otherwise set it to true)
-facebook_comments:
-facebook_appid:
-facebook_comments_number: 10
-
-# Social icons
-github_username: jaredhuling
-bitbucket_username:
-stackoverflow_id:
-twitter_username:
-skype_username:
-steam_nickname:
-google_plus_id:
-linkedin_username:
-angellist_username:
-medium_id:
-bitcoin_url:
-paypal_url:
-flattr_button:
-
-# Post sharing icons
-show_sharing_icons: false
-# Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
-share_googleplus: false
-share_linkedin: false
-share_digg: false
-share_tumblr: false
-share_reddit: false
-share_stumbleupon: false
-share_hackernews: false
+# Pagination
+paginate: 4
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
 
 text:
   pagination:
     newer: 'Newer'
     older: 'Older'
-  share_buttons:
-    text:         'Share this post!'
-    facebook:     'Share on Facebook'
-    twitter:      'Share on Twitter'
-    googleplus:   'Share on Google+'
-    linkedin:     'Share on LinkedIn'
-    digg:         'Share on Digg'
-    tumblr:       'Share on Tumblr'
-    reddit:       'Share on Reddit'
-    stumbleupon:  'Share on StumbleUpon'
-    hackernews:   'Share on Hacker News'
-  post:
-    updated:        'Updated'
-    minute_read:    'minute read'
-    related_posts:  'Related Posts'
-  index:
-    coming_soon: 'Coming soon...'
-  contact:
-    email:    'Email Address'
-    content:  'What would you like to say?'
-    subject:  'New submission!'
-    submit:   'Say Hello'
-    ajax:
-      sending:  'sending..'
-      sent:     'Message sent!'
-      error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
-  og_locale: 'en_US'
+
+# Comments
+disqus_shortname: al-folio # put your disqus shortname
+
+# Optional features
+show_social_icons:  false
+enable_anchorjs:    false
+enable_katex:       true
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+news_limit: 5
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
 
 # Build settings
-markdown:     kramdown
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
-paginate:     4
-sass:
-  compressed: true
+markdown: kramdown
+highlighter: pygments
+
+# Includes
+include: ['_pages']
+
+# Gems
 gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-# https://github.com/jekyll/jekyll/issues/2938
-exclude: [vendor]
+    - jekyll-paginate
+    - jekyll/scholar
+    - jemoji
 
+# Jekyll-Scholar
+scholar:
 
-Blogroll:
-      - name: r-bloggers
-        href: http://www.r-bloggers.com/
-        title: R-bloggers
-      - name: Karl Broman
-        href: https://kbroman.wordpress.com/
-        title: The stupidest thing...
-      - name: Andrew Gelman 
-        href: http://andrewgelman.com/
-        title: Statistical Modeling, Causal Inference, and Social Science
+  last_name: Einstein
+
+  style: apa
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+
+# -----------------------------------------------------------------------------
+# Other settings
+# -----------------------------------------------------------------------------
+jquery_version: "1.12.4"
+katex_version: "0.7.1"
+anchorjs_version: "3.2.2"
