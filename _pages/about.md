@@ -13,7 +13,7 @@ profile:
     <p>Columbus, OH 43210</p>
 
 news: false
-social: true
+social: false
 ---
 
 
