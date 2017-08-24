@@ -4,7 +4,7 @@ email:       x@y.z where x = huling, y = wisc, z = edu
 author:      Jared Huling
 description: "a blog of R and statistics topics"
 baseurl:     ""
-url:         "http://casualinference.org"
+url:         "http://jaredhuling.org"
 date_format: "%b %-d, %Y"
 website: "http://www.stat.wisc.edu/~huling/"
 
