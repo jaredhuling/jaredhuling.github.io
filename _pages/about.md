@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: Jared Huling
-description: <a href="www.stat.osu.edu">Department of Statistics, The Ohio State University</a>. <a href="https://discovery.osu.edu/tda/">Translational Data Analytics (TDA)</a> @ Ohio State
+description: <a href="www.stat.osu.edu">Department of Statistics<a>, <a href = "www.osu.edu" The Ohio State University</a>.
 
 profile:
   align: right
@@ -13,7 +13,12 @@ profile:
     <p>Columbus, OH 43210</p>
 
 news: false
-social: false
+social: true
 ---
 
 
+My research interests are in the area of causal inference, statistical machine learning, and computational statistics.
+
+- Precision medicine for subgroup identification, causal inference
+- Algorithmic and statistical methods for large-scale data analysis
+- Health services research
