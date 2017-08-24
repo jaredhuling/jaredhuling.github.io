@@ -21,7 +21,10 @@ linkedin_username: # put your linkedin username
 scholar_authorid: # put your google scholar author id
 contact_note: >
   Email is the best way to reach me
-
+  
+# analytics
+google_analytics: 'UA-49091606-1'
+  
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
