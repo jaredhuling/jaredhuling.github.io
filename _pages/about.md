@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: Jared Huling
-description: <a href="www.stat.osu.edu">Department of Statistics<a>, <a href = "www.osu.edu" The Ohio State University</a>.
+description: <a href="www.stat.osu.edu">Department of Statistics</a>, <a href = "www.osu.edu" The Ohio State University</a>.
 
 profile:
   align: right
