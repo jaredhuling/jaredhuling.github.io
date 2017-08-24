@@ -19,7 +19,7 @@ permalink: /software/
 
       <div class="nine columns">
 
-        <h3>oem: Orthogonalizing EM algorithm for penalized estimation</h5>
+        <h3>oem: Orthogonalizing EM algorithm for penalized estimation</h3>
 
         <p>
           oem fits various penalized regression models using the Orthogonalizing EM algorithm. It is highly efficient for tall data. It provides estimation for penalties including the lasso, MCP, SCAD, elastic net, and group lasso.
