@@ -14,7 +14,7 @@ permalink: /software/
     <div class="row">
 
       <div class="three columns">
-        <img src="../images/mcp_path.png" width="100%" alt="hdnom-icon" />
+        <img src="/images/mcp_path.png" width="100%" alt="OEM" />
       </div>
 
       <div class="nine columns">
