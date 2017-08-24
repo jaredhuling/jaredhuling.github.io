@@ -26,7 +26,7 @@ permalink: /software/
         </p>
 
         <p align="right">
-          <a href="http://casualinference.org/oem/" class="button">Documentation</a>
+          <a href="http://jaredhuling.github.io/oem/" class="button">Documentation</a>
           <a href="https://cran.r-project.org/package=oem" class="button">Download</a>
           <a href="https://github.com/jaredhuling/oem" class="button">Source</a>
         </p>
@@ -54,7 +54,7 @@ permalink: /software/
         </p>
 
         <p align="right">
-          <a href="http://casualinference.org/vennLasso/" class="button">Documentation</a>
+          <a href="http://jaredhuling.github.io/vennLasso/" class="button">Documentation</a>
           <a href="https://cran.r-project.org/package=vennLasso" class="button">Download</a>
           <a href="https://github.com/jaredhuling/vennLasso" class="button">Source</a>
         </p>
@@ -86,7 +86,7 @@ permalink: /software/
         </p>
 
         <p align="right">
-          <a href="http://casualinference.org/personalized/" class="button">Documentation</a>
+          <a href="http://jaredhuling.github.io/personalized/" class="button">Documentation</a>
           <a href="https://cran.r-project.org/package=personalized" class="button">Download</a>
           <a href="https://github.com/jaredhuling/personalized" class="button">Source</a>
         </p>
