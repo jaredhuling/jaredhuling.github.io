@@ -12,7 +12,9 @@ layout: page
         {{ page.profile.address }}
       </div>
       <div class="address">
-        <a href="mailto:{{ site.email }}">&lt;Email&gt;</a>
+        <script type="text/javascript"> 
+            gen_mail_to_link('john.doe','example.com','Feedback about your site...');
+        </script>
       </div>
     {% endif %}
   </div>
