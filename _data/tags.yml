@@ -1,0 +1,15 @@
+- slug: R
+  name: R
+  
+- slug: C++
+  name: C++
+  
+- slug: Eigen
+  name: Eigen
+  
+- slug: machine-learning
+  name: machine-learning
+  
+- slug: computational-statistics
+  name: computational-statistics
+  
