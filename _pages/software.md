@@ -47,7 +47,7 @@ permalink: /software/
 
       <div class="nine columns">
 
-        <h5>vennLasso: Variable selection for heterogeneous populations</h5>
+        <h4>vennLasso: Variable selection for heterogeneous populations</h4>
 
         <p>
           The vennLasso package is motivated by the need to address population heterogeneity in hospital system-wide risk modeling applications, however it can be used in a wide variety of settings. The vennLasso package is to be used for high-dimensional modeling scenarios where heterogeneity is defined by several binary factors which stratify the population into multiple subpopulations. For example, vennLasso can be used in a hospital-wide risk modeling application if covariate effects in risk models differ for subpopulations of patients with different chronic conditions. Here the chronic conditions are the binary stratifying factors. The vennLasso provides computation for a variable selection method which yields variable selection patterns which adhere to the hierarchical nature of the relationships between the various subpopulations.
@@ -74,8 +74,8 @@ permalink: /software/
 
       <div class="nine columns">
 
-        <h5>personalized: Estimation and validation methods for subgroup identification and
-    personalized medicine</h5>
+        <h4>personalized: Estimation and validation methods for subgroup identification and
+    personalized medicine</h4>
 
         <p>
             The personalized package provides functions for fitting and validation of subgroup
@@ -96,6 +96,7 @@ permalink: /software/
 
   </div>
   
+  <!--
   <div class="docs-section">
     <h3>Misc</h3>
   </div>
@@ -110,7 +111,7 @@ permalink: /software/
 
       <div class="nine columns">
 
-        <h5>jcolors: Colors palettes for R and 'ggplot2' and additional themes for 'ggplot2'</h5>
+        <h4>jcolors: Colors palettes for R and 'ggplot2' and additional themes for 'ggplot2'</h4>
 
         <p>
             The jcolors package contains a selection of color palettes and 'ggplot2' themes.
@@ -137,7 +138,7 @@ permalink: /software/
 
       <div class="nine columns">
 
-        <h5>bigFastlm: Fast linear models for objects from the 'bigmemory' package</h5>
+        <h4>bigFastlm: Fast linear models for objects from the 'bigmemory' package</h4>
 
         <p>
             A reimplementation of the fastLm() functionality of 'RcppEigen' for
@@ -154,3 +155,5 @@ permalink: /software/
     </div>
 
   </div>
+  
+  -->
