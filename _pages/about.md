@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: Jared Huling
-description: <a href="http://www.stat.osu.edu">Department of Statistics</a>, <a href = "http://www.osu.edu"> The Ohio State University</a>.
+description: Assistant Professor, <a href="http://www.stat.osu.edu">Department of Statistics</a>, <a href = "http://www.osu.edu"> The Ohio State University</a>.
 
 profile:
   align: right
@@ -16,9 +16,6 @@ news: false
 social: false
 ---
 
+My research interests are in the development of methods in precision medicine, causal inference, and statistical learning for the analysis of complex observational studies.
+I am particularly interested in in the development of statistical methodology to address various forms of population heterogeneity with the aim of improving patient and health outcomes. My work in this area has involved applications in hospital system risk modeling and in personalizing hospital intervention enrollment decisions. My research also includes methodological developments with the aim of flexibly modeling highly-complex data. Computational aspects of my work are also motivated by the analysis of complex and large-scale data.  
 
-My research interests are in the area of causal inference, statistical machine learning, and computational statistics.
-
-- Precision medicine for subgroup identification, causal inference
-- Algorithmic and statistical methods for large-scale data analysis
-- Health services research
