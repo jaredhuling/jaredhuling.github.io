@@ -6,7 +6,7 @@ description: <a href="http://www.stat.osu.edu">Department of Statistics</a>, <a 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_img.jpg
   address: >
     <p>Cockins Hall</p>
     <p>1958 Neil Ave</p>
