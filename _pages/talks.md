@@ -12,14 +12,14 @@ title: Talks
         <img src="/images/talks/iv_assumptions.png" width="100%" alt="IV" />
       </div>
 
-      <div class="nine columns">
+      <div class="eight columns">
 
         <h6><b>Biostatistics Seminar, Apr. 18, 2016</b>, <p>Department of Biomedical Data Science, Dartmouth. <br>Endovascular vs. Open Surgery: Analysis of Survival Outcomes Using Instrumental Variables</p></h6>
 
-        <p align="right">
+      </div>
+      
+      <div class="one columns">
           <a href="http://www.stat.wisc.edu/~huling/aftiv_talk.html" class="button">slides</a>
-        </p>
-
       </div>
     </div>
 
