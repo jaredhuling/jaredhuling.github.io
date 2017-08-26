@@ -4,20 +4,24 @@ permalink: /talks/
 title: Talks
 ---
 
-<h3 class="year">1956</h3>
-<ol class="bibliography"><li>
+  <div class="docs-section">
 
-<div>
-  
-    <span class="title"><b>Biostatistics Seminar, Apr. 18, 2016</b> <p>Department of Biomedical Data Science, Dartmouth. <br>Endovascular vs. Open Surgery: Analysis of Survival Outcomes Using Instrumental Variables</p>
-    </span>
+    <div class="row">
 
+      <div class="three columns">
+        <img src="../figures/iv_assumptions.png" width="100%" alt="IV" />
+      </div>
 
-  <span class="links">
-  
-  </span>
+      <div class="nine columns">
 
-  <!-- Hidden abstract block -->
-  
-</div>
-</li></ol>
+        <h6><b>Biostatistics Seminar, Apr. 18, 2016</b>, <p>Department of Biomedical Data Science, Dartmouth. <br>Endovascular vs. Open Surgery: Analysis of Survival Outcomes Using Instrumental Variables</p></h6>
+
+        <p align="right">
+          <a href="http://www.stat.wisc.edu/~huling/aftiv_sim.html" class="button">interactive simulation visualization</a>
+          <a href="http://www.stat.wisc.edu/~huling/aftiv_talk.html" class="button">slides</a>
+        </p>
+
+      </div>
+    </div>
+
+  </div>
