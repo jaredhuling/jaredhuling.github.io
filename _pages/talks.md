@@ -4,7 +4,7 @@ permalink: /talks/
 title: Talks
 ---
 
-  <div class="docs-section">
+  <div class="docs-section-small">
 
     <div class="row">
 
@@ -29,7 +29,7 @@ title: Talks
 
   </div>
 
-  <div class="docs-section">
+  <div class="docs-section-small">
 
     <div class="row">
 
@@ -54,7 +54,7 @@ title: Talks
 
   </div>
 
-  <div class="docs-section">
+  <div class="docs-section-small">
 
     <div class="row">
 
@@ -78,7 +78,7 @@ title: Talks
 
   </div>
 
-  <div class="docs-section">
+  <div class="docs-section-small">
 
     <div class="row">
 
@@ -103,7 +103,7 @@ title: Talks
   </div>
 
 
-  <div class="docs-section">
+  <div class="docs-section-small">
 
     <div class="row">
 
