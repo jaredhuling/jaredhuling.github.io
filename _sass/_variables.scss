@@ -62,6 +62,7 @@ $lighter-gray:      #eee !default;
 
 $grey-color:        #828282;
 $grey-color-light:  lighten($grey-color, 40%);
+$grey-color-medium: darken($grey-color, 33%);
 $grey-color-dark:   darken($grey-color, 25%);
 
 $darken-1:          rgba(#000,.0625) !default;
@@ -145,7 +146,7 @@ $nav-height: 56px;
 $footer-border-top: thin solid $grey-color-dark;
 $footer-padding: $space-1;
 $footer-color: $light-gray;
-$footer-bg-color: $grey-color-light;
+$footer-bg-color: $grey-color-medium;
 $footer-font-weight: 300;
 $footer-font-size: .75rem;
 
