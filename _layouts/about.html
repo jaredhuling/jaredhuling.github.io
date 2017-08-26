@@ -1,34 +1,54 @@
 ---
-layout: page
+layout: default
 ---
 
-<div class="docs-section">
+<div class="post">
+    
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <h5 class="post-description">{{ page.description }}</h5>
+      </header>
+    
+      <article class="post-content {{page.title}} clearfix">
   
-  <div class="row">
-      
-      {% if page.profile %}
-      <div class="four columns profile {{ page.profile.align }}">
-        <!-- <div class="profile col one {{ page.profile.align }}"> -->
-          {% if page.profile.image %}
-            <img class="one" src="{{ page.profile.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
-          {% endif %}
-          {% if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-            <div class="address">
-              <script type="text/javascript"> 
-                  gen_mail_to_link('huling.7', 'osu', 'u', 'd', 'e');
-              </script>
-            </div>
-          {% endif %}
-        <!-- </div> -->
-      </div>
-      {% endif %}
-      
+        <div class="docs-section">
+          
+          <div class="row">
+              
+              {% if page.profile %}
+              <div class="four columns profile {{ page.profile.align }}">
+                <!-- <div class="profile col one {{ page.profile.align }}"> -->
+                  {% if page.profile.image %}
+                    <img class="one" src="{{ page.profile.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+                  {% endif %}
+                  {% if page.profile.address %}
+                    <div class="address">
+                      {{ page.profile.address }}
+                    </div>
+                    <div class="address">
+                      <script type="text/javascript"> 
+                          gen_mail_to_link('huling.7', 'osu', 'u', 'd', 'e');
+                      </script>
+                    </div>
+                  {% endif %}
+                <!-- </div> -->
+              </div>
+              {% endif %}
+              
+        
+              <div class = "eight columns">
+                  {{ content }}
+              </div>
+          </div>
+        </div>
+      </article>
 
-      <div class = "eight columns">
-          {{ content }}
-      </div>
-  </div>
+      {% if page.news %}
+        {% include news.html %}
+      {% endif %}
+    
+      {% if page.social %}
+        {% include social.html %}
+      {% endif %}
+    
 </div>
