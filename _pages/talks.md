@@ -9,7 +9,7 @@ title: Talks
     <div class="row">
 
       <div class="three columns">
-        <img src="/images/talks/blank_square.png" width="100%" alt="IV" />
+        <img src="/images/talks/blank_rect.png" width="100%" alt="IV" />
       </div>
 
       <div class="seven columns">
@@ -34,7 +34,7 @@ title: Talks
     <div class="row">
 
       <div class="three columns">
-        <img src="/images/talks/blank_square.png" width="100%" alt="IV" />
+        <img src="/images/talks/blank_rect.png" width="100%" alt="IV" />
       </div>
 
       <div class="seven columns">
@@ -59,7 +59,7 @@ title: Talks
     <div class="row">
 
       <div class="three columns">
-        <img src="/images/talks/blank_square.png" width="100%" alt="IV" />
+        <img src="/images/talks/blank_rect.png" width="100%" alt="IV" />
       </div>
 
       <div class="seven columns">
@@ -83,7 +83,7 @@ title: Talks
     <div class="row">
 
       <div class="three columns">
-        <img src="/images/talks/iv_assumptions.png" width="100%" alt="IV" />
+        <img src="/images/talks/blank_rect.png" width="100%" alt="IV" />
       </div>
 
       <div class="seven columns">
