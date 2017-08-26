@@ -34,7 +34,7 @@ title: Talks
     <div class="row">
 
       <div class="three columns">
-        <img src="/images/talks/blank_rect.png" width="100%" alt="IV" />
+        <img src="/images/talks/sel_patterns.png" width="100%" alt="IV" />
       </div>
 
       <div class="seven columns">
@@ -59,7 +59,7 @@ title: Talks
     <div class="row">
 
       <div class="three columns">
-        <img src="/images/talks/blank_rect.png" width="100%" alt="IV" />
+        <img src="/images/talks/nn_and_gp_prior_samples.png" width="100%" alt="IV" />
       </div>
 
       <div class="seven columns">
@@ -83,7 +83,7 @@ title: Talks
     <div class="row">
 
       <div class="three columns">
-        <img src="/images/talks/blank_rect.png" width="100%" alt="IV" />
+        <img src="/images/talks/est_func_all_gradients_transp_two.png" width="100%" alt="IV" />
       </div>
 
       <div class="seven columns">
