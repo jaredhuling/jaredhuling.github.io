@@ -9,6 +9,105 @@ title: Talks
     <div class="row">
 
       <div class="three columns">
+        <!-- <img src="/images/talks/iv_assumptions.png" width="100%" alt="IV" /> -->
+      </div>
+
+      <div class="seven columns">
+
+        <h5><b>New England Statistics Symposium, April 2017</b></h5>
+        <h5>
+        Heterogeneity of Intervention Effects and Subgroup Identification Based on Longitudinal Outcomes
+        </h5>
+
+      </div>
+      
+      
+      <div class="one column">
+          <!-- <a href="http://www.stat.wisc.edu/~huling/aftiv_talk.html" class="button">slides</a> -->
+      </div>
+    </div>
+
+  </div>
+
+  <div class="docs-section">
+
+    <div class="row">
+
+      <div class="three columns">
+        <!-- <img src="/images/talks/iv_assumptions.png" width="100%" alt="IV" /> -->
+      </div>
+
+      <div class="seven columns">
+
+        <h5><b>ENAR, March 2017</b></h5>
+        <h5>
+        Statistical Modeling for Heterogeneous Populations with Application to Hospital Admission Prediction
+        </h5>
+
+      </div>
+      
+      
+      <div class="one column">
+          <!-- <a href="http://www.stat.wisc.edu/~huling/aftiv_talk.html" class="button">slides</a> -->
+      </div>
+    </div>
+
+  </div>
+
+  <div class="docs-section">
+
+    <div class="row">
+
+      <div class="three columns">
+        <!-- <img src="/images/talks/iv_assumptions.png" width="100%" alt="IV" /> -->
+      </div>
+
+      <div class="seven columns">
+
+        <h5><b>Joint Statistical Meetings, August 2016</b></h5>
+        <h5>
+        Deep Learning for Emulation in Uncertainty Quantification
+        </h5>
+
+      </div>
+      
+      <div class="one column">
+          <!-- <a href="http://www.stat.wisc.edu/~huling/aftiv_talk.html" class="button">slides</a> -->
+      </div>
+    </div>
+
+  </div>
+
+  <div class="docs-section">
+
+    <div class="row">
+
+      <div class="three columns">
+        <!-- <img src="/images/talks/iv_assumptions.png" width="100%" alt="IV" /> -->
+      </div>
+
+      <div class="seven columns">
+
+        <h5><b>Spring Research Conference on Statistics in Industry and Technology, May 2016</b></h5>
+        <h5>
+        Stabilizing Gradient Enhanced Kriging with Sparsity Constraints
+        </h5>
+
+      </div>
+      
+      <div class="one column">
+          <!--  <a href="http://www.stat.wisc.edu/~huling/aftiv_talk.html" class="button">slides</a> -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="docs-section">
+
+    <div class="row">
+
+      <div class="three columns">
         <img src="/images/talks/iv_assumptions.png" width="100%" alt="IV" />
       </div>
 
