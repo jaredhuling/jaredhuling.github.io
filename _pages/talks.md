@@ -8,13 +8,13 @@ title: Talks
 
     <div class="row">
 
-      <div class="three columns">
+      <div class="two columns">
         <img src="/images/talks/iv_assumptions.png" width="100%" alt="IV" />
       </div>
 
-      <div class="seven columns">
+      <div class="eight columns">
 
-        <h6><b>Biostatistics Seminar, Apr. 18, 2016</b>, <p>Department of Biomedical Data Science, Dartmouth. <br>Endovascular vs. Open Surgery: Analysis of Survival Outcomes Using Instrumental Variables</p></h6>
+        <h5><b>Biostatistics Seminar, Apr. 18, 2016</b></h5>, <h5>Department of Biomedical Data Science, Dartmouth. <br>Endovascular vs. Open Surgery: Analysis of Survival Outcomes Using Instrumental Variables</h5>
 
       </div>
       
