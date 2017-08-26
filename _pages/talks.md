@@ -12,7 +12,7 @@ title: Talks
         <img src="/images/talks/iv_assumptions.png" width="100%" alt="IV" />
       </div>
 
-      <div class="eight columns">
+      <div class="seven columns">
 
         <h5><b>Biostatistics Seminar, Apr. 18, 2016</b></h5>
         <h5>
