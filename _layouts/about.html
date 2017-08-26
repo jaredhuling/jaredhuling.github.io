@@ -16,7 +16,7 @@ layout: default
           <div class="row">
               
               {% if page.profile %}
-              <div class="four columns profile {{ page.profile.align }}">
+              <div class="three columns profile {{ page.profile.align }}">
                 <!-- <div class="profile col one {{ page.profile.align }}"> -->
                   {% if page.profile.image %}
                     <img class="one" src="{{ page.profile.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
@@ -36,7 +36,7 @@ layout: default
               {% endif %}
               
         
-              <div class = "eight columns">
+              <div class = "seven columns">
                   {{ content }}
               </div>
           </div>
