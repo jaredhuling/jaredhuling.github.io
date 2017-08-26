@@ -18,7 +18,7 @@ title: Talks
 
       </div>
       
-      <div class="one columns">
+      <div class="one column">
           <a href="http://www.stat.wisc.edu/~huling/aftiv_talk.html" class="button">slides</a>
       </div>
     </div>
