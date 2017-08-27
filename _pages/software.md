@@ -19,7 +19,7 @@ permalink: /software/
 
       <div class="nine columns">
 
-        <h4>oem: Orthogonalizing EM algorithm for penalized estimation</h4>
+        <h4><b style="font-family:monospace">oem</b>: Orthogonalizing EM algorithm for penalized estimation</h4>
 
         <p>
           oem fits various penalized regression models using the Orthogonalizing EM algorithm. It is highly efficient for tall data. It provides estimation for penalties including the lasso, MCP, SCAD, elastic net, and group lasso.
@@ -47,7 +47,7 @@ permalink: /software/
 
       <div class="nine columns">
 
-        <h4>vennLasso: Variable selection for heterogeneous populations</h4>
+        <h4><b style="font-family:monospace">vennLasso</b>: Variable selection for heterogeneous populations</h4>
 
         <p>
           The vennLasso package is motivated by the need to address population heterogeneity in hospital system-wide risk modeling applications, however it can be used in a wide variety of settings. The vennLasso package is to be used for high-dimensional modeling scenarios where heterogeneity is defined by several binary factors which stratify the population into multiple subpopulations. For example, vennLasso can be used in a hospital-wide risk modeling application if covariate effects in risk models differ for subpopulations of patients with different chronic conditions. Here the chronic conditions are the binary stratifying factors. The vennLasso provides computation for a variable selection method which yields variable selection patterns which adhere to the hierarchical nature of the relationships between the various subpopulations.
@@ -74,7 +74,7 @@ permalink: /software/
 
       <div class="nine columns">
 
-        <h4>personalized: Estimation and validation methods for subgroup identification and
+        <h4><b style="font-family:monospace">personalized</b>: Estimation and validation methods for subgroup identification and
     personalized medicine</h4>
 
         <p>
