@@ -22,7 +22,7 @@ permalink: /software/
         <h4><b style="font-family:monospace">oem</b>: Orthogonalizing EM algorithm for penalized estimation</h4>
 
         <p>
-          oem fits various penalized regression models using the Orthogonalizing EM algorithm. It is highly efficient for tall data. It provides estimation for penalties including the lasso, MCP, SCAD, elastic net, and group lasso.
+          oem provides computation for various penalized regression models using the Orthogonalizing EM algorithm and is highly efficient for tall data. Penalties available include the lasso, MCP, SCAD, elastic net, group lasso, group MCP/SCAD, and more.
         </p>
 
         <p align="right">
@@ -50,11 +50,10 @@ permalink: /software/
     personalized medicine</h4>
 
         <p>
-            The personalized package provides functions for fitting and validation of subgroup
+            The 'personalized' package is designed for the analysis of data where the effect of a treatment or intervention may vary for different patients. It can be used for either data from randomized controlled trials or observational studies and is not limited specifically to the analysis of medical data.
+            It provides functions for fitting and validation of subgroup
       identification and personalized medicine models under the general subgroup
       identification framework of <a href="doi:10.1111/biom.12676">Chen et al. (2017)</a>.
-      This package is intended for use for both randomized controlled trials and
-      observational studies.
         </p>
 
         <p align="right">
