@@ -50,7 +50,7 @@ permalink: /software/
         <h4><b style="font-family:monospace">vennLasso</b>: Variable selection for heterogeneous populations</h4>
 
         <p>
-          The vennLasso package is motivated by the need to address population heterogeneity in hospital system-wide risk modeling applications, however it can be used in a wide variety of settings. The vennLasso package is to be used for high-dimensional modeling scenarios where heterogeneity is defined by several binary factors which stratify the population into multiple subpopulations. For example, vennLasso can be used in a hospital-wide risk modeling application if covariate effects in risk models differ for subpopulations of patients with different chronic conditions. Here the chronic conditions are the binary stratifying factors. The vennLasso provides computation for a variable selection method which yields variable selection patterns which adhere to the hierarchical nature of the relationships between the various subpopulations.
+          The vennLasso package provides variable selection for high-dimensional modeling scenarios where heterogeneity is defined by several binary factors which stratify the population into multiple subpopulations. For example, vennLasso can be used in a hospital-wide risk modeling application if covariate effects in risk models differ for subpopulations of patients with different chronic conditions. Here the chronic conditions are the binary stratifying factors. The vennLasso provides computation for a variable selection method which yields variable selection patterns which adhere to the hierarchical nature of the relationships between the various subpopulations.
         </p>
 
         <p align="right">
