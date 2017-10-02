@@ -39,10 +39,15 @@ title: Talks
 
       <div class="seven columns">
 
+        <h5><b>BiostatMCW, September 2017</b></h5>
+        <h5>
+        Risk Prediction for Heterogeneous Populations with Application to Hospital Admission Prediction
+        </h5>
         <h5><b>ENAR, March 2017</b></h5>
         <h5>
         Statistical Modeling for Heterogeneous Populations with Application to Hospital Admission Prediction
         </h5>
+        
 
       </div>
       
