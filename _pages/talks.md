@@ -133,3 +133,5 @@ title: Talks
     </div>
 
   </div>
+  
+  <a href="../talks/vennLasso.pdf" class="button">vennLasso (pdf)</a>
