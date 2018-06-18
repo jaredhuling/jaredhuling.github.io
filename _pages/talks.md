@@ -72,6 +72,11 @@ title: Talks
       </div>
 
       <div class="seven columns">
+      
+        <h5><b>Joint Research Conference, June 2018</b></h5>
+        <h5>
+        Neural Networks for Flexible and Fast Emulation of Computer Experiments
+        </h5>
 
         <h5><b>Joint Statistical Meetings, August 2016</b></h5>
         <h5>
