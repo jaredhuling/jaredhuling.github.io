@@ -57,7 +57,7 @@ title: Talks
       
       
       <div class="one column">
-          <a href="../talks/vennLasso.pdf" class="button">vennLasso (pdf)</a>
+          <a href="../talks/vennLasso.pdf" class="button">slides</a>
       </div>
     </div>
 
