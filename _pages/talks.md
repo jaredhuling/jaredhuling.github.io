@@ -38,7 +38,12 @@ title: Talks
       </div>
 
       <div class="seven columns">
-
+      
+        <h5><b>ICSA Applied Statistics Symposium, June 2018</b></h5>
+        <h5>
+        Risk Prediction for Heterogeneous Populations with Application to Hospital Admission Prediction
+        <a href="../talks/vennLasso.pdf" class="button">vennLasso (pdf)</a>
+        </h5>
         <h5><b>BiostatMCW, September 2017</b></h5>
         <h5>
         Risk Prediction for Heterogeneous Populations with Application to Hospital Admission Prediction
@@ -134,4 +139,4 @@ title: Talks
 
   </div>
   
-  <a href="../talks/vennLasso.pdf" class="button">vennLasso (pdf)</a>
+  
