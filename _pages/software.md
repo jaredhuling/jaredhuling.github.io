@@ -9,32 +9,7 @@ permalink: /software/
     <h3>R Packages</h3>
   </div>
 
-  <div class="docs-section">
-
-    <div class="row">
-
-      <div class="three columns">
-        <img src="/images/mcp_path.png" width="100%" alt="OEM" />
-      </div>
-
-      <div class="nine columns">
-
-        <h4><b style="font-family:monospace">oem</b>: Orthogonalizing EM algorithm for penalized estimation</h4>
-
-        <p>
-          oem provides computation for various penalized regression models using the Orthogonalizing EM algorithm and is highly efficient for tall data. Penalties available include the lasso, MCP, SCAD, elastic net, group lasso, group MCP/SCAD, and more.
-        </p>
-
-        <p align="right">
-          <a href="http://jaredhuling.github.io/oem/" class="button">Documentation</a>
-          <a href="https://cran.r-project.org/package=oem" class="button">Download</a>
-          <a href="https://github.com/jaredhuling/oem" class="button">Source</a>
-        </p>
-
-      </div>
-    </div>
-
-  </div>
+  
   
   <div class="docs-section">
 
@@ -60,6 +35,34 @@ permalink: /software/
           <a href="http://jaredhuling.github.io/personalized/" class="button">Documentation</a>
           <a href="https://cran.r-project.org/package=personalized" class="button">Download</a>
           <a href="https://github.com/jaredhuling/personalized" class="button">Source</a>
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+  
+  
+  <div class="docs-section">
+
+    <div class="row">
+
+      <div class="three columns">
+        <img src="/images/mcp_path.png" width="100%" alt="OEM" />
+      </div>
+
+      <div class="nine columns">
+
+        <h4><b style="font-family:monospace">oem</b>: Orthogonalizing EM algorithm for penalized estimation</h4>
+
+        <p>
+          oem provides computation for various penalized regression models using the Orthogonalizing EM algorithm and is highly efficient for tall data. Penalties available include the lasso, MCP, SCAD, elastic net, group lasso, group MCP/SCAD, and more.
+        </p>
+
+        <p align="right">
+          <a href="http://jaredhuling.github.io/oem/" class="button">Documentation</a>
+          <a href="https://cran.r-project.org/package=oem" class="button">Download</a>
+          <a href="https://github.com/jaredhuling/oem" class="button">Source</a>
         </p>
 
       </div>
