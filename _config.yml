@@ -90,7 +90,7 @@ scholar:
   locale: en
 
   sort_by: year
-  order: descending
+  order: ascending
 
   source: /_bibliography/
   bibliography: publications.bib
