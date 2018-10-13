@@ -16,11 +16,16 @@
     padding-top: 1ex;
     text-align: left;
 }
+author {
+    font-weight: bold;
+    text-decoration: underline;
+}
 .bibliography {
     margin-bottom: 50px;
     margin-top: 20px;
     margin-left: 50px;
     list-style-type: circle;
+    text-align: right;
 
     li {
         margin: 10px 0;
