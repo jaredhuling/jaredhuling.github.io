@@ -1,25 +1,12 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: Publications by categories in chronological order. 
+title: Publications
 years: [2018, 2017, 2016]
 ---
 
 <h3 class="year">Preprints</h3>
 
-<div class=""><div class="container"><div class="row"><div class="col-md-10 offset-1"><hr></div></div></div></div>
-
-<div class="pt-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 offset-1">
-        <h2 class="">2015</h2>
-        <hr>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="pt-3">
   <div class="container">
@@ -42,7 +29,6 @@ years: [2018, 2017, 2016]
   </div>
 </div>
 
-<div class=""><div class="container"><div class="row"><div class="col-md-10 offset-1"><hr></div></div></div></div>
 
 
 <h3 class="year">Publications</h3>
