@@ -37,7 +37,7 @@ years: [2018, 2017, 2016]
 
 <h3 class="year">Publications</h3>
 
-<div class="pt-3">
+<div class="pt-4">
   <div class="container">
     <div class="row">
       <div class="col-md-12 offset-1">
