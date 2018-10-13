@@ -8,7 +8,7 @@ years: [2018, 2017, 2016]
 <h3 class="year">Preprints</h3>
 
 
-<div class="docs-section>
+<div class="docs-section">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-10 offset-1">
