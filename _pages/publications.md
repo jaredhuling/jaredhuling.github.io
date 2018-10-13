@@ -12,7 +12,7 @@ years: [2018, 2017, 2016]
   <div class="container">
     <div class="row">
       <div class="col-md-10 offset-1">
-        <p>
+        <p class="bibliography">
           Xiong, S., Dai, B, <author>Jared Huling</author>, and Qian, P.Z.G.
           <a>
             Orthogonalizing EM: A design-based least squares algorithm</a>.
@@ -21,8 +21,6 @@ years: [2018, 2017, 2016]
           <a class="codelink" href="https://github.com/jaredhuling/oem">source</a> |
           <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">software</a>
         </p>
-
-
         
       </div>
     </div>
