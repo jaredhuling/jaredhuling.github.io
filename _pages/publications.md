@@ -9,9 +9,9 @@ years: [2018, 2017, 2016]
 
 
 <div class="pt-3">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12 offset-1">
+      <div class="col-md-10 offset-1">
       
         <p class="bibliography">
           Dai, X. and <author>Jared Huling</author>. (2018+).
