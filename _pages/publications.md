@@ -5,14 +5,15 @@ years: [2018, 2017, 2016]
 ---
 
 <div class="pt-3">
+  <div class="container-fluid">
     <div class="row">
-
-        <p align="left" class="year">
+      <div class="twelve columns">
+        <p align="left">
           <a href="https://scholar.google.com/citations?user=2-MWWU4AAAAJ&hl=en" class="button">Google Scholar</a>
         </p>
 
     </div>
-</div>
+</div></div></div>
 
 
 <h3 class="year">Preprints</h3>
