@@ -73,7 +73,7 @@ years: [2018, 2017, 2016]
             Fast penalized regression and cross validation for tall data with the oem package. <br>
           To appear in the <em>Journal of Statistical Software</em>. <br>
           <a href="https://arxiv.org/abs/1801.09661">arxiv:1801.09661</a>. 
-          <a class="codelink" href="https://github.com/jaredhuling/oem">source code</a> |
+          <a class="codelink" href="https://github.com/jaredhuling/oem">code</a> |
           <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">CRAN</a> |
           <a class="codelink" href="http://jaredhuling.github.io/oem/">documentation</a>
         </p>
@@ -83,7 +83,7 @@ years: [2018, 2017, 2016]
             Risk prediction for heterogeneous populations with application to hospital admission prediction.
           <em>Biometrics</em> 74(2): 557-565. <br>
           doi: <a href="https://doi.org/10.1111/biom.12769">10.1111/biom.12769</a>.
-          <a class="codelink" href="https://github.com/jaredhuling/vennLasso">source code</a> |
+          <a class="codelink" href="https://github.com/jaredhuling/vennLasso">code</a> |
           <a class="codelink" href="https://cran.r-project.org/web/packages/vennLasso/index.html">CRAN</a> |
           <a class="codelink" href="http://jaredhuling.github.io/vennLasso/">documentation</a>
         </p>
