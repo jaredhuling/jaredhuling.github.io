@@ -36,7 +36,8 @@ years: [2018, 2017, 2016]
             Subgroup identification using the personalized package. <br>
           <a href="https://arxiv.org/abs/1809.07905">arxiv:1809.07905</a>.
           <a class="codelink" href="https://github.com/jaredhuling/personalized">source</a> |
-          <a class="codelink" href="https://cran.r-project.org/web/packages/personalized/index.html">software</a>
+          <a class="codelink" href="https://cran.r-project.org/web/packages/personalized/index.html">software</a> |
+          <a class="codelink" href="http://jaredhuling.github.io/personalized/">documentation</a>
         </p>
         
       </div>
@@ -73,7 +74,8 @@ years: [2018, 2017, 2016]
           To appear in the <em>Journal of Statistical Software</em>. <br>
           <a href="https://arxiv.org/abs/1801.09661">arxiv:1801.09661</a>. 
           <a class="codelink" href="https://github.com/jaredhuling/oem">source</a> |
-          <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">software</a>
+          <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">software</a> |
+          <a class="codelink" href="http://jaredhuling.github.io/oem/">documentation</a>
         </p>
       
         <p class="bibliography">
@@ -82,7 +84,8 @@ years: [2018, 2017, 2016]
           <em>Biometrics</em> 74(2): 557-565. <br>
           doi: <a href="https://doi.org/10.1111/biom.12769">10.1111/biom.12769</a>.
           <a class="codelink" href="https://github.com/jaredhuling/vennLasso">source</a> |
-          <a class="codelink" href="https://cran.r-project.org/web/packages/vennLasso/index.html">software</a>
+          <a class="codelink" href="https://cran.r-project.org/web/packages/vennLasso/index.html">software</a> |
+          <a class="codelink" href="http://jaredhuling.github.io/vennLasso/">documentation</a>
         </p>
       
         <p class="bibliography">
@@ -99,7 +102,8 @@ years: [2018, 2017, 2016]
           <em>Technometrics</em> 58(3): 285-293. <br>
           doi: <a href="https://doi.org/10.1080/00401706.2015.1054436">10.1080/00401706.2015.1054436</a>.
           <a class="codelink" href="https://github.com/jaredhuling/oem">source</a> |
-          <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">software</a>
+          <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">software</a> |
+          <a class="codelink" href="http://jaredhuling.github.io/oem/">documentation</a>
         </p>
         
       </div>
