@@ -6,12 +6,6 @@ description: Publications by categories in chronological order.
 years: [2018, 2017, 2016]
 ---
 
-# {% for y in page.years %}
-#   <h3 class="year">{{y}}</h3>
-#   {% bibliography -f papers -q @*[year={{y}}]* %}
-# {% endfor %}
-
-
 <h3 class="year">Preprints</h3>
 
 <div class=""><div class="container"><div class="row"><div class="col-md-10 offset-1"><hr></div></div></div></div>
