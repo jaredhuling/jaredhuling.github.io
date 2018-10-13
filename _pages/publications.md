@@ -35,8 +35,8 @@ years: [2018, 2017, 2016]
           <author>Jared Huling</author> and Yu, M. (2018+).
             Subgroup identification using the personalized package. <br>
           <a href="https://arxiv.org/abs/1809.07905">arxiv:1809.07905</a>.
-          <a class="codelink" href="https://github.com/jaredhuling/personalized">source</a> |
-          <a class="codelink" href="https://cran.r-project.org/web/packages/personalized/index.html">software</a> |
+          <a class="codelink" href="https://github.com/jaredhuling/personalized">code</a> |
+          <a class="codelink" href="https://cran.r-project.org/web/packages/personalized/index.html">CRAN</a> |
           <a class="codelink" href="http://jaredhuling.github.io/personalized/">documentation</a>
         </p>
         
@@ -58,14 +58,14 @@ years: [2018, 2017, 2016]
           <author>Jared Huling</author>, Yu, M., and O'Malley, A.J. (2018+).
             Instrumental variable based estimation under the semiparametric accelerated failure time model.<br>
           To appear in <em>Biometrics</em>. <br>
-          <a class="codelink" href="https://github.com/jaredhuling/aftiv">source code</a>
+          <a class="codelink" href="https://github.com/jaredhuling/aftiv">code</a>
         </p>
         
         <p class="bibliography">
           <author>Jared Huling</author>, Yu, M., and Smith, M.A. (2018+).
             Fused comparative intervention scoring for heterogeneity of longitudinal intervention effects. <br>
           To appear in the <em>Annals of Applied Statistics</em>. <br>
-          <a class="codelink" href="https://github.com/jaredhuling/personalizedLong">source code</a>
+          <a class="codelink" href="https://github.com/jaredhuling/personalizedLong">code</a>
         </p>
       
         <p class="bibliography">
@@ -73,8 +73,8 @@ years: [2018, 2017, 2016]
             Fast penalized regression and cross validation for tall data with the oem package. <br>
           To appear in the <em>Journal of Statistical Software</em>. <br>
           <a href="https://arxiv.org/abs/1801.09661">arxiv:1801.09661</a>. 
-          <a class="codelink" href="https://github.com/jaredhuling/oem">source</a> |
-          <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">software</a> |
+          <a class="codelink" href="https://github.com/jaredhuling/oem">source code</a> |
+          <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">CRAN</a> |
           <a class="codelink" href="http://jaredhuling.github.io/oem/">documentation</a>
         </p>
       
@@ -83,8 +83,8 @@ years: [2018, 2017, 2016]
             Risk prediction for heterogeneous populations with application to hospital admission prediction.
           <em>Biometrics</em> 74(2): 557-565. <br>
           doi: <a href="https://doi.org/10.1111/biom.12769">10.1111/biom.12769</a>.
-          <a class="codelink" href="https://github.com/jaredhuling/vennLasso">source</a> |
-          <a class="codelink" href="https://cran.r-project.org/web/packages/vennLasso/index.html">software</a> |
+          <a class="codelink" href="https://github.com/jaredhuling/vennLasso">source code</a> |
+          <a class="codelink" href="https://cran.r-project.org/web/packages/vennLasso/index.html">CRAN</a> |
           <a class="codelink" href="http://jaredhuling.github.io/vennLasso/">documentation</a>
         </p>
       
@@ -101,8 +101,8 @@ years: [2018, 2017, 2016]
             Orthogonalizing EM: A design-based least squares algorithm.
           <em>Technometrics</em> 58(3): 285-293. <br>
           doi: <a href="https://doi.org/10.1080/00401706.2015.1054436">10.1080/00401706.2015.1054436</a>.
-          <a class="codelink" href="https://github.com/jaredhuling/oem">source</a> |
-          <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">software</a> |
+          <a class="codelink" href="https://github.com/jaredhuling/oem">code</a> |
+          <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">CRAN</a> |
           <a class="codelink" href="http://jaredhuling.github.io/oem/">documentation</a>
         </p>
         
