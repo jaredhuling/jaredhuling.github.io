@@ -7,7 +7,7 @@ years: [2018, 2017, 2016]
 <h3 class="year">Preprints</h3>
 
 
-<div class="docs-section">
+<div class="pt-3">
   <div class="container-fluid">
     <div class="row">
       <div class="twelve columns">
@@ -36,7 +36,7 @@ years: [2018, 2017, 2016]
 
 <h3 class="year">Publications</h3>
 
-<div class="docs-section">
+<div class="pt-3">
   <div class="container-fluid">
     <div class="row">
       <div class="twelve columns">
