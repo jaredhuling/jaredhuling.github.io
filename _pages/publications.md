@@ -103,7 +103,9 @@ years: [2018, 2017, 2016]
           doi: <a href="https://doi.org/10.1080/00401706.2015.1054436">10.1080/00401706.2015.1054436</a>.<br>
           <a class="codelink" href="https://github.com/jaredhuling/oem">code</a> |
           <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">CRAN</a> |
-          <a class="codelink" href="http://jaredhuling.github.io/oem/">documentation</a>
+          <a class="codelink" href="http://jaredhuling.github.io/oem/">documentation</a> |
+          <a class="codelink" href="https://github.com/jaredhuling/OrthogEm.jl">Julia code</a>
+        
         </p>
         
       </div>
