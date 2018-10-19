@@ -106,7 +106,7 @@ permalink: /software/
     <div class="row">
 
       <div class="three columns">
-        <img src="/images/benefit_of_sr_assignments_by_received_paper.png" width="100%" alt="hdnom-icon" />
+        <img src="/images/benefit_of_sr_assignments_by_received_paper.png" width="100%" alt="persLongitudinal" />
       </div>
 
       <div class="nine columns">

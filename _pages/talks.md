@@ -9,7 +9,7 @@ title: Talks
     <div class="row">
 
       <div class="three columns">
-        <img src="/images/talks/blank_rect.png" width="100%" alt="IV" />
+        <img src="/images/talks/benefit_of_sr_assignments_by_received_paper.png" width="100%" alt="IV" />
       </div>
 
       <div class="seven columns">
