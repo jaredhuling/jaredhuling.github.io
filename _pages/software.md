@@ -63,6 +63,7 @@ permalink: /software/
           <a href="http://jaredhuling.github.io/oem/" class="button">Documentation</a>
           <a href="https://cran.r-project.org/package=oem" class="button">Download</a>
           <a href="https://github.com/jaredhuling/oem" class="button">Source</a>
+          <a href="https://github.com/jaredhuling/OrthogEM.jl" class="button">Julia implementation</a>
         </p>
 
       </div>
