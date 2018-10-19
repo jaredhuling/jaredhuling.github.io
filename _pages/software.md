@@ -126,5 +126,32 @@ permalink: /software/
     </div>
 
   </div>
+
+
+<div class="docs-section">
+
+    <div class="row">
+
+      <div class="three columns">
+        <img src="/images/talks/iv_assumptions.png" width="100%" alt="AFT-IV" />
+      </div>
+
+      <div class="nine columns">
+
+        <h4><b style="font-family:monospace">aftiv</b>: Instrumental variable estimation under the semiparametric AFT model
+</h4>
+
+        <p>
+          The aftiv package provides instrumental variable estimation for time-to-event outcomes under the semiparametric accelerated failure time model.
+        </p>
+
+        <p align="right">
+          <a href="https://github.com/jaredhuling/aftiv" class="button">Source</a>
+        </p>
+
+      </div>
+    </div>
+
+  </div>
   
 
