@@ -99,5 +99,32 @@ permalink: /software/
 
   </div>
 
+
+
+<div class="docs-section">
+
+    <div class="row">
+
+      <div class="three columns">
+        <img src="/images/benefit_of_sr_assignments_by_received_paper.pdf" width="100%" alt="hdnom-icon" />
+      </div>
+
+      <div class="nine columns">
+
+        <h4><b style="font-family:monospace">personalizedLong</b>: Fused comparative intervention scoring/subgroup identification for long-term interventions
+</h4>
+
+        <p>
+          The personalizedLong package provides estimation of individualized intervention rules for long-term interventions and treatments. The underlying methodology of personalizedLong is intended for long-term interventions whose effects change smoothly over time and are heterogeneous effects across a population. The personalizedLong package provides an interface for the methodology proposed in ``Fused comparative intervention scoring for heterogeneity of longitudinal intervention effects''.
+        </p>
+
+        <p align="right">
+          <a href="https://github.com/jaredhuling/personalizedLong" class="button">Source</a>
+        </p>
+
+      </div>
+    </div>
+
+  </div>
   
 
