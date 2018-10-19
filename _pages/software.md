@@ -106,7 +106,7 @@ permalink: /software/
     <div class="row">
 
       <div class="three columns">
-        <embed src="/images/benefit_of_sr_assignments_by_received_paper.pdf" width="100%" alt="hdnom-icon" type='application/pdf'/>
+        <img src="/images/benefit_of_sr_assignments_by_received_paper.png" width="100%" alt="hdnom-icon" />
       </div>
 
       <div class="nine columns">
