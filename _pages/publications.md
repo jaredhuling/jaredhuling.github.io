@@ -25,14 +25,14 @@ years: [2018, 2017, 2016]
       <div class="twelve columns">
       
         <p class="bibliography">
-          Dai, X. and <author>Jared Huling</author>. (2018+).
+          Dai, X. and <author>Jared Huling</author>. (2019+).
             Selection and estimation optimality in high dimensions with the TWIN penalty. <br>
           <a href="https://arxiv.org/abs/1806.01936">arxiv:1806.01936</a>.
         </p>
         
         
         <p class="bibliography">
-          <author>Jared Huling</author> and Yu, M. (2018+).
+          <author>Jared Huling</author> and Yu, M. (2019+).
             Subgroup identification using the personalized package. 
           <a href="https://arxiv.org/abs/1809.07905">arxiv:1809.07905</a>.<br>
           <a class="codelink" href="https://github.com/jaredhuling/personalized">code</a> |
@@ -55,21 +55,21 @@ years: [2018, 2017, 2016]
       <div class="twelve columns">
       
         <p class="bibliography">
-          <author>Jared Huling</author>, Yu, M., and O'Malley, A.J. (2018+).
+          <author>Jared Huling</author>, Yu, M., and O'Malley, A.J. (2019+).
             Instrumental variable based estimation under the semiparametric accelerated failure time model.<br>
           To appear in <em>Biometrics</em>. <br>
           <a class="codelink" href="https://github.com/jaredhuling/aftiv">code</a>
         </p>
         
         <p class="bibliography">
-          <author>Jared Huling</author>, Yu, M., and Smith, M.A. (2018+).
+          <author>Jared Huling</author>, Yu, M., and Smith, M.A. (2019+).
             Fused comparative intervention scoring for heterogeneity of longitudinal intervention effects. <br>
           To appear in the <em>Annals of Applied Statistics</em>. <br>
           <a class="codelink" href="https://github.com/jaredhuling/personalizedLong">code</a>
         </p>
       
         <p class="bibliography">
-          <author>Jared Huling</author> and Chien, P. (2018+).
+          <author>Jared Huling</author> and Chien, P. (2019+).
             Fast penalized regression and cross validation for tall data with the oem package. <br>
           To appear in the <em>Journal of Statistical Software</em>. 
           <a href="https://arxiv.org/abs/1801.09661">arxiv:1801.09661</a>. <br>
