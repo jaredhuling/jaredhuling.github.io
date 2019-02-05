@@ -56,9 +56,9 @@ title: Talks
       </div>
       
       
-      <div class="one column">
+      <!-- <div class="one column">
           <a href="../talks/vennLasso.pdf" class="button">slides</a>
-      </div>
+      </div> -->
     </div>
 
   </div>
