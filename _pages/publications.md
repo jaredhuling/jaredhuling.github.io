@@ -66,7 +66,7 @@ years: [2018, 2017, 2016]
             Fused comparative intervention scoring for heterogeneity of longitudinal intervention effects. <br>
           To appear in the <em>Annals of Applied Statistics</em>. <br>
           
-          <a href="https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/34161?confirm=ef563f6f">[pdf]</a>
+          <a href="https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/34161?confirm=ef563f6f">[pdf]</a> |
           <a class="codelink" href="https://github.com/jaredhuling/personalizedLong">code</a>
         </p>
       
