@@ -57,7 +57,7 @@ years: [2018, 2017, 2016]
         <p class="bibliography">
           <author>Jared Huling</author>, Yu, M., and O'Malley, A.J. (2019+).
             Instrumental variable based estimation under the semiparametric accelerated failure time model.<br>
-          To appear in <em>Biometrics</em>. <br>
+          To appear in <em>Biometrics</em>. 
           doi: <a href="https://doi.org/10.1111/biom.12985">10.1111/biom.12985</a>.<br>
           <a class="codelink" href="https://github.com/jaredhuling/aftiv">code</a>
         </p>
