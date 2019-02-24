@@ -16,7 +16,7 @@ years: [2018, 2017, 2016]
 </div></div></div>
 
 
-<h3 class="year">Preprints</h3>
+<h4 class="year">Preprints</h4>
 
 
 <div class="pt-3">
