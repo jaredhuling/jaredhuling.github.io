@@ -47,7 +47,7 @@ years: [2018, 2017, 2016]
 
 
 
-<h3 class="year">Publications</h3>
+<h4 class="year">Publications</h4>
 
 <div class="pt-3">
   <div class="container-fluid">
