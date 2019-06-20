@@ -85,6 +85,8 @@ years: [2018, 2017, 2016]
           <author>Jared Huling</author>, Yu, M., Liang, M., and Smith, M.A. (2018).
             Risk prediction for heterogeneous populations with application to hospital admission prediction.
           <em>Biometrics</em>, 74(2): 557-565. 
+          
+          <br>
           <a class="codelink" href="https://github.com/jaredhuling/vennLasso">code</a> |
           <a class="codelink" href="https://cran.r-project.org/web/packages/vennLasso/index.html">CRAN</a> |
           <a class="codelink" href="http://jaredhuling.github.io/vennLasso/">documentation</a> |
