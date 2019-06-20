@@ -75,7 +75,7 @@ years: [2018, 2017, 2016]
         <p class="bibliography">
           <author>Jared Huling</author>, Yu, M., and Smith, M.A. (2019).
             Fused comparative intervention scoring for heterogeneity of longitudinal intervention effects. <br>
-          To appear in the <em>Annals of Applied Statistics</em>, 13(2): 824-847.  <br>doi: <a href="https://doi.org/10.1214/18-AOAS1216">10.1214/18-AOAS1216</a><br>
+          <em>The Annals of Applied Statistics</em>, 13(2): 824-847.  <br>doi: <a href="https://doi.org/10.1214/18-AOAS1216">10.1214/18-AOAS1216</a><br>
           
           <a href="https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/34161?confirm=ef563f6f">[pdf]</a> |
           <a class="codelink" href="https://github.com/jaredhuling/personalizedLong">code</a>
