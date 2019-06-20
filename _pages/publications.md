@@ -75,10 +75,11 @@ years: [2018, 2017, 2016]
         <p class="bibliography">
           <author>Jared Huling</author>, Yu, M., and Smith, M.A. (2019).
             Fused comparative intervention scoring for heterogeneity of longitudinal intervention effects.
-          <em>The Annals of Applied Statistics</em>, 13(2): 824-847.  <br>doi: <a href="https://doi.org/10.1214/18-AOAS1216">10.1214/18-AOAS1216</a><br>
+          <em>The Annals of Applied Statistics</em>, 13(2): 824-847.  <br>
           
           <a href="https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/34161?confirm=ef563f6f">[pdf]</a> |
-          <a class="codelink" href="https://github.com/jaredhuling/personalizedLong">code</a>
+          <a class="codelink" href="https://github.com/jaredhuling/personalizedLong">code</a> |
+          doi: <a href="https://doi.org/10.1214/18-AOAS1216">10.1214/18-AOAS1216</a>
         </p>
       
         <p class="bibliography">
@@ -97,7 +98,8 @@ years: [2018, 2017, 2016]
           Nie, X., <author>Jared Huling</author>, and Qian, P.Z.G. (2017).
             Accelerating large-scale statistical computation with the GOEM algorithm.
           <em>Technometrics</em>, 59(4): 416-425. 
-          doi: <a href="https://doi.org/10.1080/00401706.2016.1256840">10.1080/00401706.2016.1256840</a>.
+          <br>
+          doi: <a href="https://doi.org/10.1080/00401706.2016.1256840">10.1080/00401706.2016.1256840</a>
         </p>
         
         
