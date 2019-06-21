@@ -68,10 +68,10 @@ years: [2018, 2017, 2016]
           <author>Jared Huling</author> and Chien, P. (2019+).
             Fast penalized regression and cross validation for tall data with the oem package. <br>
           To appear in the <em>Journal of Statistical Software</em>. <br>
-          <a href="https://arxiv.org/abs/1801.09661">arxiv:1801.09661</a> | 
-          <a class="codelink" href="https://github.com/jaredhuling/oem">code</a> |
-          <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">CRAN</a> |
-          <a class="codelink" href="http://jaredhuling.github.io/oem/">documentation</a>
+          <a href="https://arxiv.org/abs/1801.09661">[arxiv:1801.09661]</a> | 
+          <a class="codelink" href="https://github.com/jaredhuling/oem">[code]</a> |
+          <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">[CRAN]</a> |
+          <a class="codelink" href="http://jaredhuling.github.io/oem/">[documentation]</a>
         </p>
         
         <p class="bibliography">
