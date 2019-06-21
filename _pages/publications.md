@@ -35,7 +35,7 @@ years: [2018, 2017, 2016]
           <author>Jared Huling</author> and Yu, M. (2019+).
             Subgroup identification using the personalized package. 
           <br>
-          <a href="https://arxiv.org/abs/1809.07905">arxiv:1809.07905</a> |
+          <a href="https://arxiv.org/abs/1809.07905">[arxiv:1809.07905]</a> |
           <a class="codelink" href="https://github.com/jaredhuling/personalized">[code]</a> |
           <a class="codelink" href="https://cran.r-project.org/web/packages/personalized/index.html">[CRAN]</a> |
           <a class="codelink" href="http://jaredhuling.github.io/personalized/">[documentation]</a>
