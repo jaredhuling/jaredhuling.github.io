@@ -27,14 +27,15 @@ years: [2018, 2017, 2016]
         <p class="bibliography">
           Dai, X. and <author>Jared Huling</author>. (2019+).
             Selection and estimation optimality in high dimensions with the TWIN penalty. <br>
-          <a href="https://arxiv.org/abs/1806.01936">arxiv:1806.01936</a>.
+          <a href="https://arxiv.org/abs/1806.01936">arxiv:1806.01936</a>
         </p>
         
         
         <p class="bibliography">
           <author>Jared Huling</author> and Yu, M. (2019+).
             Subgroup identification using the personalized package. 
-          <a href="https://arxiv.org/abs/1809.07905">arxiv:1809.07905</a>.<br>
+          <br>
+          <a href="https://arxiv.org/abs/1809.07905">arxiv:1809.07905</a> |
           <a class="codelink" href="https://github.com/jaredhuling/personalized">code</a> |
           <a class="codelink" href="https://cran.r-project.org/web/packages/personalized/index.html">CRAN</a> |
           <a class="codelink" href="http://jaredhuling.github.io/personalized/">documentation</a>
