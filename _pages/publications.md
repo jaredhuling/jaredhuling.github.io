@@ -58,15 +58,16 @@ years: [2018, 2017, 2016]
           <author>Jared Huling</author>, Yu, M., and O'Malley, A.J. (2019+).
             Instrumental variable based estimation under the semiparametric accelerated failure time model.<br>
           To appear in <em>Biometrics</em>. 
-          doi: <a href="https://doi.org/10.1111/biom.12985">10.1111/biom.12985</a>.<br>
-          <a class="codelink" href="https://github.com/jaredhuling/aftiv">code</a>
+          <br>
+          <a class="codelink" href="https://github.com/jaredhuling/aftiv">code</a> |
+          doi: <a href="https://doi.org/10.1111/biom.12985">10.1111/biom.12985</a>
         </p>
       
         <p class="bibliography">
           <author>Jared Huling</author> and Chien, P. (2019+).
             Fast penalized regression and cross validation for tall data with the oem package. <br>
-          To appear in the <em>Journal of Statistical Software</em>. 
-          <a href="https://arxiv.org/abs/1801.09661">arxiv:1801.09661</a>. <br>
+          To appear in the <em>Journal of Statistical Software</em>. <br>
+          <a href="https://arxiv.org/abs/1801.09661">arxiv:1801.09661</a> | 
           <a class="codelink" href="https://github.com/jaredhuling/oem">code</a> |
           <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">CRAN</a> |
           <a class="codelink" href="http://jaredhuling.github.io/oem/">documentation</a>
@@ -107,11 +108,12 @@ years: [2018, 2017, 2016]
           Xiong, S., Dai, B, <author>Jared Huling</author>, and Qian, P.Z.G. (2016).
             Orthogonalizing EM: A design-based least squares algorithm.
           <em>Technometrics</em>, 58(3): 285-293. 
-          doi: <a href="https://doi.org/10.1080/00401706.2015.1054436">10.1080/00401706.2015.1054436</a>.<br>
+          <br>
           <a class="codelink" href="https://github.com/jaredhuling/oem">code</a> |
           <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">CRAN</a> |
           <a class="codelink" href="http://jaredhuling.github.io/oem/">documentation</a> |
-          <a class="codelink" href="https://github.com/jaredhuling/OrthogEm.jl">Julia code</a>
+          <a class="codelink" href="https://github.com/jaredhuling/OrthogEm.jl">Julia code</a> |
+          doi: <a href="https://doi.org/10.1080/00401706.2015.1054436">10.1080/00401706.2015.1054436</a>
         
         </p>
         
