@@ -27,7 +27,7 @@ years: [2018, 2017, 2016]
         <p class="bibliography">
           Dai, X. and <author>Jared Huling</author>. (2019+).
             Selection and estimation optimality in high dimensions with the TWIN penalty. <br>
-          <a href="https://arxiv.org/abs/1806.01936">arxiv:1806.01936</a>
+          <a href="https://arxiv.org/abs/1806.01936">[arxiv:1806.01936]</a>
         </p>
         
         
@@ -36,9 +36,9 @@ years: [2018, 2017, 2016]
             Subgroup identification using the personalized package. 
           <br>
           <a href="https://arxiv.org/abs/1809.07905">arxiv:1809.07905</a> |
-          <a class="codelink" href="https://github.com/jaredhuling/personalized">code</a> |
-          <a class="codelink" href="https://cran.r-project.org/web/packages/personalized/index.html">CRAN</a> |
-          <a class="codelink" href="http://jaredhuling.github.io/personalized/">documentation</a>
+          <a class="codelink" href="https://github.com/jaredhuling/personalized">[code]</a> |
+          <a class="codelink" href="https://cran.r-project.org/web/packages/personalized/index.html">[CRAN]</a> |
+          <a class="codelink" href="http://jaredhuling.github.io/personalized/">[documentation]</a>
         </p>
         
       </div>
@@ -60,7 +60,7 @@ years: [2018, 2017, 2016]
             Instrumental variable based estimation under the semiparametric accelerated failure time model.<br>
           To appear in <em>Biometrics</em>. 
           <br>
-          <a class="codelink" href="https://github.com/jaredhuling/aftiv">code</a> |
+          <a class="codelink" href="https://github.com/jaredhuling/aftiv">[code]</a> |
           doi: <a href="https://doi.org/10.1111/biom.12985">10.1111/biom.12985</a>
         </p>
       
@@ -80,7 +80,7 @@ years: [2018, 2017, 2016]
           <em>The Annals of Applied Statistics</em>, 13(2): 824-847.  <br>
           
           <a href="https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/34161?confirm=ef563f6f">[pdf]</a> |
-          <a class="codelink" href="https://github.com/jaredhuling/personalizedLong">code</a> |
+          <a class="codelink" href="https://github.com/jaredhuling/personalizedLong">[code]</a> |
           doi: <a href="https://doi.org/10.1214/18-AOAS1216">10.1214/18-AOAS1216</a>
         </p>
       
@@ -90,9 +90,9 @@ years: [2018, 2017, 2016]
           <em>Biometrics</em>, 74(2): 557-565. 
           
           <br>
-          <a class="codelink" href="https://github.com/jaredhuling/vennLasso">code</a> |
-          <a class="codelink" href="https://cran.r-project.org/web/packages/vennLasso/index.html">CRAN</a> |
-          <a class="codelink" href="http://jaredhuling.github.io/vennLasso/">documentation</a> |
+          <a class="codelink" href="https://github.com/jaredhuling/vennLasso">[code]</a> |
+          <a class="codelink" href="https://cran.r-project.org/web/packages/vennLasso/index.html">[CRAN]</a> |
+          <a class="codelink" href="http://jaredhuling.github.io/vennLasso/">[documentation]</a> |
           doi: <a href="https://doi.org/10.1111/biom.12769">10.1111/biom.12769</a>
         </p>
       
@@ -110,10 +110,10 @@ years: [2018, 2017, 2016]
             Orthogonalizing EM: A design-based least squares algorithm.
           <em>Technometrics</em>, 58(3): 285-293. 
           <br>
-          <a class="codelink" href="https://github.com/jaredhuling/oem">code</a> |
-          <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">CRAN</a> |
-          <a class="codelink" href="http://jaredhuling.github.io/oem/">documentation</a> |
-          <a class="codelink" href="https://github.com/jaredhuling/OrthogEm.jl">Julia code</a> |
+          <a class="codelink" href="https://github.com/jaredhuling/oem">[code]</a> |
+          <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">[CRAN]</a> |
+          <a class="codelink" href="http://jaredhuling.github.io/oem/">“documentation]</a> |
+          <a class="codelink" href="https://github.com/jaredhuling/OrthogEm.jl">[Julia code]</a> |
           doi: <a href="https://doi.org/10.1080/00401706.2015.1054436">10.1080/00401706.2015.1054436</a>
         
         </p>
