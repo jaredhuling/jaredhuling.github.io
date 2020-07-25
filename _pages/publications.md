@@ -61,10 +61,18 @@ years: [2018, 2017, 2016]
     <div class="row">
       <div class="twelve columns">
       
+      
         <p class="bibliography">
-          <author>Jared D. Huling</author>, Yu, M., and O'Malley, A.J. (2019+).
+          <author>Jared D. Huling</author>, Smith, M.A., and Chen, G. (2020+).
+            A two-part framework for estimating individualized treatment rules from semi-continuous outcomes.<br>
+          To appear in the <em>Journal of the American Statistical Association</em>
+        </p>
+      
+      
+        <p class="bibliography">
+          <author>Jared D. Huling</author>, Yu, M., and O'Malley, A.J. (2019).
             Instrumental variable based estimation under the semiparametric accelerated failure time model.<br>
-          To appear in <em>Biometrics</em>. 
+          <em>Biometrics</em>, 75(2):516-527. 
           <br>
           <a class="codelink" href="https://github.com/jaredhuling/aftiv">[code]</a> |
           doi: <a href="https://doi.org/10.1111/biom.12985">10.1111/biom.12985</a>
