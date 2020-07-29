@@ -67,7 +67,8 @@ years: [2018, 2017, 2016]
             A two-part framework for estimating individualized treatment rules from semi-continuous outcomes.<br>
           To appear in the <em>Journal of the American Statistical Association</em>.
           <br>
-          <a class="codelink" href="https://github.com/jaredhuling/personalized2part">[code]</a>
+          <a class="codelink" href="https://github.com/jaredhuling/personalized2part">[code]</a> |
+          doi: <a href="https://doi.org/10.1080/01621459.2020.1801449"</a>
         </p>
       
       
