@@ -84,7 +84,7 @@ permalink: /software/
         <h4><b style="font-family:monospace">personalized2part</b>: two part estimation of individualized treatment rules for semi-continuous data</h4>
 
         <p>
-          The personalized2part package implements the methodology of Huling, Smith, and Chen (2020), which allows for subgroup identification for semi-continuous outcomes by estimating individualized treatment rules. It uses a two part modeling (or hurdle modeling) framework to handle semi-continuous data by modeling separately the positive part of the outcome and an indicator of whether each outcome is positive, but still results in a single treatment rule. High dimensional data is handled with a cooperative lasso penalty, which encourages the coefficients in the two models to have the same sign.
+          The personalized2part package implements the methodology of <a href="https://doi.org/10.1080/01621459.2020.1801449">Huling, Smith, and Chen (2020)</a>, which allows for subgroup identification for semi-continuous outcomes by estimating individualized treatment rules. It uses a two part modeling (or hurdle modeling) framework to handle semi-continuous data by modeling separately the positive part of the outcome and an indicator of whether each outcome is positive, but still results in a single treatment rule. High dimensional data is handled with a cooperative lasso penalty, which encourages the coefficients in the two models to have the same sign.
         </p>
 
         <p align="right">
