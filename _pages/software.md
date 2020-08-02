@@ -71,6 +71,33 @@ permalink: /software/
 
   </div>
   
+  <div class="docs-section">
+
+    <div class="row">
+
+      <div class="three columns">
+        <img src="/images/response_histograms_wide.png" width="100%" alt="hdnom-icon" />
+      </div>
+
+      <div class="nine columns">
+
+        <h4><b style="font-family:monospace">personalized2part</b>: two part estimation of individualized treatment rules for semi-continuous data</h4>
+
+        <p>
+          The personalized2part package implements the methodology of Huling, Smith, and Chen (2020), which allows for subgroup identification for semi-continuous outcomes by estimating individualized treatment rules. It uses a two part modeling (or hurdle modeling) framework to handle semi-continuous data by modeling separately the positive part of the outcome and an indicator of whether each outcome is positive, but still results in a single treatment rule. High dimensional data is handled with a cooperative lasso penalty, which encourages the coefficients in the two models to have the same sign.
+        </p>
+
+        <p align="right">
+          <!-- <a href="http://jaredhuling.github.io/vennLasso/" class="button">Documentation</a> -->
+          <!-- <a href="https://cran.r-project.org/package=personalized2part" class="button">Download</a>  -->
+          <a href="https://github.com/jaredhuling/personalized2part" class="button">Source</a>
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+  
   
 <div class="docs-section">
 
