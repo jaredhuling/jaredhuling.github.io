@@ -8,9 +8,9 @@ profile:
   align: right
   image: prof_img.jpg
   address: >
-    <p>Cockins Hall</p>
-    <p>1958 Neil Ave</p>
-    <p>Columbus, OH 43210</p>
+    <p></p>
+    <p></p>
+    <p></p>
 
 news: false
 social: false
