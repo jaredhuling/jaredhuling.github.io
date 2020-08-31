@@ -1,8 +1,8 @@
 ---
 layout: about
 permalink: /
-title: Jared Huling
-description: Assistant Professor, <a href="http://www.stat.osu.edu">Department of Statistics</a>, <a href = "http://www.osu.edu"> The Ohio State University</a>.
+title: Jared D. Huling
+description: Assistant Professor, <a href="https://www.sph.umn.edu/academics/divisions/biostatistics/">Division of Biotatistics</a>, <a href = "https://twin-cities.umn.edu/"> University of Minnesota</a>.
 
 profile:
   align: right
