@@ -8,9 +8,9 @@ profile:
   align: right
   image: prof_img.jpg
   address: >
-    <p></p>
-    <p></p>
-    <p></p>
+    <p>Office:</p>
+    <p>virtual</p>
+    <p>Email:</p>
 
 news: false
 social: false
