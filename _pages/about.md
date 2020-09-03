@@ -10,7 +10,7 @@ profile:
   address: >
     <p>Office: virtual</p>
     <p></p>
-    <p></p>
+    <p>Email:</p>
 
 news: false
 social: false
