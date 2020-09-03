@@ -8,8 +8,8 @@ profile:
   align: right
   image: prof_img.jpg
   address: >
-    <p>Office:</p>
-    <p>virtual</p>
+    <p>Office: virtual</p>
+    <p></p>
     <p>Email:</p>
 
 news: false
