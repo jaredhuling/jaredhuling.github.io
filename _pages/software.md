@@ -88,8 +88,8 @@ permalink: /software/
         </p>
 
         <p align="right">
-          <!-- <a href="http://jaredhuling.github.io/vennLasso/" class="button">Documentation</a> -->
-          <!-- <a href="https://cran.r-project.org/package=personalized2part" class="button">Download</a>  -->
+          <a href="http://jaredhuling.github.io/personalized2part/" class="button">Documentation</a>
+          <a href="https://cran.r-project.org/package=personalized2part" class="button">Download</a>
           <a href="https://github.com/jaredhuling/personalized2part" class="button">Source</a>
         </p>
 
