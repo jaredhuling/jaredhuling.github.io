@@ -69,6 +69,7 @@ years: [2018, 2017, 2016]
           <br>
           <a class="codelink" href="https://github.com/jaredhuling/personalized2part">[code]</a> |
           <a class="codelink" href="https://cran.r-project.org/web/packages/personalized2part/index.html">[CRAN]</a> |
+          <a class="codelink" href="https://jaredhuling.github.io/personalized2part">[documentation]</a> |
           doi: <a href="https://doi.org/10.1080/01621459.2020.1801449">10.1080/01621459.2020.1801449</a>
         </p>
       
