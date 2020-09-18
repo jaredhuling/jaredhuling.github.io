@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: Jared D. Huling
-description: Assistant Professor, <a href="https://www.sph.umn.edu/academics/divisions/biostatistics/">Division of Biotatistics</a>, <a href = "https://twin-cities.umn.edu/"> University of Minnesota</a>.
+description: Assistant Professor, <a href="https://www.sph.umn.edu/academics/divisions/biostatistics/">Division of Biostatistics</a>, <a href = "https://twin-cities.umn.edu/"> University of Minnesota</a>.
 
 profile:
   align: right
