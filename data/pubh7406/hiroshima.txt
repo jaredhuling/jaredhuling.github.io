@@ -1,0 +1,7 @@
+radiation leukemia other total
+0 13 378 391
+1to9 5 200 205
+10to49 5 151 156
+50to99 3 47 50
+100to199 4 31 35
+200plus 18 33 51 
