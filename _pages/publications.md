@@ -63,9 +63,9 @@ years: [2018, 2017, 2016]
       
       
         <p class="bibliography">
-          <author>Jared D. Huling</author>, Smith, M.A., and Chen, G. (2020+).
+          <author>Jared D. Huling</author>, Smith, M.A., and Chen, G. (2021).
             A two-part framework for estimating individualized treatment rules from semi-continuous outcomes.<br>
-          To appear in the <em>Journal of the American Statistical Association</em>.
+          <em>Journal of the American Statistical Association</em>, 116(533):210-223.
           <br>
           <a class="codelink" href="https://github.com/jaredhuling/personalized2part">[code]</a> |
           <a class="codelink" href="https://cran.r-project.org/web/packages/personalized2part/index.html">[CRAN]</a> |
