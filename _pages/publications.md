@@ -60,10 +60,17 @@ years: [2018, 2017, 2016]
   <div class="container-fluid">
     <div class="row">
       <div class="twelve columns">
-      
+
+        <p class="bibliography">
+          Yu, M., Kuang, C., <author>Huling, J.D.</author>, and Smith, M.A. (2021+).
+            Diagnosis-Group-Specific Transitional Care Program Recommendations for Thirty-Day Rehospitalization Reduction.<br>
+          <em>The Annals of Applied Statistics</em>, to appear.
+          <br>
+          <a class="codelink" href="https://github.com/jaredhuling/mpersonalized">[code]</a>
+        </p>   
       
         <p class="bibliography">
-          <author>Jared D. Huling</author>, Smith, M.A., and Chen, G. (2021).
+          <author>Huling, J.D.</author>, Smith, M.A., and Chen, G. (2021).
             A two-part framework for estimating individualized treatment rules from semi-continuous outcomes.<br>
           <em>Journal of the American Statistical Association</em>, 116(533):210-223.
           <br>
@@ -75,7 +82,7 @@ years: [2018, 2017, 2016]
       
       
         <p class="bibliography">
-          <author>Jared D. Huling</author>, Yu, M., and O'Malley, A.J. (2019).
+          <author>Huling, J.D.</author>, Yu, M., and O'Malley, A.J. (2019).
             Instrumental variable based estimation under the semiparametric accelerated failure time model.<br>
           <em>Biometrics</em>, 75(2):516-527. 
           <br>
@@ -84,7 +91,7 @@ years: [2018, 2017, 2016]
         </p>
       
         <p class="bibliography">
-          <author>Jared D. Huling</author> and Chien, P. (2019+).
+          <author>Huling, J.D.</author> and Chien, P. (2019+).
             Fast penalized regression and cross validation for tall data with the oem package. <br>
           To appear in the <em>Journal of Statistical Software</em>. <br>
           <a href="https://arxiv.org/abs/1801.09661">[arxiv:1801.09661]</a> | 
@@ -94,7 +101,7 @@ years: [2018, 2017, 2016]
         </p>
         
         <p class="bibliography">
-          <author>Jared D. Huling</author>, Yu, M., and Smith, M.A. (2019).
+          <author>Huling, J.D.</author>, Yu, M., and Smith, M.A. (2019).
             Fused comparative intervention scoring for heterogeneity of longitudinal intervention effects.
           <em>The Annals of Applied Statistics</em>, 13(2): 824-847.  <br>
           
@@ -104,7 +111,7 @@ years: [2018, 2017, 2016]
         </p>
       
         <p class="bibliography">
-          <author>Jared D. Huling</author>, Yu, M., Liang, M., and Smith, M.A. (2018).
+          <author>Huling, J.D.</author>, Yu, M., Liang, M., and Smith, M.A. (2018).
             Risk prediction for heterogeneous populations with application to hospital admission prediction.
           <em>Biometrics</em>, 74(2): 557-565. 
           
@@ -116,7 +123,7 @@ years: [2018, 2017, 2016]
         </p>
       
         <p class="bibliography">
-          Nie, X., <author>Jared D. Huling</author>, and Qian, P.Z.G. (2017).
+          Nie, X., <author>Huling, J.D.</author>, and Qian, P.Z.G. (2017).
             Accelerating large-scale statistical computation with the GOEM algorithm.
           <em>Technometrics</em>, 59(4): 416-425. 
           <br>
@@ -125,7 +132,7 @@ years: [2018, 2017, 2016]
         
         
         <p class="bibliography">
-          Xiong, S., Dai, B, <author>Jared D. Huling</author>, and Qian, P.Z.G. (2016).
+          Xiong, S., Dai, B, <author>Huling, J.D.</author>, and Qian, P.Z.G. (2016).
             Orthogonalizing EM: A design-based least squares algorithm.
           <em>Technometrics</em>, 58(3): 285-293. 
           <br>
