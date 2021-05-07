@@ -25,20 +25,20 @@ years: [2018, 2017, 2016]
       <div class="twelve columns">
       
         <p class="bibliography">
-          <author>Huling, J.D.</author> and Mak, S. (2020+).
+          <author>Huling, J.D.</author> and Mak, S. (2021+).
             Energy Balancing of Covariate Distributions. <br>
           <a href="https://arxiv.org/abs/2004.13962">[arxiv:2004.13962]</a>
         </p>
       
         <p class="bibliography">
-          Dai, X. and <author>Huling, J.D.</author>. (2020+).
+          Dai, X. and <author>Huling, J.D.</author>. (2021+).
             Selection and estimation optimality in high dimensions with the TWIN penalty. <br>
           <a href="https://arxiv.org/abs/1806.01936">[arxiv:1806.01936]</a>
         </p>
         
         
         <p class="bibliography">
-          <author>Huling, J.D.</author> and Yu, M. (2020+).
+          <author>Huling, J.D.</author> and Yu, M. (2021+).
             Subgroup identification using the personalized package. 
           <br>
           <a href="https://arxiv.org/abs/1809.07905">[arxiv:1809.07905]</a> |
