@@ -35,7 +35,10 @@ author {
     margin-bottom: 35px;
     margin-top: 20px;
     margin-left: 150px;
-    list-style-type: circle;
+    display: list-item;
+    //list-style-type: circle;
+    list-style-type: disc;
+    list-style-position: inside;
 
     li {
         margin: 10px 0;
