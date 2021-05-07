@@ -44,7 +44,12 @@ author {
         margin: 10px 0;
         position: relative;
 
-        span { display: block; }
+        span { 
+            //display: block; 
+            display: list-item;
+            list-style-type: disc;
+            list-style-position: inside;
+        }
         .title { font-weight: bolder; }
         .author {
             a {
