@@ -55,11 +55,11 @@ years: [2018, 2017, 2016]
             Subgroup identification using the personalized package. <br>
           <em>Journal of Statistical Software</em>, 98(5):1-60.
           <br>
-          <a href="https://doi.org/10.18637%2Fjss.v098.i05">[doi:10.18637/jss.v098.i05]</a> |
           <a href="https://www.jstatsoft.org/index.php/jss/article/view/v098i05/v98i05.pdf">[pdf]</a> |
           <a class="codelink" href="https://github.com/jaredhuling/personalized">[code]</a> |
           <a class="codelink" href="https://cran.r-project.org/web/packages/personalized/index.html">[CRAN]</a> |
-          <a class="codelink" href="http://jaredhuling.github.io/personalized/">[documentation]</a>
+          <a class="codelink" href="http://jaredhuling.github.io/personalized/">[documentation]</a> |
+          doi: <a href="https://doi.org/10.18637%2Fjss.v098.i05">10.18637/jss.v098.i05</a>
         </p>
 
         <p class="bibliography">
