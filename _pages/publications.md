@@ -36,17 +36,6 @@ years: [2018, 2017, 2016]
           <a href="https://arxiv.org/abs/1806.01936">[arxiv:1806.01936]</a>
         </p>
         
-        
-        <p class="bibliography">
-          <author>Huling, J.D.</author> and Yu, M. (2021+).
-            Subgroup identification using the personalized package. 
-          <br>
-          <a href="https://arxiv.org/abs/1809.07905">[arxiv:1809.07905]</a> |
-          <a class="codelink" href="https://github.com/jaredhuling/personalized">[code]</a> |
-          <a class="codelink" href="https://cran.r-project.org/web/packages/personalized/index.html">[CRAN]</a> |
-          <a class="codelink" href="http://jaredhuling.github.io/personalized/">[documentation]</a>
-        </p>
-        
       </div>
     </div>
   </div>
@@ -60,6 +49,18 @@ years: [2018, 2017, 2016]
   <div class="container-fluid">
     <div class="row">
       <div class="twelve columns">
+      
+        <p class="bibliography">
+          <author>Huling, J.D.</author> and Yu, M. (2021).
+            Subgroup identification using the personalized package. <br>
+          <em>Journal of Statistical Software</em>, 98(5):1-60.
+          <br>
+          <a href="https://doi.org/10.18637%2Fjss.v098.i05">[doi:10.18637/jss.v098.i05]</a> |
+          <a href="https://www.jstatsoft.org/index.php/jss/article/view/v098i05/v98i05.pdf">[pdf]</a> |
+          <a class="codelink" href="https://github.com/jaredhuling/personalized">[code]</a> |
+          <a class="codelink" href="https://cran.r-project.org/web/packages/personalized/index.html">[CRAN]</a> |
+          <a class="codelink" href="http://jaredhuling.github.io/personalized/">[documentation]</a>
+        </p>
 
         <p class="bibliography">
           Yu, M., Kuang, C., <author>Huling, J.D.</author>, and Smith, M.A. (2021+).
