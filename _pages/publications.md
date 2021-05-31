@@ -66,6 +66,7 @@ years: [2018, 2017, 2016]
             Diagnosis-Group-Specific Transitional Care Program Recommendations for Thirty-Day Rehospitalization Reduction.<br>
           <em>The Annals of Applied Statistics</em>, to appear.
           <br>
+          <a href="https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/44322?confirm=0aee4644">[pdf]</a> |
           <a class="codelink" href="https://github.com/jaredhuling/mpersonalized">[code]</a>
         </p>   
       
