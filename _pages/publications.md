@@ -23,7 +23,13 @@ years: [2018, 2017, 2016]
   <div class="container-fluid">
     <div class="row">
       <div class="twelve columns">
-      
+
+        <p class="bibliography">
+          Chen, R., <author>Huling, J.D.</author>, Chen, G., and Yu, M. (2021+).
+            Robust Sample Weighting to Facilitate Individualized Treatment Rule Learning for a Target Population. <br>
+          <a href="https://arxiv.org/abs/2105.00581">[arxiv:2105.00581]</a>
+        </p>
+        
         <p class="bibliography">
           <author>Huling, J.D.</author> and Mak, S. (2021+).
             Energy Balancing of Covariate Distributions. <br>
