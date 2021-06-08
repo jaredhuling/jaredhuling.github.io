@@ -26,13 +26,13 @@ years: [2018, 2017, 2016]
 
         <p class="bibliography">
           Chen, R., <author>Huling, J.D.</author>, Chen, G., and Yu, M. (2021+).
-            Robust Sample Weighting to Facilitate Individualized Treatment Rule Learning for a Target Population. <br>
+            Robust sample weighting to facilitate individualized treatment rule Learning for a target population. <br>
           <a href="https://arxiv.org/abs/2105.00581">[arxiv:2105.00581]</a>
         </p>
         
         <p class="bibliography">
           <author>Huling, J.D.</author> and Mak, S. (2021+).
-            Energy Balancing of Covariate Distributions. <br>
+            Energy Balancing of covariate distributions. <br>
           <a href="https://arxiv.org/abs/2004.13962">[arxiv:2004.13962]</a>
         </p>
       
@@ -70,7 +70,7 @@ years: [2018, 2017, 2016]
 
         <p class="bibliography">
           Yu, M., Kuang, C., <author>Huling, J.D.</author>, and Smith, M.A. (2021+).
-            Diagnosis-Group-Specific Transitional Care Program Recommendations for Thirty-Day Rehospitalization Reduction.<br>
+            Diagnosis-group-specific transitional care program recommendations for thirty-day rehospitalization reduction.<br>
           <em>The Annals of Applied Statistics</em>, to appear.
           <br>
           <a href="https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/44322?confirm=0aee4644">[pdf]</a> |
