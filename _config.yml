@@ -73,7 +73,7 @@ markdown: kramdown
 highlighter: rouge
 
 # Includes
-include: - ['_pages']
+include: ['_pages']
 
 
 # Gems
