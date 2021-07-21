@@ -23,6 +23,12 @@ years: [2018, 2017, 2016]
   <div class="container-fluid">
     <div class="row">
       <div class="twelve columns">
+      
+        <p class="bibliography">
+          Chen, R., <author>Huling, J.D.</author>, Greifer, N., and Chen, G.(2021+).
+            Independence weights for causal inference with continuous exposures. <br>
+          <a href="https://arxiv.org/abs/2107.07086">[arxiv:2107.07086]</a>
+        </p>
 
         <p class="bibliography">
           Chen, R., <author>Huling, J.D.</author>, Chen, G., and Yu, M. (2021+).
