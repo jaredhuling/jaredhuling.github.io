@@ -119,7 +119,8 @@ years: [2018, 2017, 2016]
             Fused comparative intervention scoring for heterogeneity of longitudinal intervention effects.
           <em>The Annals of Applied Statistics</em>, 13(2): 824-847.  <br>
           
-          <a href="https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/34161?confirm=ef563f6f">[pdf]</a> |
+          <!-- <a href="https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/34161?confirm=ef563f6f">[pdf]</a> | -->
+          <a href="https://jaredhuling.org/papers/fused_comparative_itrs.pdf">[pdf]</a> |
           <a class="codelink" href="https://github.com/jaredhuling/personalizedLong">[code]</a> |
           doi: <a href="https://doi.org/10.1214/18-AOAS1216">10.1214/18-AOAS1216</a>
         </p>
