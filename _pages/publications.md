@@ -75,12 +75,13 @@ years: [2018, 2017, 2016]
         </p>
 
         <p class="bibliography">
-          Yu, M., Kuang, C., <author>Huling, J.D.</author>, and Smith, M.A. (2021+).
+          Yu, M., Kuang, C., <author>Huling, J.D.</author>, and Smith, M.A. (2021).
             Diagnosis-group-specific transitional care program recommendations for thirty-day rehospitalization reduction.<br>
-          <em>The Annals of Applied Statistics</em>, to appear.
+          <em>The Annals of Applied Statistics</em>, 15(3):1-21.
           <br>
           <a href="https://jaredhuling.org/papers/drg_specific_itrs.pdf">[pdf]</a> |
-          <a class="codelink" href="https://github.com/jaredhuling/mpersonalized">[code]</a>
+          <a class="codelink" href="https://github.com/jaredhuling/mpersonalized">[code]</a> |
+          doi: <a href="http://dx.doi.org/10.1214/21-AOAS1473">10.1214/21-AOAS1473</a>
         </p>   
       
         <p class="bibliography">
