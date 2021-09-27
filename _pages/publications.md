@@ -65,7 +65,7 @@ years: [2018, 2017, 2016]
           <p class="bibliography">
           <author>Huling, J.D.</author> and Yu, M. (2021+).
             Sufficient dimension reduction for populations with structured heterogeneity. <br>
-          <em>Biometrics</em>.
+          To appear in <em>Biometrics</em>.
           <br>
           <a class="codelink" href="https://github.com/jaredhuling/hierSDR">[code]</a> |
           <a class="codelink" href="https://cran.r-project.org/web/packages/hierSDR/index.html">[CRAN]</a> |
