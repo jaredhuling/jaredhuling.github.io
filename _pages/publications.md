@@ -62,6 +62,16 @@ years: [2018, 2017, 2016]
     <div class="row">
       <div class="twelve columns">
       
+          <p class="bibliography">
+          <author>Huling, J.D.</author> and Yu, M. (2021+).
+            Sufficient dimension reduction for populations with structured heterogeneity. <br>
+          <em>Biometrics</em>.
+          <br>
+          <a class="codelink" href="https://github.com/jaredhuling/hierSDR">[code]</a> |
+          <a class="codelink" href="https://cran.r-project.org/web/packages/hierSDR/index.html">[CRAN]</a> |
+          doi: <a href="https://doi.org/10.1111/biom.13546">10.1111/biom.13546</a>
+        </p>
+      
         <p class="bibliography">
           <author>Huling, J.D.</author> and Yu, M. (2021).
             Subgroup identification using the personalized package. <br>
