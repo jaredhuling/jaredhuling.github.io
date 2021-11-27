@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_img.jpg
   address: >
-    <p>Office: virtual</p>
+    <p>Office: A428, Mayo Building</p>
     <p></p>
     <p>Email:</p>
 
