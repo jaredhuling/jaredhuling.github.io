@@ -9,7 +9,7 @@ years: [2018, 2017, 2016]
     <div class="row">
       <div class="twelve columns">
         <p align="left" class = "buttonleft">
-          <a href="https://scholar.google.com/citations?user=2-MWWU4AAAAJ&hl=en" class="button">Google Scholar</a>
+          <a href="https://scholar.google.com/citations?hl=en&user=2-MWWU4AAAAJ&view_op=list_works&sortby=pubdate" class="button">Google Scholar</a>
         </p>
 
     </div>
