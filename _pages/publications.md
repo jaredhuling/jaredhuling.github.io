@@ -41,6 +41,7 @@ years: [2018, 2017, 2016]
           <author>Huling, J.D.</author> and Mak, S. (2021+).
             Energy Balancing of covariate distributions. <br>
           <a href="https://arxiv.org/abs/2004.13962">[arxiv:2004.13962]</a>
+          <a class="codelink" href="https://github.com/ngreifer/WeightIt">[implemented in Noah Greifer's WeightIt package]</a>
         </p>
       
         <p class="bibliography">
