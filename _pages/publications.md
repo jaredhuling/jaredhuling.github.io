@@ -64,6 +64,28 @@ years: [2018, 2017, 2016]
     <div class="row">
       <div class="twelve columns">
       
+        <p class="bibliography">
+          Cheng, J.J., <author>Huling, J.D.</author>, and Chen, G. (2022).
+            Meta-analysis of individualized treatment rules via sign-coherency.<br>
+          <em>Proceedings of the 2nd Machine Learning for Health symposium, PMLR</em>, 193:171-198.
+          <br>
+          <a href="https://proceedings.mlr.press/v193/cheng22a/cheng22a.pdf">[pdf]</a> |
+          <a class="codelink" href="https://github.com/jay-jojo-cheng/metacoop">[code]</a> |
+          link: <a href="https://proceedings.mlr.press/v193/cheng22a.html">proceedings.mlr.press/v193/cheng22a</a>
+        </p>
+      
+        <p class="bibliography">
+          <author>Huling, J.D.</author> and Chien, P. (2022).
+            Fast penalized regression and cross validation for tall data with the oem package. <br>
+          <em>Journal of Statistical Software</em>, 104(6):1-24. <br>
+          <a href="https://doi.org/10.18637/jss.v104.i06">[pdf]</a> | 
+          <a class="codelink" href="https://github.com/jaredhuling/oem">[code]</a> |
+          <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">[CRAN]</a> |
+          <a class="codelink" href="http://jaredhuling.github.io/oem/">[documentation]</a> |
+          doi: <a href="https://doi.org/10.18637/jss.v104.i06">10.18637/jss.v104.i06</a> |
+          <a href="https://arxiv.org/abs/1801.09661">[arxiv:1801.09661]</a>
+        </p>
+      
           <p class="bibliography">
           <author>Huling, J.D.</author> and Yu, M. (2021+).
             Sufficient dimension reduction for populations with structured heterogeneity. <br>
@@ -94,7 +116,7 @@ years: [2018, 2017, 2016]
           <a href="https://jaredhuling.org/papers/drg_specific_itrs.pdf">[pdf]</a> |
           <a class="codelink" href="https://github.com/jaredhuling/mpersonalized">[code]</a> |
           doi: <a href="http://dx.doi.org/10.1214/21-AOAS1473">10.1214/21-AOAS1473</a>
-        </p>   
+        </p>
       
         <p class="bibliography">
           <author>Huling, J.D.</author>, Smith, M.A., and Chen, G. (2021).
@@ -117,15 +139,6 @@ years: [2018, 2017, 2016]
           doi: <a href="https://doi.org/10.1111/biom.12985">10.1111/biom.12985</a>
         </p>
       
-        <p class="bibliography">
-          <author>Huling, J.D.</author> and Chien, P. (2019+).
-            Fast penalized regression and cross validation for tall data with the oem package. <br>
-          To appear in the <em>Journal of Statistical Software</em>. <br>
-          <a href="https://arxiv.org/abs/1801.09661">[arxiv:1801.09661]</a> | 
-          <a class="codelink" href="https://github.com/jaredhuling/oem">[code]</a> |
-          <a class="codelink" href="https://cran.r-project.org/web/packages/oem/index.html">[CRAN]</a> |
-          <a class="codelink" href="http://jaredhuling.github.io/oem/">[documentation]</a>
-        </p>
         
         <p class="bibliography">
           <author>Huling, J.D.</author>, Yu, M., and Smith, M.A. (2019).
