@@ -7,11 +7,15 @@ description:
 
 <ul>
 
-  <li>  <a>Statistics 6730 - Introduction to Computational Statistics</a> (on Carmen) </li>
+  <li>  <a>UMN - PubH 7406 - Biostatistical Inference II</a> (on Canvas), 2022 </li>
+  
+  <li>  <a>UMN - PubH 7406 - Advanced Regression and Design</a> (on Canvas), 2021 </li>
 
-  <li>  <a>Statistics 7650 - Advanced Regression of Time-to-Event Data</a> (on Carmen) </li>
+  <li>  <a>OSU - Statistics 6730 - Introduction to Computational Statistics</a> </li>
 
-  <li>  <a class="page-link" href="{{ '/stat6450/' | prepend: site.baseurl | prepend: site.url }}">Statistics 6450 - Applied Regression Analysis</a> (on Carmen) </li>
+  <li>  <a>OSU - Statistics 7650 - Advanced Regression of Time-to-Event Data</a> </li>
+
+  <li>  <a class="page-link" href="{{ '/stat6450/' | prepend: site.baseurl | prepend: site.url }}">OSU - Statistics 6450 - Applied Regression Analysis</a> </li>
 
 </ul>
   
