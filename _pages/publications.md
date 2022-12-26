@@ -64,6 +64,17 @@ years: [2018, 2017, 2016]
     <div class="row">
       <div class="twelve columns">
       
+          <p class="bibliography">
+          <author>Huling, J.D.</author> and Yu, M. (2022).
+            Sufficient dimension reduction for populations with structured heterogeneity. <br>
+          <em>Biometrics</em>, 78(4):1626-1638.
+          <br>
+          <a href="https://arxiv.org/abs/2212.12394">[pdf]</a> | 
+          <a class="codelink" href="https://github.com/jaredhuling/hierSDR">[code]</a> |
+          <a class="codelink" href="https://cran.r-project.org/web/packages/hierSDR/index.html">[CRAN]</a> |
+          doi: <a href="https://doi.org/10.1111/biom.13546">10.1111/biom.13546</a>
+        </p>
+        
         <p class="bibliography">
           Cheng, J.J., <author>Huling, J.D.</author>, and Chen, G. (2022).
             Meta-analysis of individualized treatment rules via sign-coherency.<br>
@@ -86,15 +97,6 @@ years: [2018, 2017, 2016]
           <a href="https://arxiv.org/abs/1801.09661">[arxiv:1801.09661]</a>
         </p>
       
-          <p class="bibliography">
-          <author>Huling, J.D.</author> and Yu, M. (2021+).
-            Sufficient dimension reduction for populations with structured heterogeneity. <br>
-          To appear in <em>Biometrics</em>.
-          <br>
-          <a class="codelink" href="https://github.com/jaredhuling/hierSDR">[code]</a> |
-          <a class="codelink" href="https://cran.r-project.org/web/packages/hierSDR/index.html">[CRAN]</a> |
-          doi: <a href="https://doi.org/10.1111/biom.13546">10.1111/biom.13546</a>
-        </p>
       
         <p class="bibliography">
           <author>Huling, J.D.</author> and Yu, M. (2021).
