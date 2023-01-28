@@ -137,6 +137,7 @@ years: [2018, 2017, 2016]
             Instrumental variable based estimation under the semiparametric accelerated failure time model.<br>
           <em>Biometrics</em>, 75(2):516-527. 
           <br>
+          <a href="https://jaredhuling.org/papers/AFTIV_biometrics_Final.pdf">[pdf]</a> |
           <a class="codelink" href="https://github.com/jaredhuling/aftiv">[code]</a> |
           doi: <a href="https://doi.org/10.1111/biom.12985">10.1111/biom.12985</a>
         </p>
