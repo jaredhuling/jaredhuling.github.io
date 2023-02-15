@@ -15,7 +15,7 @@ permalink: /software/
 
     <div class="row">
 
-      <div class="three columns">
+      <div class="four columns">
         <img src="/images/subgroups.png" width="100%" alt="hdnom-icon" />
       </div>
 
@@ -49,7 +49,7 @@ permalink: /software/
 
     <div class="row">
 
-      <div class="three columns">
+      <div class="four columns">
         <img src="/images/dcow_adjusted.png" width="100%" alt="hdnom-icon" />
       </div>
 
@@ -80,7 +80,7 @@ permalink: /software/
 
     <div class="row">
 
-      <div class="three columns">
+      <div class="four columns">
         <img src="/images/mcp_path.png" width="100%" alt="OEM" />
       </div>
 
@@ -108,7 +108,7 @@ permalink: /software/
 
     <div class="row">
 
-      <div class="three columns">
+      <div class="four columns">
         <img src="/images/response_histograms_wide.png" width="100%" alt="hdnom-icon" />
       </div>
 
@@ -139,7 +139,7 @@ permalink: /software/
 
     <div class="row">
 
-      <div class="three columns">
+      <div class="four columns">
         <img src="/images/central_mean_subspaces.png" width="100%" alt="hdnom-icon" />
       </div>
 
@@ -173,7 +173,7 @@ permalink: /software/
 
     <div class="row">
 
-      <div class="three columns">
+      <div class="four columns">
         <img src="/images/venn.png" width="100%" alt="hdnom-icon" />
       </div>
 
@@ -202,7 +202,7 @@ permalink: /software/
 
     <div class="row">
 
-      <div class="three columns">
+      <div class="four columns">
         <img src="/images/benefit_of_sr_assignments_by_received_paper.png" width="100%" alt="persLongitudinal" />
       </div>
 
@@ -229,7 +229,7 @@ permalink: /software/
 
     <div class="row">
 
-      <div class="three columns">
+      <div class="four columns">
         <img src="/images/talks/iv_assumptions.png" width="100%" alt="AFT-IV" />
       </div>
 
