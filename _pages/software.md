@@ -45,7 +45,7 @@ permalink: /software/
   
   
   
-    <div class="docs-section">
+<div class="docs-section">
 
     <div class="row">
 
