@@ -19,7 +19,7 @@ permalink: /software/
         <img src="/images/subgroups.png" width="100%" alt="hdnom-icon" />
       </div>
 
-      <div class="nine columns">
+      <div class="eight columns">
 
         <h4><b style="font-family:monospace">personalized</b>: Estimation and validation methods for subgroup identification and
     personalized medicine</h4>
@@ -53,7 +53,7 @@ permalink: /software/
         <img src="/images/dcow_adjusted.png" width="100%" alt="hdnom-icon" />
       </div>
 
-      <div class="nine columns">
+      <div class="eight columns">
 
         <h4><b style="font-family:monospace">independenceWeights</b>: Estimates weights for confounding control for continuous-valued exposures</h4>
 
@@ -84,7 +84,7 @@ permalink: /software/
         <img src="/images/mcp_path.png" width="100%" alt="OEM" />
       </div>
 
-      <div class="nine columns">
+      <div class="eight columns">
 
         <h4><b style="font-family:monospace">oem</b>: Orthogonalizing EM algorithm for penalized estimation</h4>
 
@@ -112,7 +112,7 @@ permalink: /software/
         <img src="/images/response_histograms_wide.png" width="100%" alt="hdnom-icon" />
       </div>
 
-      <div class="nine columns">
+      <div class="eight columns">
 
         <h4><b style="font-family:monospace">personalized2part</b>: two part estimation of individualized treatment rules for semi-continuous data</h4>
 
@@ -143,7 +143,7 @@ permalink: /software/
         <img src="/images/central_mean_subspaces.png" width="100%" alt="hdnom-icon" />
       </div>
 
-      <div class="nine columns">
+      <div class="eight columns">
 
         <h4><b style="font-family:monospace">hierSDR</b>: Hierarchical sufficient dimension reduction</h4>
 
@@ -177,7 +177,7 @@ permalink: /software/
         <img src="/images/venn.png" width="100%" alt="hdnom-icon" />
       </div>
 
-      <div class="nine columns">
+      <div class="eight columns">
 
         <h4><b style="font-family:monospace">vennLasso</b>: Variable selection for heterogeneous populations</h4>
 
@@ -206,7 +206,7 @@ permalink: /software/
         <img src="/images/benefit_of_sr_assignments_by_received_paper.png" width="100%" alt="persLongitudinal" />
       </div>
 
-      <div class="nine columns">
+      <div class="eight columns">
 
         <h4><b style="font-family:monospace">personalizedLong</b>: Fused comparative intervention scoring/subgroup identification for long-term interventions
 </h4>
@@ -233,7 +233,7 @@ permalink: /software/
         <img src="/images/talks/iv_assumptions.png" width="100%" alt="AFT-IV" />
       </div>
 
-      <div class="nine columns">
+      <div class="eight columns">
 
         <h4><b style="font-family:monospace">aftiv</b>: Instrumental variable estimation under the semiparametric AFT model
 </h4>
