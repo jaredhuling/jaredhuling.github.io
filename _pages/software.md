@@ -43,6 +43,39 @@ permalink: /software/
   </div>
   
   
+  
+  
+    <div class="docs-section">
+
+    <div class="row">
+
+      <div class="three columns">
+        <img src="/images/dcow_adjusted.png" width="100%" alt="hdnom-icon" />
+      </div>
+
+      <div class="nine columns">
+
+        <h4><b style="font-family:monospace">independenceWeights</b>: Estimates weights for confounding control for continuous-valued exposures</h4>
+
+        <p>
+          The independenceWeights package offers confounding control tools for studying the causal effects of a continuous exposure from observational data. It implements the methodology of <a href="https://arxiv.org/abs/2107.07086">Huling, Greifer, and Chen (2021)</a>, which constructs weights designed to minimize the weighted statistical dependence between a continuous treatment/exposure variable and a vector of confounder variables. In estimating a causal dose-response function, confounding bias is a function of the dependence between confounders and the exposure/treatment, so weights that minimize the dependence aim to mitigate confounding bias directly.
+        </p>
+
+        <p align="right">
+          <a href="https://cran.r-project.org/package=independenceWeights" class="button">Download</a>
+          <a href="https://github.com/jaredhuling/independenceWeights" class="button">Source</a>
+          <a href="https://arxiv.org/abs/2107.07086" class="button">Paper</a>
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+  
+  
+  
+  
+  
   <div class="docs-section">
 
     <div class="row">
@@ -115,7 +148,7 @@ permalink: /software/
         <h4><b style="font-family:monospace">hierSDR</b>: Hierarchical sufficient dimension reduction</h4>
 
         <p>
-          The hierSDR package provides semiparametric sufficient dimension reduction methods for modeling scenarios where heterogeneity is defined by several binary factors which stratify the population into multiple subpopulations. For example, hierSDR can be used in a hospital-wide risk modeling application if covariate effects in risk models differ for subpopulations of patients with different chronic conditions. Here the chronic conditions are the binary stratifying factors. The hierSDR provides dimension reduction methods that conform to the hierarchical nature of the relationships between the various subpopulations.
+          The hierSDR package provides semiparametric sufficient dimension reduction methods for modeling scenarios where heterogeneity is defined by several binary factors which stratify the population into multiple subpopulations. For example, hierSDR can be used in a hospital-wide risk modeling application if covariate effects in risk models differ for subpopulations of patients with different chronic conditions. Here the chronic conditions are the binary stratifying factors. The hierSDR package provides computation for dimension reduction methods that conform to the hierarchical nature of the relationships between the various subpopulations.
         </p>
 
         <p align="right">
