@@ -99,6 +99,43 @@ permalink: /software/
   </div>
   
   
+  
+  
+  
+  <div class="docs-section">
+
+    <div class="row">
+
+      <div class="three columns">
+        <img src="/images/central_mean_subspaces.png" width="100%" alt="hdnom-icon" />
+      </div>
+
+      <div class="nine columns">
+
+        <h4><b style="font-family:monospace">hierSDR</b>: Hierarchical sufficient dimension reduction</h4>
+
+        <p>
+          The hierSDR package provides semiparametric sufficient dimension reduction methods for modeling scenarios where heterogeneity is defined by several binary factors which stratify the population into multiple subpopulations. For example, hierSDR can be used in a hospital-wide risk modeling application if covariate effects in risk models differ for subpopulations of patients with different chronic conditions. Here the chronic conditions are the binary stratifying factors. The hierSDR provides dimension reduction methods that conform to the hierarchical nature of the relationships between the various subpopulations.
+        </p>
+
+        <p align="right">
+          <a href="https://cran.r-project.org/package=hierSDR" class="button">Download</a>
+          <a href="https://github.com/jaredhuling/hierSDR" class="button">Source</a>
+          <a href="https://arxiv.org/abs/2212.12394" class="button">Paper</a>
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
 <div class="docs-section">
 
     <div class="row">
@@ -112,7 +149,7 @@ permalink: /software/
         <h4><b style="font-family:monospace">vennLasso</b>: Variable selection for heterogeneous populations</h4>
 
         <p>
-          The vennLasso package provides variable selection for high-dimensional modeling scenarios where heterogeneity is defined by several binary factors which stratify the population into multiple subpopulations. For example, vennLasso can be used in a hospital-wide risk modeling application if covariate effects in risk models differ for subpopulations of patients with different chronic conditions. Here the chronic conditions are the binary stratifying factors. The vennLasso provides computation for a variable selection method which yields variable selection patterns which adhere to the hierarchical nature of the relationships between the various subpopulations.
+          The vennLasso package provides variable selection for high-dimensional modeling scenarios where heterogeneity is defined by several binary factors which stratify the population into multiple subpopulations. For example, vennLasso can be used in a hospital-wide risk modeling application if covariate effects in risk models differ for subpopulations of patients with different chronic conditions. Here the chronic conditions are the binary stratifying factors. The vennLasso package provides computation for a variable selection method which yields variable selection patterns which adhere to the hierarchical nature of the relationships between the various subpopulations.
         </p>
 
         <p align="right">
