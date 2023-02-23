@@ -51,7 +51,7 @@ permalink: /software/
     <div class="row">
 
       <div class="four columns">
-        <embed src="/images/dcow_adjusted.pdf" width="100%" alt="hdnom-icon" />
+        <img src="/images/dcow_adjusted.png" width="100%" alt="hdnom-icon" />
       </div>
 
       <div class="eight columns">
