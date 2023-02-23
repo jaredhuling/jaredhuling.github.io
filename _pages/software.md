@@ -50,7 +50,7 @@ permalink: /software/
     <div class="row">
 
       <div class="four columns">
-        <img src="/images/dcow_adjusted.png" width="100%" alt="hdnom-icon" />
+        <img src="/images/dcow_adjusted.pdf" width="100%" alt="hdnom-icon" />
       </div>
 
       <div class="eight columns">
@@ -230,7 +230,7 @@ permalink: /software/
     <div class="row">
 
       <div class="four columns">
-        <img src="/images/talks/iv_assumptions.pdf" width="100%" alt="AFT-IV" />
+        <img src="/images/talks/iv_assumptions.png" width="100%" alt="AFT-IV" />
       </div>
 
       <div class="eight columns">
