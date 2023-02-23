@@ -50,7 +50,7 @@ permalink: /software/
     <div class="row">
 
       <div class="four columns">
-        <img src="/images/dcow_adjusted.pdf" width="100%" alt="hdnom-icon" />
+        <embed src="/images/dcow_adjusted.pdf" width="100%" alt="hdnom-icon" />
       </div>
 
       <div class="eight columns">
@@ -171,12 +171,12 @@ permalink: /software/
     <div class="row">
 
       <div class="four columns">
-        <img src="/images/central_mean_subspaces.png" width="100%" alt="hdnom-icon" />
+        <img src="/images/doubly_sparse.png" width="100%" alt="hdnom-icon" />
       </div>
 
       <div class="eight columns">
 
-        <h4><b style="font-family:monospace">hierSDR</b>: Hierarchical sufficient dimension reduction</h4>
+        <h4><b style="font-family:monospace">groupFusedMulti</b>: Doubly structured variable selection for grouped multivariate outcomes</h4>
 
         <p>
           The groupFusedMulti package provides penalized estimation methods for high dimensional regression models for multivariate outcomes that have a natural group structure. This package implements the methodology of <a href="https://arxiv.org/abs/2302.11098">Huling, et al (2023)</a>.
