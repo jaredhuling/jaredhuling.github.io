@@ -67,7 +67,6 @@ years: [2018, 2017, 2016]
          <p class="bibliography">
           <author>Huling, J.D.</author>, Lundine, J.P., and Leonard, J.C. (2023).
             Doubly structured sparsity for grouped multivariate responses with application to functional outcome score modeling. <br>
-          <br>
           <a href="https://arxiv.org/abs/2302.11098">[pdf]</a> | 
           <a class="codelink" href="https://github.com/jaredhuling/groupFusedMulti">[code]</a> 
         </p>
