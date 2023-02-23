@@ -35,6 +35,7 @@ permalink: /software/
           <a href="http://jaredhuling.github.io/personalized/" class="button">Documentation</a>
           <a href="https://cran.r-project.org/package=personalized" class="button">Download</a>
           <a href="https://github.com/jaredhuling/personalized" class="button">Source</a>
+          <a href="https://www.jstatsoft.org/article/view/v098i05" class="button">Paper</a>
         </p>
 
       </div>
@@ -97,6 +98,7 @@ permalink: /software/
           <a href="https://cran.r-project.org/package=oem" class="button">Download</a>
           <a href="https://github.com/jaredhuling/oem" class="button">Source</a><br><br>
           <a href="https://github.com/jaredhuling/OrthogEM.jl" class="button">Julia implementation</a>
+          <a href="https://www.jstatsoft.org/article/view/v104i06" class="button">Paper</a>
         </p>
 
       </div>
