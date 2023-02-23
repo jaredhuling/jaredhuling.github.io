@@ -166,6 +166,35 @@ permalink: /software/
 
 
 
+  <div class="docs-section">
+
+    <div class="row">
+
+      <div class="four columns">
+        <img src="/images/central_mean_subspaces.png" width="100%" alt="hdnom-icon" />
+      </div>
+
+      <div class="eight columns">
+
+        <h4><b style="font-family:monospace">hierSDR</b>: Hierarchical sufficient dimension reduction</h4>
+
+        <p>
+          The groupFusedMulti package provides penalized estimation methods for high dimensional regression models for multivariate outcomes that have a natural group structure. This package implements the methodology of <a href="https://arxiv.org/abs/2302.11098">Huling, et al (2023)</a>.
+        </p>
+
+        <p align="right">
+          <a href="https://github.com/jaredhuling/groupFusedMulti" class="button">Source</a>
+          <a href="https://arxiv.org/abs/2302.11098" class="button">Paper</a>
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+
 
 
 
