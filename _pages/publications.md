@@ -64,7 +64,17 @@ years: [2018, 2017, 2016]
     <div class="row">
       <div class="twelve columns">
       
-          <p class="bibliography">
+         <p class="bibliography">
+          <author>Huling, J.D.</author>, Lundine, J.P., and Leonard, J.C. (2023).
+            Doubly structured sparsity for grouped multivariate responses with application to functional outcome score modeling. <br>
+          # <em>Statistics in Medicine</em>, to appear.
+          <br>
+          <a href="https://arxiv.org/abs/2302.11098">[pdf]</a> | 
+          <a class="codelink" href="https://github.com/jaredhuling/groupFusedMulti">[code]</a> #|
+          # doi: <a href="https://doi.org">enterdoi</a>
+        </p>
+      
+        <p class="bibliography">
           <author>Huling, J.D.</author> and Yu, M. (2022).
             Sufficient dimension reduction for populations with structured heterogeneity. <br>
           <em>Biometrics</em>, 78(4):1626-1638.
