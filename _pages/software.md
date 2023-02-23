@@ -230,7 +230,7 @@ permalink: /software/
     <div class="row">
 
       <div class="four columns">
-        <img src="/images/talks/iv_assumptions.png" width="100%" alt="AFT-IV" />
+        <img src="/images/talks/iv_assumptions.pdf" width="100%" alt="AFT-IV" />
       </div>
 
       <div class="eight columns">
