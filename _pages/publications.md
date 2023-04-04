@@ -23,13 +23,6 @@ years: [2018, 2017, 2016]
   <div class="container-fluid">
     <div class="row">
       <div class="twelve columns">
-      
-        <p class="bibliography">
-          <author>Huling, J.D.</author>, Greifer, N., and Chen, G. (2021+).
-            Independence weights for causal inference with continuous exposures. <br>
-          <a href="https://arxiv.org/abs/2107.07086">[arxiv:2107.07086]</a> |
-          <a class="codelink" href="https://github.com/jaredhuling/independenceWeights">[code]</a>
-        </p>
 
         <p class="bibliography">
           Chen, R., <author>Huling, J.D.</author>, Chen, G., and Yu, M. (2021+).
@@ -64,10 +57,20 @@ years: [2018, 2017, 2016]
     <div class="row">
       <div class="twelve columns">
       
+      
+        <p class="bibliography">
+          <author>Huling, J.D.</author>, Greifer, N., and Chen, G. (2023).
+            Independence weights for causal inference with continuous exposures. <br>
+            <em>Journal of the American Statistical Association</em>, to appear.
+            <br>
+          <a href="https://arxiv.org/abs/2107.07086">[arxiv:2107.07086]</a> |
+          <a class="codelink" href="https://github.com/jaredhuling/independenceWeights">[code]</a>
+        </p>
+        
          <p class="bibliography">
           <author>Huling, J.D.</author>, Lundine, J.P., and Leonard, J.C. (2023).
             Doubly structured sparsity for grouped multivariate responses with application to functional outcome score modeling. <br>
-          <em>Statistics in Medicine</em>, in press.
+          <em>Statistics in Medicine</em>, to appear.
           <br>
           <a href="https://arxiv.org/abs/2302.11098">[pdf]</a> | 
           <a class="codelink" href="https://github.com/jaredhuling/groupFusedMulti">[code]</a> 
