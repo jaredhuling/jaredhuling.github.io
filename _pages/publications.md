@@ -61,7 +61,7 @@ years: [2018, 2017, 2016]
         <p class="bibliography">
           <author>Huling, J.D.</author>, Greifer, N., and Chen, G. (2023).
             Independence weights for causal inference with continuous exposures. <br>
-            <em>Journal of the American Statistical Association</em>, to appear.
+            <journal>Journal of the American Statistical Association</journal>, to appear.
             <br>
           <a href="https://arxiv.org/abs/2107.07086">[arxiv:2107.07086]</a> |
           <a class="codelink" href="https://github.com/jaredhuling/independenceWeights">[code]</a>
