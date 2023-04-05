@@ -64,7 +64,8 @@ years: [2018, 2017, 2016]
             <journal>Journal of the American Statistical Association</journal>, to appear.
             <br>
           <a href="https://arxiv.org/abs/2107.07086">[arxiv:2107.07086]</a> |
-          <a class="codelink" href="https://github.com/jaredhuling/independenceWeights">[code]</a>
+          <a class="codelink" href="https://github.com/jaredhuling/independenceWeights">[code]</a> |
+          <a class="codelink" href="https://cran.r-project.org/web/packages/independenceWeights/index.html">[CRAN]</a>
         </p>
         
          <p class="bibliography">
