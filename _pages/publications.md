@@ -59,6 +59,12 @@ years: [2018, 2017, 2016]
       
       
         <p class="bibliography">
+          Maronge, J.M., <author>Huling, J.D.</author>, and Chen, G. (2023).
+            A reluctant additive model framework for interpretable nonlinear individualized treatment rules. <br>
+            <journal>The Annals of Applied Statistics</journal>, to appear.
+        </p>
+      
+        <p class="bibliography">
           <author>Huling, J.D.</author>, Greifer, N., and Chen, G. (2023).
             Independence weights for causal inference with continuous treatments. <br>
             <journal>Journal of the American Statistical Association</journal>, to appear.
