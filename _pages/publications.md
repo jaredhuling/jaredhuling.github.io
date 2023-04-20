@@ -80,7 +80,8 @@ years: [2018, 2017, 2016]
           <journal>Statistics in Medicine</journal>, to appear.
           <br>
           <a href="https://arxiv.org/abs/2302.11098">[pdf]</a> | 
-          <a class="codelink" href="https://github.com/jaredhuling/groupFusedMulti">[code]</a> 
+          <a class="codelink" href="https://github.com/jaredhuling/groupFusedMulti">[code]</a> |
+          doi: <a href="http://doi.org/10.1002/sim.9740">10.1002/sim.9740</a>
         </p>
       
         <p class="bibliography">
