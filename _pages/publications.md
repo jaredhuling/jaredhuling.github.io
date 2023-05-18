@@ -73,7 +73,8 @@ years: [2018, 2017, 2016]
             <br>
           <a href="https://arxiv.org/abs/2107.07086">[arxiv:2107.07086]</a> |
           <a class="codelink" href="https://github.com/jaredhuling/independenceWeights">[code]</a> |
-          <a class="codelink" href="https://cran.r-project.org/web/packages/independenceWeights/index.html">[CRAN]</a>
+          <a class="codelink" href="https://cran.r-project.org/web/packages/independenceWeights/index.html">[CRAN]</a> |
+          doi: <a href = "https://doi.org/10.1080/01621459.2023.2213485>10.1080/01621459.2023.2213485</a>
         </p>
         
          <p class="bibliography">
