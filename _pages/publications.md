@@ -53,7 +53,7 @@ years: [2018, 2017, 2016]
       
       
       <p class="bibliography">
-          Chen, R., <author>Huling, J.D.</author>, Chen, G., and Yu, M. (2021+).
+          Chen, R., <author>Huling, J.D.</author>, Chen, G., and Yu, M. (2023).
             Robust sample weighting to facilitate individualized treatment rule learning for a target population. <br>
           <journal>Biometrika</journal>, to appear. <a href="https://arxiv.org/abs/2105.00581">[arxiv:2105.00581]</a>
         </p>
