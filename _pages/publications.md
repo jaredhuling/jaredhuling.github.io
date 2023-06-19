@@ -57,7 +57,7 @@ years: [2018, 2017, 2016]
             Robust sample weighting to facilitate individualized treatment rule learning for a target population. <br>
           <journal>Biometrika</journal>, to appear. <br>
           <a href="https://arxiv.org/abs/2105.00581">[arxiv:2105.00581]</a> | doi: 
-          <a href="https://doi.org/10.1093/biomet/asad038">10.1093/biomet/asad038</a>
+          <a href="https://academic.oup.com/biomet/advance-article-abstract/doi/10.1093/biomet/asad038/7202035">10.1093/biomet/asad038</a>
         </p>
         
       
