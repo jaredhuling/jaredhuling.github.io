@@ -50,7 +50,13 @@ years: [2018, 2017, 2016]
   <div class="container-fluid">
     <div class="row">
       <div class="twelve columns">
-      
+
+
+      <p class="bibliography">
+          Wastvedt, S., <author>Huling, J.D.</author>, and Wolfson, J. (2023).
+            An intersectional framework for counterfactual fairness in risk prediction. <br>
+          <journal>Biostatistics</journal>, to appear. 
+      </p>   
       
       <p class="bibliography">
           Chen, R., <author>Huling, J.D.</author>, Chen, G., and Yu, M. (2023).
@@ -58,7 +64,7 @@ years: [2018, 2017, 2016]
           <journal>Biometrika</journal>, to appear. <br>
           <a href="https://arxiv.org/abs/2105.00581">[arxiv:2105.00581]</a> | doi: 
           <a href="https://academic.oup.com/biomet/advance-article-abstract/doi/10.1093/biomet/asad038/7202035">10.1093/biomet/asad038</a>
-        </p>
+      </p>
         
       
         <p class="bibliography">
