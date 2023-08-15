@@ -55,7 +55,8 @@ years: [2018, 2017, 2016]
       <p class="bibliography">
           Wastvedt, S., <author>Huling, J.D.</author>, and Wolfson, J. (2023).
             An intersectional framework for counterfactual fairness in risk prediction. <br>
-          <journal>Biostatistics</journal>, to appear. 
+          <journal>Biostatistics</journal>, to appear. <br>
+          <a href="https://arxiv.org/abs/2210.01194">[arxiv:2210.01194]</a>
       </p>   
       
       <p class="bibliography">
