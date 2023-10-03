@@ -23,13 +23,6 @@ years: [2018, 2017, 2016]
   <div class="container-fluid">
     <div class="row">
       <div class="twelve columns">
-        
-        <p class="bibliography">
-          <author>Huling, J.D.</author> and Mak, S. (2021+).
-            Energy Balancing of covariate distributions. <br>
-          <a href="https://arxiv.org/abs/2004.13962">[arxiv:2004.13962]</a>
-          <a class="codelink" href="https://github.com/ngreifer/WeightIt">[implemented in Noah Greifer's WeightIt package]</a>
-        </p>
       
         <p class="bibliography">
           Dai, X. and <author>Huling, J.D.</author>. (2021+).
@@ -51,6 +44,14 @@ years: [2018, 2017, 2016]
     <div class="row">
       <div class="twelve columns">
 
+
+        <p class="bibliography">
+          <author>Huling, J.D.</author> and Mak, S. (2023).
+            Energy Balancing of covariate distributions. <br>
+            <journal>Journal of Causal Inference</journal>, to appear. <br>
+          <a href="https://arxiv.org/abs/2004.13962">[arxiv:2004.13962]</a>
+          <a class="codelink" href="https://github.com/ngreifer/WeightIt">[implemented in Noah Greifer's WeightIt package]</a>
+        </p>
 
       <p class="bibliography">
           Wastvedt, S., <author>Huling, J.D.</author>, and Wolfson, J. (2023).
