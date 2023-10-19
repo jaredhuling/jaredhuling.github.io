@@ -30,6 +30,12 @@ years: [2018, 2017, 2016]
             Enhancing modified treatment policy effect estimation with weighted energy distance. <br>
           <a href="https://arxiv.org/abs/2310.11620">[arxiv:2310.11620]</a>
         </p>
+        
+        <p class="bibliography">
+          Clark, J.M., Rott, K.W., Hodges, J.S., and <author>Huling, J.D.</author>. (2023+).
+            Causally-Interpretable Random-Effects Meta-Analysis. <br>
+          <a href="https://arxiv.org/abs/2302.03544">[arxiv:2302.03544]</a>
+        </p>
       
         <p class="bibliography">
           Dai, X. and <author>Huling, J.D.</author>. (2021+).
