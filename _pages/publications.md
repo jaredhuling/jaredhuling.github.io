@@ -24,6 +24,13 @@ years: [2018, 2017, 2016]
     <div class="row">
       <div class="twelve columns">
       
+      
+        <p class="bibliography">
+          Jiang, Z. and <author>Huling, J.D.</author>. (2023+).
+            Enhancing modified treatment policy effect estimation with weighted energy distance. <br>
+          <a href="https://arxiv.org/abs/2310.11620">[arxiv:2310.11620]</a>
+        </p>
+      
         <p class="bibliography">
           Dai, X. and <author>Huling, J.D.</author>. (2021+).
             Selection and estimation optimality in high dimensions with the TWIN penalty. <br>
