@@ -71,7 +71,7 @@ years: [2018, 2017, 2016]
             An intersectional framework for counterfactual fairness in risk prediction. <br>
           <journal>Biostatistics</journal>, to appear. <br>
           <a href="https://arxiv.org/abs/2210.01194">[arxiv:2210.01194]</a> | 
-          <a class="codelink" href="https://github.com/swastvedt/faircfint">[code]</a>
+          <a class="codelink" href="https://github.com/swastvedt/faircfint">[code]</a> | doi: <a href="https://doi.org/10.1093/biostatistics/kxad021">10.1093/biostatistics/kxad021</a>
       </p>   
       
       
