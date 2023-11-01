@@ -88,9 +88,10 @@ years: [2018, 2017, 2016]
         <p class="bibliography">
           Maronge, J.M., <author>Huling, J.D.</author>, and Chen, G. (2023).
             A reluctant additive model framework for interpretable nonlinear individualized treatment rules. <br>
-            <journal>The Annals of Applied Statistics</journal>, to appear.
+            <journal>The Annals of Applied Statistics</journal>, 17(4):3384-3402.
             <br>
-            <a href="https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/54267?confirm=40d2968b">[pdf]</a>
+            <a href="https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/54267?confirm=40d2968b">[pdf]</a> |
+            doi: <a href="http://dx.doi.org/10.1214/23-AOAS1767">10.1214/23-AOAS1767</a>
         </p>
       
         <p class="bibliography">
