@@ -24,7 +24,12 @@ years: [2018, 2017, 2016]
     <div class="row">
       <div class="twelve columns">
       
-      
+      <p class="bibliography">
+          Wastvedt, S., <author>Huling, J.D.</author>, and Wolfson, J. (2023+).
+            Counterfactual fairness for small subgroups. <br>
+          <a href="https://arxiv.org/abs/2310.19988">[arxiv:2310.19988]</a>
+      </p>
+
         <p class="bibliography">
           Jiang, Z. and <author>Huling, J.D.</author>. (2023+).
             Enhancing modified treatment policy effect estimation with weighted energy distance. <br>
@@ -49,7 +54,6 @@ years: [2018, 2017, 2016]
 </div>
 
 
-
 <h4 class="year">Publications</h4>
 
 <div class="pt-3">
@@ -72,7 +76,7 @@ years: [2018, 2017, 2016]
           <journal>Biostatistics</journal>, to appear. <br>
           <a href="https://arxiv.org/abs/2210.01194">[arxiv:2210.01194]</a> | 
           <a class="codelink" href="https://github.com/swastvedt/faircfint">[code]</a> | doi: <a href="https://doi.org/10.1093/biostatistics/kxad021">10.1093/biostatistics/kxad021</a>
-      </p>   
+      </p>
       
       
       
