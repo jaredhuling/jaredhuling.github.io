@@ -33,7 +33,7 @@ years: [2018, 2017, 2016]
         <p class="bibliography">
           Jiang, Z. and <author>Huling, J.D.</author>. (2023+).
             Enhancing modified treatment policy effect estimation with weighted energy distance. <br>
-          <a href="https://arxiv.org/abs/2310.11620">[arxiv:2310.11620]</a>
+          <a href="https://arxiv.org/abs/2310.11620">[arxiv:2310.11620]</a> | [Distinguished Student Paper Award of the International Biometrics Society, ENAR Region, 2024]
         </p>
         
         <p class="bibliography">
