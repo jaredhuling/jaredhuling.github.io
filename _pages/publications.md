@@ -62,11 +62,13 @@ years: [2018, 2017, 2016]
       <div class="twelve columns">
 
 
+
         <p class="bibliography">
           <author>Huling, J.D.</author> and Mak, S. (2023).
             Energy Balancing of covariate distributions. <br>
             <journal>Journal of Causal Inference</journal>, to appear. <br>
           <a href="https://arxiv.org/abs/2004.13962">[arxiv:2004.13962]</a> |
+          doi: <a href="https://degruyter.com/document/doi/10.1515/jci-2022-0029/html">10.1515/jci-2022-0029</a> |
           <a class="codelink" href="https://github.com/ngreifer/WeightIt">[implemented in Noah Greifer's WeightIt package]</a>
         </p>
 
