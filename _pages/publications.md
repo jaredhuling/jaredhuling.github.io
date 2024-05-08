@@ -23,7 +23,13 @@ years: [2018, 2017, 2016]
   <div class="container-fluid">
     <div class="row">
       <div class="twelve columns">
-      
+
+        <p class="bibliography">
+          Clark, J.M., Rott, K.W., Hodges, J.S., and <author>Huling, J.D.</author>. (2024+).
+            Transportability of Principal Causal Effects. <br>
+          <a href="https://arxiv.org/abs/2405.04419">[arxiv:2405.04419]</a>
+        </p>
+ 
       <p class="bibliography">
           Wastvedt, S., <author>Huling, J.D.</author>, and Wolfson, J. (2023+).
             Counterfactual fairness for small subgroups. <br>
