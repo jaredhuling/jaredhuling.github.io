@@ -68,9 +68,19 @@ years: [2018, 2017, 2016]
       <div class="twelve columns">
 
 
+        <p class="bibliography">
+          <author>Huling, J.D.</author>, Greifer, N., and Chen, G. (2024).
+            Independence weights for causal inference with continuous treatments. <br>
+            <journal>Journal of the American Statistical Association</journal>, 119(546):1657-1670.
+            <br>
+          <a href="https://arxiv.org/abs/2107.07086">[arxiv:2107.07086]</a> |
+          <a class="codelink" href="https://github.com/jaredhuling/independenceWeights">[code]</a> |
+          <a class="codelink" href="https://cran.r-project.org/web/packages/independenceWeights/index.html">[CRAN]</a> |
+          doi: <a href="https://doi.org/10.1080/01621459.2023.2213485">10.1080/01621459.2023.2213485</a>
+        </p>
 
         <p class="bibliography">
-          <author>Huling, J.D.</author> and Mak, S. (2023).
+          <author>Huling, J.D.</author> and Mak, S. (2024).
             Energy Balancing of covariate distributions. <br>
             <journal>Journal of Causal Inference</journal>, to appear. <br>
           <a href="https://arxiv.org/abs/2004.13962">[arxiv:2004.13962]</a> |
@@ -104,17 +114,6 @@ years: [2018, 2017, 2016]
             <br>
             <a href="https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/54267?confirm=40d2968b">[pdf]</a> |
             doi: <a href="http://dx.doi.org/10.1214/23-AOAS1767">10.1214/23-AOAS1767</a>
-        </p>
-      
-        <p class="bibliography">
-          <author>Huling, J.D.</author>, Greifer, N., and Chen, G. (2023).
-            Independence weights for causal inference with continuous treatments. <br>
-            <journal>Journal of the American Statistical Association</journal>, to appear.
-            <br>
-          <a href="https://arxiv.org/abs/2107.07086">[arxiv:2107.07086]</a> |
-          <a class="codelink" href="https://github.com/jaredhuling/independenceWeights">[code]</a> |
-          <a class="codelink" href="https://cran.r-project.org/web/packages/independenceWeights/index.html">[CRAN]</a> |
-          doi: <a href="https://doi.org/10.1080/01621459.2023.2213485">10.1080/01621459.2023.2213485</a>
         </p>
         
          <p class="bibliography">
