@@ -75,6 +75,12 @@ years: [2018, 2017, 2016]
 
 
         <p class="bibliography">
+          Lee, J, <author>Huling, J.D.</author>, and Chen, G. (2024).
+            An effective framework for estimating individualized treatment rules with multi-category treatments. <br>
+            <journal>NeurIPS</journal>, to appear.
+        </p>
+        
+        <p class="bibliography">
           <author>Huling, J.D.</author>, Greifer, N., and Chen, G. (2024).
             Independence weights for causal inference with continuous treatments. <br>
             <journal>Journal of the American Statistical Association</journal>, 119(546):1657-1670.
