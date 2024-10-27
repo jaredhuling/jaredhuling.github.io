@@ -81,6 +81,13 @@ years: [2018, 2017, 2016]
         </p>
         
         <p class="bibliography">
+          Rott, K.W., Clark, J.M., Murad, M.H., Hodges, J.S., and <author>Huling, J.D.</author> (2024).
+            Causally interpretable meta-analysis combining aggregate and individual participant data. <br>
+            <journal>American Journal of Epidemiology</journal>, to appear.
+            doi: <a href="https://doi.org/10.1093/aje/kwae371">10.1093/aje/kwae371</a>
+        </p>
+        
+        <p class="bibliography">
           <author>Huling, J.D.</author>, Greifer, N., and Chen, G. (2024).
             Independence weights for causal inference with continuous treatments. <br>
             <journal>Journal of the American Statistical Association</journal>, 119(546):1657-1670.
