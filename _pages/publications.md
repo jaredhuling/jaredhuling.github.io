@@ -41,12 +41,6 @@ years: [2018, 2017, 2016]
             Counterfactual fairness for small subgroups. <br>
           <a href="https://arxiv.org/abs/2310.19988">[arxiv:2310.19988]</a>
       </p>
-
-        <p class="bibliography">
-          Jiang, Z. and <author>Huling, J.D.</author>. (2023+).
-            Enhancing modified treatment policy effect estimation with weighted energy distance. <br>
-          <a href="https://arxiv.org/abs/2310.11620">[arxiv:2310.11620]</a> | [Distinguished Student Paper Award of the International Biometrics Society, ENAR Region, 2024]
-        </p>
         
         <p class="bibliography">
           Clark, J.M., Rott, K.W., Hodges, J.S., and <author>Huling, J.D.</author>. (2023+).
@@ -73,6 +67,12 @@ years: [2018, 2017, 2016]
     <div class="row">
       <div class="twelve columns">
 
+        <p class="bibliography">
+          Jiang, Z. and <author>Huling, J.D.</author>. (2023+).
+            Enhancing modified treatment policy effect estimation with weighted energy distance. <br>
+            <journal>Annals of Applied Statistics</journal>, to appear.
+          <a href="https://arxiv.org/abs/2310.11620">[arxiv:2310.11620]</a> | [Distinguished Student Paper Award of the International Biometrics Society, ENAR Region, 2024]
+        </p>
 
         <p class="bibliography">
           Lee, J, <author>Huling, J.D.</author>, and Chen, G. (2024).
