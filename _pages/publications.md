@@ -25,6 +25,12 @@ years: [2018, 2017, 2016]
       <div class="twelve columns">
 
         <p class="bibliography">
+          Wang, W., Bailey, A., Tignanelli, C. <author>Huling, J.D.</author>, (2025+).
+            Heterogeneity-Aware Regression with Nonparametric Estimation and Structured Selection for Hospital Readmission Prediction. <br>
+          <a href="https://arxiv.org/abs/2507.06388">[arxiv:2507.06388]</a>
+        </p>
+
+        <p class="bibliography">
           Barnard, M., <author>Huling, J.D.</author>, and Wolfson, J. (2024+).
             A Unified Framework for Causal Estimand Selection. <br>
           <a href="https://arxiv.org/abs/2410.12093">[arxiv:2410.12093]</a>
