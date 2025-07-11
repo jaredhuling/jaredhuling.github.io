@@ -2,9 +2,7 @@
 layout: about
 permalink: /
 title: Jared D. Huling
-description: <a href="https://directory.sph.umn.edu/bio/sph-a-z/jared-huling">Associate Professor</a> <br>
-<a href="https://scholarswalk.umn.edu/university-awards/mcknight-presidential-fellows/jared-huling">McKnight Presidential Fellow</a> <br>
-<a href="https://www.sph.umn.edu/academics/divisions/biostatistics/">Division of Biostatistics and Health Data Science</a> <br> <a href = "https://twin-cities.umn.edu/"> University of Minnesota School of Public Health</a>
+description: <a href="https://directory.sph.umn.edu/bio/sph-a-z/jared-huling">Associate Professor</a> <br> <a href="https://scholarswalk.umn.edu/university-awards/mcknight-presidential-fellows/jared-huling">McKnight Presidential Fellow</a> <br> <a href="https://www.sph.umn.edu/academics/divisions/biostatistics/">Division of Biostatistics and Health Data Science</a> <br> <a href = "https://twin-cities.umn.edu/"> University of Minnesota School of Public Health</a>
 
 profile:
   align: right
