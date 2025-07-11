@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_img.jpg
   address: >
-    <p>Office: A428, Mayo Building</p>
+    <p>Office: University Office Plaza</p>
     <p></p>
     <p>Email:</p>
 
