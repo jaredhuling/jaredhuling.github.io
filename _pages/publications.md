@@ -23,6 +23,16 @@ years: [2018, 2017, 2016]
   <div class="container-fluid">
     <div class="row">
       <div class="twelve columns">
+      
+      
+      
+
+        <p class="bibliography">
+          Jiang, Z., Crooke, P.S., Marini, J.J. <author>Huling, J.D.</author>, (2025+).
+            Exploring the effects of mechanical ventilator settings with modified vector-valued treatment policies. <br>
+          <a href="https://arxiv.org/abs/2507.09809">[arxiv:2507.09809]</a>
+        </p>
+
 
         <p class="bibliography">
           Wang, W., Bailey, A., Tignanelli, C. <author>Huling, J.D.</author>, (2025+).
