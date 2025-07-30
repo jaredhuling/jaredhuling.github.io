@@ -8,6 +8,8 @@ description:
 <ul>
 
   
+  <li>  <a>UMN - PubH 8412 - Advanced Statistical Inference</a> (on Canvas), 2025 </li>
+  
   <li>  <a>UMN - PubH 8485 - Advanced Causal Inference</a> (on Canvas), 2024 </li>
   
   <li>  <a>UMN - PubH 7401 - Fundamentals of Biostatistical Inference</a> (on Canvas), 2023 </li>
