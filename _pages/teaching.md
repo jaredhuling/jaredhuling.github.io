@@ -7,7 +7,12 @@ description:
 
 <ul>
 
-  <li>  <a>UMN - PubH 7406 - Biostatistical Inference II</a> (on Canvas), 2022 </li>
+  
+  <li>  <a>UMN - PubH 8485 - Advanced Causal Inference</a> (on Canvas), 2024 </li>
+  
+  <li>  <a>UMN - PubH 7401 - Fundamentals of Biostatistical Inference</a> (on Canvas), 2023 </li>
+
+  <li>  <a>UMN - PubH 7406 - Biostatistical Inference II</a> (on Canvas), 2022, 2023 </li>
   
   <li>  <a>UMN - PubH 7406 - Advanced Regression and Design</a> (on Canvas), 2021 </li>
 
