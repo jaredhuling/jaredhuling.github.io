@@ -8,7 +8,7 @@ description:
 
   <div class="docs-section">
 
-    <div class="four columns">
+    <div class="eight columns">
 
         <p align="left">
           <a href="../vita/cv.pdf" class="button">CV [pdf]</a>
@@ -18,9 +18,6 @@ description:
             Last updated 07/28/2025
         </p>
 
-    </div>
-    
-    <div class="four columns">
     </div>
   
     <div class="four columns" align = "right">
