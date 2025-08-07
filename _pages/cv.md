@@ -23,7 +23,7 @@ description:
     <div class="four columns">
     </div>
   
-    <div class="four columns">
+    <div class="four columns" align = "right">
 
         <p align="right">
           <a href="https://scholar.google.com/citations?hl=en&user=2-MWWU4AAAAJ&view_op=list_works&sortby=pubdate" class="button">Google Scholar</a>
