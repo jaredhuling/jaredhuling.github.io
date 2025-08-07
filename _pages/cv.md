@@ -19,6 +19,9 @@ description:
         </p>
 
     </div>
+    
+    <div class="four columns">
+    </div>
   
     <div class="four columns">
 
@@ -30,10 +33,6 @@ description:
     
     
 
-  </div>
-  
-  <div class="docs-section">
-  </div>
   
   
 
