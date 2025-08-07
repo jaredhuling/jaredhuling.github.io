@@ -9,13 +9,13 @@ description:
   <div class="docs-section">
 
     <div class="row">
-    
-        <p>
-            <a> Last updated 07/28/2025 </a>.
-        </p>
 
         <p align="left">
           <a href="../vita/cv.pdf" class="button">CV [pdf]</a>
+        </p>
+
+        <p>
+            Last updated 07/28/2025
         </p>
 
     </div>
