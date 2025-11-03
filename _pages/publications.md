@@ -26,7 +26,7 @@ years: [2018, 2017, 2016]
       
       
         <p class="bibliography">
-          Barnard, M., <author>Huling, J.D.</author>, and Wolfson, J. (2024+).
+          Barnard, M., <author>Huling, J.D.</author>, and Wolfson, J. (2025+).
             Partially Retargeted Balancing Weights for Causal Effect Estimation Under Positivity Violations. <br>
           <a href="https://arxiv.org/abs/2510.22072">[arxiv:2510.22072]</a>
         </p>
