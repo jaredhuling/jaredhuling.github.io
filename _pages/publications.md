@@ -85,7 +85,7 @@ years: [2018, 2017, 2016]
       <p class="bibliography">
           Wastvedt, S., <author>Huling, J.D.</author>, and Wolfson, J. (2025).
             Counterfactual fairness for small subgroups. <br>
-            <journal>Biostatistics</journal>, to appear.
+            <journal>Biostatistics</journal>, to appear. |
           <a href="https://arxiv.org/abs/2310.19988">[arxiv:2310.19988]</a>
       </p>
 
@@ -96,19 +96,21 @@ years: [2018, 2017, 2016]
           <a href="https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/65651?confirm=779b2c15">[pdf]</a> |
           <a href="https://arxiv.org/abs/2310.11620">[arxiv:2310.11620]</a> | [Distinguished Student Paper Award of the International Biometrics Society, ENAR Region, 2024]
         </p>
+        
+        <p class="bibliography">
+          Rott, K.W., Clark, J.M., Murad, M.H., Hodges, J.S., and <author>Huling, J.D.</author> (2025).
+            Causally interpretable meta-analysis combining aggregate and individual participant data. <br>
+            <journal>American Journal of Epidemiology</journal>, 194(7):2060–2068.
+            doi: <a href="https://doi.org/10.1093/aje/kwae371">10.1093/aje/kwae371</a>
+        </p>
 
         <p class="bibliography">
           Lee, J, <author>Huling, J.D.</author>, and Chen, G. (2024).
             An effective framework for estimating individualized treatment rules with multi-category treatments. <br>
-            <journal>NeurIPS</journal>, to appear.
+            <journal>NeurIPS</journal>. | 
+            doi: <a href="https://doi.org/10.52202/079017-0270">10.52202/079017-0270</a>
         </p>
         
-        <p class="bibliography">
-          Rott, K.W., Clark, J.M., Murad, M.H., Hodges, J.S., and <author>Huling, J.D.</author> (2024).
-            Causally interpretable meta-analysis combining aggregate and individual participant data. <br>
-            <journal>American Journal of Epidemiology</journal>, to appear.
-            doi: <a href="https://doi.org/10.1093/aje/kwae371">10.1093/aje/kwae371</a>
-        </p>
         
         <p class="bibliography">
           <author>Huling, J.D.</author>, Greifer, N., and Chen, G. (2024).
@@ -131,9 +133,9 @@ years: [2018, 2017, 2016]
         </p>
 
       <p class="bibliography">
-          Wastvedt, S., <author>Huling, J.D.</author>, and Wolfson, J. (2023).
+          Wastvedt, S., <author>Huling, J.D.</author>, and Wolfson, J. (2024).
             An intersectional framework for counterfactual fairness in risk prediction. <br>
-          <journal>Biostatistics</journal>, to appear. <br>
+          <journal>Biostatistics</journal>, 25(3):702–717. <br>
           <a href="https://arxiv.org/abs/2210.01194">[arxiv:2210.01194]</a> | 
           <a class="codelink" href="https://github.com/swastvedt/faircfint">[code]</a> | doi: <a href="https://doi.org/10.1093/biostatistics/kxad021">10.1093/biostatistics/kxad021</a>
       </p>
