@@ -28,7 +28,7 @@ years: [2018, 2017, 2016]
         <p class="bibliography">
           Barnard, M., <author>Huling, J.D.</author>, and Wolfson, J. (2025+).
             Partially Retargeted Balancing Weights for Causal Effect Estimation Under Positivity Violations. <br>
-          <a href="https://arxiv.org/abs/2510.22072">[arxiv:2510.22072]</a> | | [Distinguished Student Paper Award of the International Biometrics Society, ENAR Region, 2026]
+          <a href="https://arxiv.org/abs/2510.22072">[arxiv:2510.22072]</a> | [<journal>Distinguished Student Paper Award of the International Biometrics Society, ENAR Region, 2026</journal>]
         </p>
 
         <p class="bibliography">
@@ -94,14 +94,14 @@ years: [2018, 2017, 2016]
             Modified treatment policy effect estimation with weighted energy distance. <br>
             <journal>The Annals of Applied Statistics</journal>, to appear.
           <a href="https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/65651?confirm=779b2c15">[pdf]</a> |
-          <a href="https://arxiv.org/abs/2310.11620">[arxiv:2310.11620]</a> | [Distinguished Student Paper Award of the International Biometrics Society, ENAR Region, 2024]
+          <a href="https://arxiv.org/abs/2310.11620">[arxiv:2310.11620]</a> | [<journal>Distinguished Student Paper Award of the International Biometrics Society, ENAR Region, 2024</journal>]
         </p>
         
         <p class="bibliography">
           Rott, K.W., Clark, J.M., Murad, M.H., Hodges, J.S., and <author>Huling, J.D.</author> (2025).
             Causally interpretable meta-analysis combining aggregate and individual participant data. <br>
             <journal>American Journal of Epidemiology</journal>, 194(7):2060–2068.
-            doi: <a href="https://doi.org/10.1093/aje/kwae371">10.1093/aje/kwae371</a> | [Distinguished Student Paper Award of the International Biometrics Society, ENAR Region, 2024]
+            doi: <a href="https://doi.org/10.1093/aje/kwae371">10.1093/aje/kwae371</a> | [<journal>Distinguished Student Paper Award of the International Biometrics Society, ENAR Region, 2024</journal>]
         </p>
 
         <p class="bibliography">
