@@ -90,9 +90,9 @@ years: [2018, 2017, 2016]
       </p>
 
         <p class="bibliography">
-          Jiang, Z. and <author>Huling, J.D.</author>. (2023+).
+          Jiang, Z. and <author>Huling, J.D.</author>. (2025).
             Modified treatment policy effect estimation with weighted energy distance. <br>
-            <journal>The Annals of Applied Statistics</journal>, to appear.
+            <journal>The Annals of Applied Statistics</journal>, 19(4):2555-2577.
           <a href="https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/65651?confirm=779b2c15">[pdf]</a> |
           <a href="https://arxiv.org/abs/2310.11620">[arxiv:2310.11620]</a> | [<journal>Distinguished Student Paper Award of the International Biometrics Society, ENAR Region, 2024</journal>]
         </p>
