@@ -15,7 +15,7 @@ description:
         </p>
 
         <p>
-            Last updated 07/28/2025
+            Last updated 01/01/2026
         </p>
 
     </div>
