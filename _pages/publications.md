@@ -45,12 +45,6 @@ years: [2018, 2017, 2016]
         </p>
 
         <p class="bibliography">
-          Barnard, M., <author>Huling, J.D.</author>, and Wolfson, J. (2024+).
-            A Unified Framework for Causal Estimand Selection. <br>
-          <a href="https://arxiv.org/abs/2410.12093">[arxiv:2410.12093]</a>
-        </p>
-
-        <p class="bibliography">
           Clark, J.M., Rott, K.W., Hodges, J.S., and <author>Huling, J.D.</author>. (2024+).
             Transportability of Principal Causal Effects. <br>
           <a href="https://arxiv.org/abs/2405.04419">[arxiv:2405.04419]</a>
@@ -81,6 +75,13 @@ years: [2018, 2017, 2016]
     <div class="row">
       <div class="twelve columns">
 
+      
+        <p class="bibliography">
+          Barnard, M., <author>Huling, J.D.</author>, and Wolfson, J. (2026).
+            A Framework for Causal Estimand Selection Under Positivity Violations. <br>
+            <journal>Biometrics</journal>, to appear. |
+          <a href="https://arxiv.org/abs/2410.12093">[arxiv:2410.12093]</a>
+        </p>
 
       <p class="bibliography">
           Wastvedt, S., <author>Huling, J.D.</author>, and Wolfson, J. (2025).
