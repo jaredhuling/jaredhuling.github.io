@@ -24,6 +24,11 @@ years: [2018, 2017, 2016]
     <div class="row">
       <div class="twelve columns">
       
+        <p class="bibliography">
+          Jiang, Z., Cui, E., <author>Huling, J.D.</author>, (2026+).
+            Estimating causal effects of functional treatments with modified functional treatment policies. <br>
+          <a href="https://arxiv.org/abs/2602.09145">[arxiv:2602.09145]</a>
+        </p>
       
         <p class="bibliography">
           Barnard, M., <author>Huling, J.D.</author>, and Wolfson, J. (2025+).
@@ -32,7 +37,7 @@ years: [2018, 2017, 2016]
         </p>
 
         <p class="bibliography">
-          Jiang, Z., Crooke, P.S., Marini, J.J. <author>Huling, J.D.</author>, (2025+).
+          Jiang, Z., Crooke, P.S., Marini, J.J., <author>Huling, J.D.</author>, (2025+).
             Exploring the effects of mechanical ventilator settings with modified vector-valued treatment policies. <br>
           <a href="https://arxiv.org/abs/2507.09809">[arxiv:2507.09809]</a>
         </p>
