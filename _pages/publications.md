@@ -92,7 +92,7 @@ years: [2018, 2017, 2016]
             A Framework for Causal Estimand Selection Under Positivity Violations. <br>
             <journal>Biometrics</journal>, to appear. |
           <a href="https://arxiv.org/abs/2410.12093">[arxiv:2410.12093]</a> |
-          doi <a href="https://doi.org/10.1093/biomtc/ujag014">10.1093/biomtc/ujag014</a>
+          doi: <a href="https://doi.org/10.1093/biomtc/ujag014">10.1093/biomtc/ujag014</a>
         </p>
 
       <p class="bibliography">
