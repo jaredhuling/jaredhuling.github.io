@@ -99,7 +99,8 @@ years: [2018, 2017, 2016]
           Wastvedt, S., <author>Huling, J.D.</author>, and Wolfson, J. (2025).
             Counterfactual fairness for small subgroups. <br>
             <journal>Biostatistics</journal>, to appear. |
-          <a href="https://arxiv.org/abs/2310.19988">[arxiv:2310.19988]</a>
+          <a href="https://arxiv.org/abs/2310.19988">[arxiv:2310.19988]</a> | 
+          doi: <a href="https://doi.org/10.1093/biostatistics/kxaf046">10.1093/biostatistics/kxaf046</a>
       </p>
 
         <p class="bibliography">
