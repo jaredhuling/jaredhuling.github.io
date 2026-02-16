@@ -81,7 +81,7 @@ years: [2018, 2017, 2016]
       <div class="twelve columns">
 
         <p class="bibliography">
-          Doss, C.R. and <author>Huling, J.D.</author>(2026).
+          Doss, C.R. and <author>Huling, J.D.</author> (2026).
             Doss and Huling's contribution to the Discussion of ‘Augmented balancing weights as linear regression' by Bruns-Smith et al. <br>
             <journal>Journal of the Royal Statistical Society Series B: Statistical Methodology</journal>, qkag024. |
           doi: <a href="https://doi.org/10.1093/jrsssb/qkag024">10.1093/jrsssb/qkag024</a>
