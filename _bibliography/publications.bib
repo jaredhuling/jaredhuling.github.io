@@ -1,71 +1,366 @@
 ---
 ---
 
-@article{xiong16orthogonalizing,
-  author = "Shifeng Xiong and Bin Dai and \textbf{Jared Huling} and Peter Z. G. Qian",
-  title = {Orthogonalizing {EM}: A Design-Based Least Squares Algorithm},
-  journal = {Technometrics},
-  volume = {58},
-  number = {3},
-  pages = {285--293},
-  year = {2016}
+%% ============================================================
+%% Preprints
+%% ============================================================
+
+@unpublished{jiang26functional,
+  author    = {Jiang, Zhilan and Cui, Erjia and Huling, Jared D.},
+  title     = {Estimating causal effects of functional treatments with modified functional treatment policies},
+  year      = {2026},
+  note      = {Preprint},
+  arxiv     = {2602.09145},
+  keywords  = {causal-inference modified-treatment-policy}
 }
 
-@article{nie17accelerating,
-  author = "Nie, Xiao and \textbf{Jared Huling} and Qian, Peter Z. G.",
-  title = {Accelerating Large-scale Statistical Computation with the {GOEM} Algorithm},
-  journal = {Technometrics},
-  volume = {59},
-  number = {4},
-  pages = {416--425},
-  year = {2017}
+@unpublished{barnard25retargeted,
+  author    = {Barnard, Matthew and Huling, Jared D. and Wolfson, Julian},
+  title     = {Partially Retargeted Balancing Weights for Causal Effect Estimation Under Positivity Violations},
+  year      = {2025},
+  note      = {Preprint},
+  arxiv     = {2510.22072},
+  award     = {Distinguished Student Paper Award, ENAR 2026},
+  keywords  = {causal-inference weighting positivity treatment-heterogeneity}
 }
 
-@unpublished{huling18instrumental,
-  author = "\textbf{Jared D. Huling} and Yu, Menggang and O'Malley, A. James",
-  title = {Instrumental Variable Based Estimation Under the Semiparametric Accelerated Failure Time Model},
-  Note = {To appear in \textit{Biometrics}},
-  year = {2018+}
+@unpublished{jiang25ventilator,
+  author    = {Jiang, Zhilan and Crooke, Philip S. and Marini, John J. and Huling, Jared D.},
+  title     = {Exploring the effects of mechanical ventilator settings with modified vector-valued treatment policies},
+  year      = {2025},
+  note      = {Preprint},
+  arxiv     = {2507.09809},
+  keywords  = {causal-inference modified-treatment-policy health-systems}
+}
+
+@unpublished{wang25heterogeneity,
+  author    = {Wang, Wenxin and Bailey, Alyssa and Tignanelli, Christopher and Huling, Jared D.},
+  title     = {Heterogeneity-Aware Regression with Nonparametric Estimation and Structured Selection for Hospital Readmission Prediction},
+  year      = {2025},
+  note      = {Preprint},
+  arxiv     = {2507.06388},
+  keywords  = {health-systems treatment-heterogeneity high-dimensional}
+}
+
+@unpublished{clark24transportability,
+  author    = {Clark, Jonathan M. and Rott, Kara W. and Hodges, James S. and Huling, Jared D.},
+  title     = {Transportability of Principal Causal Effects},
+  year      = {2024},
+  note      = {Preprint},
+  arxiv     = {2405.04419},
+  keywords  = {causal-inference meta-analysis transportability}
+}
+
+@unpublished{clark23metaanalysis,
+  author    = {Clark, Jonathan M. and Rott, Kara W. and Hodges, James S. and Huling, Jared D.},
+  title     = {Causally-Interpretable Random-Effects Meta-Analysis},
+  year      = {2023},
+  note      = {Preprint},
+  arxiv     = {2302.03544},
+  keywords  = {causal-inference meta-analysis}
+}
+
+@unpublished{dai21twin,
+  author    = {Dai, Xiaowu and Huling, Jared D.},
+  title     = {Selection and estimation optimality in high dimensions with the {TWIN} penalty},
+  year      = {2021},
+  note      = {Preprint},
+  arxiv     = {1806.01936},
+  keywords  = {high-dimensional penalized-regression variable-selection}
+}
+
+%% ============================================================
+%% Published Articles
+%% ============================================================
+
+@article{doss26discussion,
+  author    = {Doss, Charles R. and Huling, Jared D.},
+  title     = {Doss and {Huling}'s contribution to the Discussion of `{Augmented} balancing weights as linear regression' by {Bruns-Smith} et al.},
+  journal   = {Journal of the Royal Statistical Society Series B: Statistical Methodology},
+  year      = {2026},
+  doi       = {10.1093/jrsssb/qkag024},
+  keywords  = {causal-inference weighting}
+}
+
+@article{barnard26estimand,
+  author    = {Barnard, Matthew and Huling, Jared D. and Wolfson, Julian},
+  title     = {A Framework for Causal Estimand Selection Under Positivity Violations},
+  journal   = {Biometrics},
+  year      = {2026},
+  doi       = {10.1093/biomtc/ujag014},
+  arxiv     = {2410.12093},
+  keywords  = {causal-inference weighting positivity treatment-heterogeneity}
+}
+
+@article{wastvedt25fairness,
+  author    = {Wastvedt, Solvieg and Huling, Jared D. and Wolfson, Julian},
+  title     = {Counterfactual fairness for small subgroups},
+  journal   = {Biostatistics},
+  year      = {2025},
+  doi       = {10.1093/biostatistics/kxaf046},
+  arxiv     = {2310.19988},
+  keywords  = {fairness causal-inference}
+}
+
+@article{jiang25modified,
+  author    = {Jiang, Zhilan and Huling, Jared D.},
+  title     = {Modified treatment policy effect estimation with weighted energy distance},
+  journal   = {The Annals of Applied Statistics},
+  volume    = {19},
+  number    = {4},
+  pages     = {2555--2577},
+  year      = {2025},
+  doi       = {10.1214/24-AOAS1991},
+  arxiv     = {2310.11620},
+  award     = {Distinguished Student Paper Award, ENAR 2024},
+  keywords  = {causal-inference modified-treatment-policy weighting}
+}
+
+@article{rott25causal,
+  author    = {Rott, Kara W. and Clark, Jonathan M. and Murad, M. Hassan and Hodges, James S. and Huling, Jared D.},
+  title     = {Causally interpretable meta-analysis combining aggregate and individual participant data},
+  journal   = {American Journal of Epidemiology},
+  volume    = {194},
+  number    = {7},
+  pages     = {2060--2068},
+  year      = {2025},
+  doi       = {10.1093/aje/kwae371},
+  award     = {Distinguished Student Paper Award, ENAR 2024},
+  keywords  = {causal-inference meta-analysis}
+}
+
+@article{lee24framework,
+  author    = {Lee, Jeonghwan and Huling, Jared D. and Chen, Guanhua},
+  title     = {An effective framework for estimating individualized treatment rules with multi-category treatments},
+  journal   = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2024},
+  doi       = {10.52202/079017-0270},
+  keywords  = {precision-medicine individualized-treatment-rules machine-learning}
+}
+
+@article{huling24independence,
+  author    = {Huling, Jared D. and Greifer, Noah and Chen, Guanhua},
+  title     = {Independence weights for causal inference with continuous treatments},
+  journal   = {Journal of the American Statistical Association},
+  volume    = {119},
+  number    = {546},
+  pages     = {1657--1670},
+  year      = {2024},
+  doi       = {10.1080/01621459.2023.2213485},
+  arxiv     = {2107.07086},
+  code      = {https://github.com/jaredhuling/independenceWeights},
+  cran      = {https://cran.r-project.org/web/packages/independenceWeights/index.html},
+  keywords  = {causal-inference weighting continuous-treatments}
+}
+
+@article{huling24energy,
+  author    = {Huling, Jared D. and Mak, Simon},
+  title     = {Energy balancing of covariate distributions},
+  journal   = {Journal of Causal Inference},
+  year      = {2024},
+  doi       = {10.1515/jci-2022-0029},
+  arxiv     = {2004.13962},
+  keywords  = {causal-inference weighting}
+}
+
+@article{wastvedt24intersectional,
+  author    = {Wastvedt, Solvieg and Huling, Jared D. and Wolfson, Julian},
+  title     = {An intersectional framework for counterfactual fairness in risk prediction},
+  journal   = {Biostatistics},
+  volume    = {25},
+  number    = {3},
+  pages     = {702--717},
+  year      = {2024},
+  doi       = {10.1093/biostatistics/kxad021},
+  arxiv     = {2210.01194},
+  code      = {https://github.com/swastvedt/faircfint},
+  keywords  = {fairness causal-inference}
+}
+
+@article{chen23robust,
+  author    = {Chen, Ruohong and Huling, Jared D. and Chen, Guanhua and Yu, Menggang},
+  title     = {Robust sample weighting to facilitate individualized treatment rule learning for a target population},
+  journal   = {Biometrika},
+  volume    = {111},
+  number    = {1},
+  pages     = {309--329},
+  year      = {2023},
+  doi       = {10.1093/biomet/asad038},
+  arxiv     = {2105.00581},
+  keywords  = {precision-medicine individualized-treatment-rules weighting causal-inference}
+}
+
+@article{maronge23reluctant,
+  author    = {Maronge, Jacob M. and Huling, Jared D. and Chen, Guanhua},
+  title     = {A reluctant additive model framework for interpretable nonlinear individualized treatment rules},
+  journal   = {The Annals of Applied Statistics},
+  volume    = {17},
+  number    = {4},
+  pages     = {3384--3402},
+  year      = {2023},
+  doi       = {10.1214/23-AOAS1767},
+  keywords  = {precision-medicine individualized-treatment-rules machine-learning}
+}
+
+@article{huling23doubly,
+  author    = {Huling, Jared D. and Lundine, Jennifer P. and Leonard, Julie C.},
+  title     = {Doubly structured sparsity for grouped multivariate responses with application to functional outcome score modeling},
+  journal   = {Statistics in Medicine},
+  volume    = {42},
+  number    = {15},
+  pages     = {2619--2636},
+  year      = {2023},
+  doi       = {10.1002/sim.9740},
+  arxiv     = {2302.11098},
+  code      = {https://github.com/jaredhuling/groupFusedMulti},
+  keywords  = {high-dimensional variable-selection health-systems}
+}
+
+@article{huling22dimension,
+  author    = {Huling, Jared D. and Yu, Menggang},
+  title     = {Sufficient dimension reduction for populations with structured heterogeneity},
+  journal   = {Biometrics},
+  volume    = {78},
+  number    = {4},
+  pages     = {1626--1638},
+  year      = {2022},
+  doi       = {10.1111/biom.13546},
+  arxiv     = {2212.12394},
+  code      = {https://github.com/jaredhuling/hierSDR},
+  cran      = {https://cran.r-project.org/web/packages/hierSDR/index.html},
+  keywords  = {treatment-heterogeneity high-dimensional}
+}
+
+@article{cheng22meta,
+  author    = {Cheng, Justin J. and Huling, Jared D. and Chen, Guanhua},
+  title     = {Meta-analysis of individualized treatment rules via sign-coherency},
+  journal   = {Machine Learning for Health (ML4H), PMLR},
+  volume    = {193},
+  pages     = {171--198},
+  year      = {2022},
+  html      = {https://proceedings.mlr.press/v193/cheng22a.html},
+  code      = {https://github.com/jay-jojo-cheng/metacoop},
+  keywords  = {precision-medicine individualized-treatment-rules meta-analysis}
+}
+
+@article{huling22oem,
+  author    = {Huling, Jared D. and Chien, Peter},
+  title     = {Fast penalized regression and cross validation for tall data with the \texttt{oem} package},
+  journal   = {Journal of Statistical Software},
+  volume    = {104},
+  number    = {6},
+  pages     = {1--24},
+  year      = {2022},
+  doi       = {10.18637/jss.v104.i06},
+  arxiv     = {1801.09661},
+  code      = {https://github.com/jaredhuling/oem},
+  cran      = {https://cran.r-project.org/web/packages/oem/index.html},
+  keywords  = {computational-statistics penalized-regression high-dimensional software}
+}
+
+@article{huling21personalized,
+  author    = {Huling, Jared D. and Yu, Menggang},
+  title     = {Subgroup identification using the \texttt{personalized} package},
+  journal   = {Journal of Statistical Software},
+  volume    = {98},
+  number    = {5},
+  pages     = {1--60},
+  year      = {2021},
+  doi       = {10.18637/jss.v098.i05},
+  code      = {https://github.com/jaredhuling/personalized},
+  cran      = {https://cran.r-project.org/web/packages/personalized/index.html},
+  keywords  = {precision-medicine individualized-treatment-rules software}
+}
+
+@article{yu21diagnosis,
+  author    = {Yu, Menggang and Kuang, Changliang and Huling, Jared D. and Smith, Maureen A.},
+  title     = {Diagnosis-group-specific transitional care program recommendations for thirty-day rehospitalization reduction},
+  journal   = {The Annals of Applied Statistics},
+  volume    = {15},
+  number    = {3},
+  pages     = {1478--1498},
+  year      = {2021},
+  doi       = {10.1214/21-AOAS1473},
+  code      = {https://github.com/jaredhuling/mpersonalized},
+  keywords  = {precision-medicine individualized-treatment-rules health-systems}
+}
+
+@article{huling21twopart,
+  author    = {Huling, Jared D. and Smith, Maureen A. and Chen, Guanhua},
+  title     = {A two-part framework for estimating individualized treatment rules from semi-continuous outcomes},
+  journal   = {Journal of the American Statistical Association},
+  volume    = {116},
+  number    = {533},
+  pages     = {210--223},
+  year      = {2021},
+  doi       = {10.1080/01621459.2020.1801449},
+  code      = {https://github.com/jaredhuling/personalized2part},
+  cran      = {https://cran.r-project.org/web/packages/personalized2part/index.html},
+  keywords  = {precision-medicine individualized-treatment-rules health-systems}
+}
+
+@article{huling19instrumental,
+  author    = {Huling, Jared D. and Yu, Menggang and O'Malley, A. James},
+  title     = {Instrumental variable based estimation under the semiparametric accelerated failure time model},
+  journal   = {Biometrics},
+  volume    = {75},
+  number    = {2},
+  pages     = {516--527},
+  year      = {2019},
+  doi       = {10.1111/biom.12985},
+  code      = {https://github.com/jaredhuling/aftiv},
+  keywords  = {causal-inference survival-analysis instrumental-variables}
+}
+
+@article{huling19fused,
+  author    = {Huling, Jared D. and Yu, Menggang and Smith, Maureen A.},
+  title     = {Fused comparative intervention scoring for heterogeneity of longitudinal intervention effects},
+  journal   = {The Annals of Applied Statistics},
+  volume    = {13},
+  number    = {2},
+  pages     = {824--847},
+  year      = {2019},
+  doi       = {10.1214/18-AOAS1216},
+  code      = {https://github.com/jaredhuling/personalizedLong},
+  keywords  = {precision-medicine individualized-treatment-rules treatment-heterogeneity health-systems}
 }
 
 @article{huling18risk,
-  author = "\textbf{Jared D. Huling} and Yu, Menggang and Liang, Muxuan and Smith, Maureen",
-  title = "Risk Prediction for Heterogeneous Populations with Application to Hospital Admission Prediction",
-  journal={Biometrics},
-  volume={74},
-  number={2},
-  pages={557--565},
-  year={2018},
-  publisher={Wiley Online Library}
- }
+  author    = {Huling, Jared D. and Yu, Menggang and Liang, Muxuan and Smith, Maureen A.},
+  title     = {Risk prediction for heterogeneous populations with application to hospital admission prediction},
+  journal   = {Biometrics},
+  volume    = {74},
+  number    = {2},
+  pages     = {557--565},
+  year      = {2018},
+  doi       = {10.1111/biom.12769},
+  code      = {https://github.com/jaredhuling/vennLasso},
+  cran      = {https://cran.r-project.org/web/packages/vennLasso/index.html},
+  keywords  = {treatment-heterogeneity health-systems high-dimensional}
+}
 
- @unpublished{dai18selection,
-   author = "Xiaowu Dai and \textbf{Jared D. Huling}",
-   title = "Selection and Estimation Optimality in High Dimensions with the {TWIN} Penalty",
-   Note  = {Submitted},
-   url = {https://arxiv.org/abs/1806.01936},
-   year = {2018+}
-  }
+@article{nie17goem,
+  author    = {Nie, Xiao and Huling, Jared D. and Qian, Peter Z. G.},
+  title     = {Accelerating large-scale statistical computation with the {GOEM} algorithm},
+  journal   = {Technometrics},
+  volume    = {59},
+  number    = {4},
+  pages     = {416--425},
+  year      = {2017},
+  doi       = {10.1080/00401706.2016.1256840},
+  keywords  = {computational-statistics}
+}
 
- @unpublished{huling18fused,
-   author = "\textbf{Jared D. Huling} and Yu, Menggang and Smith, Maureen",
-   title = "Fused Comparative Intervention Scoring for Heterogeneity of Longitudinal Intervention Effects",
-   Note  = {To appear in the \textit{Annals of Applied Statistics}},
-   year = {2018+}
-  }
-
-    @unpublished{huling18fast,
-      author = "\textbf{Jared D. Huling} and Peter Z. G. Qian",
-      title = "Fast Penalized Regression and Cross Validation for Tall Data with the \texttt{oem} Package",
-      Note  = {{To appear} in the \textit{Journal of Statistical Software}},
-      url = {https://arxiv.org/abs/1801.09661},
-      year = {2018+}
-     }
-     
-     @unpublished{huling18subgroup,
-      author = "\textbf{Jared D. Huling} and Menggang Yu",
-      title = "Subgroup Identification Using the \texttt{personalized} Package",
-      Note  = {Submitted},
-      url = {https://arxiv.org/abs/1809.07905},
-      year = {2018+}
-     }
+@article{xiong16orthogonalizing,
+  author    = {Xiong, Shifeng and Dai, Bin and Huling, Jared D. and Qian, Peter Z. G.},
+  title     = {Orthogonalizing {EM}: A design-based least squares algorithm},
+  journal   = {Technometrics},
+  volume    = {58},
+  number    = {3},
+  pages     = {285--293},
+  year      = {2016},
+  doi       = {10.1080/00401706.2015.1054436},
+  code      = {https://github.com/jaredhuling/oem},
+  cran      = {https://cran.r-project.org/web/packages/oem/index.html},
+  keywords  = {computational-statistics penalized-regression software}
+}

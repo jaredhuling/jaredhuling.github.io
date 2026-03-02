@@ -3,52 +3,51 @@ layout: default
 ---
 
 <div class="post">
-    
-      <header class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
-        <h4 class="post-description">{{ page.description }}</h4>
-      </header>
-    
-      <article class="post-content {{page.title}} clearfix">
-  
-        <div class="docs-section">
-          
-          <div class="row">
-              
-              {% if page.profile %}
-              <div class="three columns profile {{ page.profile.align }}">
-                <!-- <div class="profile col one {{ page.profile.align }}"> -->
-                  {% if page.profile.image %}
-                    <img class="one" src="{{ page.profile.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
-                  {% endif %}
-                  {% if page.profile.address %}
-                    <div class="address">
-                      {{ page.profile.address }}
-                    </div>
-                    <div class="address">
-                      <script type="text/javascript"> 
-                          generator('hu' + 'li' +  'ng', 'umn', 'u', 'd', 'e');
-                      </script>
-                    </div>
-                  {% endif %}
-                <!-- </div>  -->
-              </div>
-              {% endif %}
-              
-        
-              <div class = "seven columns">
-                  {{ content }}
-              </div>
+
+  <article class="post-content clearfix">
+
+    <div class="profile-section">
+
+      <div class="profile-info">
+        <h1 class="profile-name">{{ page.title }}</h1>
+
+        {% if page.description %}
+        <div class="profile-title">{{ page.description }}</div>
+        {% endif %}
+
+        <div class="profile-bio">
+          {{ content }}
+        </div>
+
+        {% if page.profile.address %}
+        <div class="profile-contact">
+          {{ page.profile.address }}
+          <div>
+            <script type="text/javascript">
+              generator('hu' + 'li' + 'ng', 'umn', 'u', 'd', 'e');
+            </script>
           </div>
         </div>
-      </article>
+        {% endif %}
+      </div>
 
-      {% if page.news %}
-        {% include news.html %}
+      {% if page.profile and page.profile.image %}
+      <div class="profile-image">
+        <img src="{{ page.profile.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}"
+             alt="{{ page.title }}">
+      </div>
       {% endif %}
-    
-      {% if page.social %}
-        {% include social.html %}
-      {% endif %}
-    
+
+    </div>
+
+    {% if page.news %}
+      {% include news.html %}
+    {% endif %}
+
+    {% if page.social %}
+      {% include social.html %}
+    {% endif %}
+
+  </article>
+
 </div>
