@@ -11,7 +11,7 @@ permalink: /publications/
 <div class="pub-section pub-section--preprints">
 <h2 class="pub-section-header">Preprints</h2>
 
-{% bibliography --query @unpublished --group_by year --group_order descending %}
+{% bibliography --query @unpublished --sort_by year --order descending %}
 
 </div>
 
