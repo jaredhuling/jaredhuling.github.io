@@ -691,9 +691,10 @@ author { font-weight: 600; }
   flex-wrap: wrap;
 
   img {
-    height: 20px;
+    height: 16px;
     vertical-align: middle;
     display: inline-block;
+    opacity: 0.85;
   }
 }
 

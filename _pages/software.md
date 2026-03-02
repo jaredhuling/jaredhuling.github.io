@@ -4,9 +4,6 @@ title: Software
 permalink: /software/
 ---
 
-<div class="pub-section">
-<h2 class="pub-section-header">CRAN Packages</h2>
-
 <div class="software-list">
 
   <div class="software-entry">
@@ -125,13 +122,6 @@ permalink: /software/
     </div>
   </div>
 
-</div>
-</div>
-
-<div class="pub-section">
-<h2 class="pub-section-header">Packages in Development</h2>
-
-<div class="software-list">
 
   <div class="software-entry">
     <div class="software-img">
@@ -182,5 +172,4 @@ permalink: /software/
     </div>
   </div>
 
-</div>
 </div>
