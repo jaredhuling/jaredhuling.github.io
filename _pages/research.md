@@ -41,8 +41,7 @@ balancing weights—a model-free method that directly minimizes distributional
 imbalance via energy distance, requiring no tuning parameters and no
 secondary modeling decisions—as well as independence weights for
 continuous-valued treatments, modified treatment policy estimators based on
-weighted energy distance, and partially retargeted weights for settings where
-standard estimands must be adapted due to positivity violations.</p>
+weighted energy distance, and more.</p>
 <div class="theme-publications">
 {% bibliography --query @*[keywords~=weighting] --sort_by year --order descending %}
 </div>
@@ -77,13 +76,13 @@ intervention effects.</p>
 <hr class="research-theme-divider">
 
 <div class="research-theme">
-<h2 class="research-theme-title">Evidence Synthesis &amp; Transportability; Data-Fusion</h2>
+<h2 class="research-theme-title">Evidence Synthesis, Transportability&amp; and Data-Fusion</h2>
 <p class="research-theme-desc">Methods for combining evidence across multiple studies while preserving
 causal interpretability. This includes causally interpretable random-effects
 meta-analysis, methods combining aggregate and individual participant data,
 and transportability of causal effects to target populations.</p>
 <div class="theme-publications">
-{% bibliography --query @*[keywords~=meta-analysis] --sort_by year --order descending %}
+{% bibliography --query @*[keywords~=meta-analysis || keywords~=transportability || keywords~=data-combining] --sort_by year --order descending %}
 </div>
 </div>
 
