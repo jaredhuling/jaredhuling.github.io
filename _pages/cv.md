@@ -9,7 +9,9 @@ title: CV
     <a href="/vita/cv.pdf" class="button" target="_blank">Download CV (PDF)</a>
     <a href="https://scholar.google.com/citations?hl=en&user=2-MWWU4AAAAJ&view_op=list_works&sortby=pubdate" class="button" target="_blank">Google Scholar</a>
   </div>
-  <p class="cv-updated">Last updated January 2026</p>
+  {% if site.data.cv_meta.last_updated %}
+  <p class="cv-updated">Last updated {{ site.data.cv_meta.last_updated }}</p>
+  {% endif %}
 </div>
 
 <div class="cv-preview-wrap">
