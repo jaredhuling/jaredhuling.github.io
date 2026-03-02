@@ -26,6 +26,31 @@ assumptions.</p>
 <hr class="research-theme-divider">
 
 <div class="research-theme">
+<h2 class="research-theme-title">Weighting Methods for Causal Inference</h2>
+<p class="research-theme-desc">A central challenge in observational studies is confounding: because
+treatment is not randomly assigned, differences in outcomes across treatment
+groups may reflect pre-existing differences in patient characteristics rather
+than true causal effects. Weighting methods address this by reweighting the
+observed sample so that covariate distributions are balanced across groups,
+enabling valid causal comparisons without parametric outcome modeling.
+Classical propensity score approaches, however, require careful modeling of
+the treatment assignment mechanism and can be sensitive to model
+misspecification. I develop weighting approaches that are flexible,
+user-friendly, and robust to complex confounding. This includes energy
+balancing weights—a model-free method that directly minimizes distributional
+imbalance via energy distance, requiring no tuning parameters and no
+secondary modeling decisions—as well as independence weights for
+continuous-valued treatments, modified treatment policy estimators based on
+weighted energy distance, and partially retargeted weights for settings where
+standard estimands must be adapted due to positivity violations.</p>
+<div class="theme-publications">
+{% bibliography --query @*[keywords~=weighting] --sort_by year --order descending %}
+</div>
+</div>
+
+<hr class="research-theme-divider">
+
+<div class="research-theme">
 <h2 class="research-theme-title">Precision Medicine &amp; Individualized Treatment Rules</h2>
 <p class="research-theme-desc">Statistical methods for personalizing treatment decisions based on individual
 patient characteristics. This includes estimation of optimal individualized
