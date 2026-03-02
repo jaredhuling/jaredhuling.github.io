@@ -48,10 +48,10 @@ weighted energy distance, and more.</p>
 <hr class="research-theme-divider">
 
 <div class="research-theme">
-<h2 class="research-theme-title">Precision Medicine &amp; Individualized Treatment Rules</h2>
+<h2 class="research-theme-title">Precision Medicine &amp; Heterogeneity of Treatment Effect</h2>
 <p class="research-theme-desc">Statistical methods for personalizing treatment decisions based on individual
-patient characteristics. This includes estimation of optimal individualized
-treatment rules, subgroup identification, and methods for complex outcome
+patient characteristics and understanding heterogeneity of treatment effect. This includes estimation of optimal individualized
+treatment rules, subgroup identification, and conditional average treatment effects. Includes methods for complex outcome
 types and multi-category treatments.</p>
 <div class="theme-publications">
 {% bibliography --query @*[keywords~=precision-medicine || keywords~=individualized-treatment-rules] --sort_by year --order descending %}
