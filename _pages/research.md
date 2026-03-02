@@ -52,7 +52,7 @@ weighted energy distance, and more.</p>
 <p class="research-theme-desc">Statistical methods for personalizing treatment decisions based on individual
 patient characteristics and understanding heterogeneity of treatment effect. This includes estimation of optimal individualized
 treatment rules, subgroup identification, and conditional average treatment effects. Includes methods for complex outcome
-types and multi-category treatments.</p>
+types, multi-category treatments, and high-dimensional data.</p>
 <div class="theme-publications">
 {% bibliography --query @*[keywords~=precision-medicine || keywords~=individualized-treatment-rules] --sort_by year --order descending %}
 </div>
