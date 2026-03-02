@@ -101,6 +101,8 @@ scholar:
   replace_strings: true
   join_strings:    true
 
+  bibliography_group_tag: h3
+
   details_dir:    bibliography
   details_layout: bibtex.html
   details_link:   Details
