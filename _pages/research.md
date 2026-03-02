@@ -76,13 +76,13 @@ and transportability of causal effects to target populations in the presence of 
 <hr class="research-theme-divider">
 
 <div class="research-theme">
-<h2 class="research-theme-title">Population Heterogeneity</h2>
+<h2 class="research-theme-title">Population Heterogeneity &amp; Risk Prediction</h2>
 <p class="research-theme-desc">Methods for modeling and leveraging population heterogeneity in statistical
-analyses. This work focuses on the development of statistical modeling approaches that tailor predictions and analyses 
+analyses and for clinical risk prediction. This work focuses on the development of statistical modeling approaches that tailor predictions and analyses 
 in the presence of population heterogeneity instead of one-size-fits-all modeling approaches.
 intervention effects.</p>
 <div class="theme-publications">
-{% bibliography --query @*[keywords~=population-heterogeneity] --sort_by year --order descending %}
+{% bibliography --query @*[keywords~=population-heterogeneity || keywords~=risk-prediction] --sort_by year --order descending %}
 </div>
 </div>
 
