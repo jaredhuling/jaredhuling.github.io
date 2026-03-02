@@ -163,7 +163,7 @@ hr {
   gap: 0.125rem;
 
   .page-link {
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
     font-weight: 400;
     color: var(--color-text-muted);
     text-decoration: none;
@@ -254,18 +254,6 @@ hr {
   margin-bottom: 1.25rem;
 }
 
-.profile-contact {
-  font-size: 0.875rem;
-  color: var(--color-text-muted);
-  margin-top: 0.75rem;
-
-  p { margin-bottom: 0.2rem; }
-
-  a {
-    color: var(--color-text-muted);
-    &:hover { color: var(--color-accent); }
-  }
-}
 
 .profile-image {
   flex: 0 0 170px;
@@ -275,6 +263,21 @@ hr {
     border-radius: var(--radius);
     display: block;
     border: 1px solid var(--color-border);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.13);
+  }
+
+  .profile-contact {
+    margin-top: 0.9rem;
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    line-height: 1.65;
+
+    p { margin-bottom: 0.15rem; }
+
+    a {
+      color: var(--color-text-muted);
+      &:hover { color: var(--color-accent); }
+    }
   }
 }
 
@@ -477,29 +480,77 @@ journal {
 author { font-weight: 600; }
 
 /* ============================================================
+   Publications page — section distinction
+   ============================================================ */
+.pub-section {
+  margin-bottom: 3.5rem;
+}
+
+.pub-section-header {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  padding: 0.55rem 1.1rem;
+  border-radius: var(--radius);
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+  display: block;
+}
+
+.pub-section--preprints .pub-section-header {
+  background: #fffbeb;
+  border-left: 4px solid #d97706;
+  color: #92400e;
+}
+
+.pub-section--published .pub-section-header {
+  background: var(--color-bg-accent);
+  border-left: 4px solid var(--color-accent);
+  color: var(--color-accent-hover);
+}
+
+/* ============================================================
    Research themes page
    ============================================================ */
 .research-theme {
-  margin-bottom: 3rem;
-  padding-bottom: 2.5rem;
-  border-bottom: 1px solid var(--color-border);
-
-  &:last-child { border-bottom: none; }
-
-  .bibliography { margin-top: 1rem; }
+  margin-bottom: 2.75rem;
+  padding-bottom: 0;
+  border: none;
 }
 
 .research-theme-title {
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  margin-top: 0;
+  padding-left: 0.9rem;
+  border-left: 4px solid var(--color-accent);
+  line-height: 1.3;
 }
 
 .research-theme-desc {
   font-size: 0.9375rem;
   color: var(--color-text-muted);
-  max-width: 44rem;
+  max-width: 48rem;
   margin-bottom: 0;
+  padding-left: 0.9rem;
+}
+
+.theme-publications {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  border-left: 2px solid var(--color-border);
+  margin-left: 0.4rem;
+
+  .bibliography li {
+    padding: 0.7rem 0;
+  }
+}
+
+.research-theme-divider {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 2.5rem 0;
 }
 
 /* ============================================================

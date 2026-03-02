@@ -18,7 +18,12 @@ layout: default
         <div class="profile-bio">
           {{ content }}
         </div>
+      </div>
 
+      {% if page.profile and page.profile.image %}
+      <div class="profile-image">
+        <img src="{{ page.profile.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}"
+             alt="{{ page.title }}">
         {% if page.profile.address %}
         <div class="profile-contact">
           {{ page.profile.address }}
@@ -29,12 +34,6 @@ layout: default
           </div>
         </div>
         {% endif %}
-      </div>
-
-      {% if page.profile and page.profile.image %}
-      <div class="profile-image">
-        <img src="{{ page.profile.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}"
-             alt="{{ page.title }}">
       </div>
       {% endif %}
 
