@@ -45,7 +45,7 @@ analyses. This includes sufficient dimension reduction for structured
 populations, risk modeling across subgroups, and longitudinal heterogeneous
 intervention effects.</p>
 <div class="theme-publications">
-{% bibliography --query @*[keywords~=treatment-heterogeneity] --sort_by year --order descending %}
+{% bibliography --query @*[keywords~=population-heterogeneity] --sort_by year --order descending %}
 </div>
 </div>
 
