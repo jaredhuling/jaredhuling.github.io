@@ -31,6 +31,9 @@ permalink: /software/
       identification framework of <a href="doi:10.1111/biom.12676">Chen et al. (2017)</a>.
         </p>
 
+        <p>
+          <a href="https://cran.r-project.org/package=personalized"><img src="https://cranlogs.r-pkg.org/badges/grand-total/personalized" alt="CRAN downloads"></a>
+        </p>
         <p align="right">
           <a href="http://jaredhuling.github.io/personalized/" class="button">Documentation</a>
           <a href="https://cran.r-project.org/package=personalized" class="button">Download</a>
@@ -62,6 +65,9 @@ permalink: /software/
           The independenceWeights package offers confounding control tools for studying the causal effects of a continuous exposure from observational data. It implements the methodology of <a href="https://arxiv.org/abs/2107.07086">Huling, Greifer, and Chen (2021)</a>, which constructs weights designed to minimize the weighted statistical dependence between a continuous treatment/exposure variable and a vector of confounder variables. In estimating a causal dose-response function, confounding bias is a function of the dependence between confounders and the exposure/treatment, so weights that minimize the dependence aim to mitigate confounding bias directly.
         </p>
 
+        <p>
+          <a href="https://cran.r-project.org/package=independenceWeights"><img src="https://cranlogs.r-pkg.org/badges/grand-total/independenceWeights" alt="CRAN downloads"></a>
+        </p>
         <p align="right">
           <a href="https://cran.r-project.org/package=independenceWeights" class="button">Download</a>
           <a href="https://github.com/jaredhuling/independenceWeights" class="button">Source</a>
@@ -93,6 +99,9 @@ permalink: /software/
           oem provides computation for various penalized regression models using the Orthogonalizing EM algorithm and is highly efficient for tall data. Penalties available include the lasso, MCP, SCAD, elastic net, group lasso, group MCP/SCAD, and more.
         </p>
 
+        <p>
+          <a href="https://cran.r-project.org/package=oem"><img src="https://cranlogs.r-pkg.org/badges/grand-total/oem" alt="CRAN downloads"></a>
+        </p>
         <p align="right">
           <a href="http://jaredhuling.github.io/oem/" class="button">Documentation</a>
           <a href="https://cran.r-project.org/package=oem" class="button">Download</a>
@@ -122,6 +131,9 @@ permalink: /software/
           The personalized2part package implements the methodology of <a href="https://doi.org/10.1080/01621459.2020.1801449">Huling, Smith, and Chen (2020)</a>, which allows for subgroup identification for semi-continuous outcomes by estimating individualized treatment rules. It uses a two part modeling (or hurdle modeling) framework to handle semi-continuous data by modeling separately the positive part of the outcome and an indicator of whether each outcome is positive, but still results in a single treatment rule. High dimensional data is handled with a cooperative lasso penalty, which encourages the coefficients in the two models to have the same sign.
         </p>
 
+        <p>
+          <a href="https://cran.r-project.org/package=personalized2part"><img src="https://cranlogs.r-pkg.org/badges/grand-total/personalized2part" alt="CRAN downloads"></a>
+        </p>
         <p align="right">
           <a href="http://jaredhuling.github.io/personalized2part/" class="button">Documentation</a>
           <a href="https://cran.r-project.org/package=personalized2part" class="button">Download</a>
@@ -153,6 +165,9 @@ permalink: /software/
           The hierSDR package provides semiparametric sufficient dimension reduction methods for modeling scenarios where heterogeneity is defined by several binary factors which stratify the population into multiple subpopulations. For example, hierSDR can be used in a hospital-wide risk modeling application if covariate effects in risk models differ for subpopulations of patients with different chronic conditions. Here the chronic conditions are the binary stratifying factors. The hierSDR package provides computation for dimension reduction methods that conform to the hierarchical nature of the relationships between the various subpopulations.
         </p>
 
+        <p>
+          <a href="https://cran.r-project.org/package=hierSDR"><img src="https://cranlogs.r-pkg.org/badges/grand-total/hierSDR" alt="CRAN downloads"></a>
+        </p>
         <p align="right">
           <a href="https://cran.r-project.org/package=hierSDR" class="button">Download</a>
           <a href="https://github.com/jaredhuling/hierSDR" class="button">Source</a>
@@ -216,6 +231,9 @@ permalink: /software/
           The vennLasso package provides variable selection for high-dimensional modeling scenarios where heterogeneity is defined by several binary factors which stratify the population into multiple subpopulations. For example, vennLasso can be used in a hospital-wide risk modeling application if covariate effects in risk models differ for subpopulations of patients with different chronic conditions. Here the chronic conditions are the binary stratifying factors. The vennLasso package provides computation for a variable selection method which yields variable selection patterns which adhere to the hierarchical nature of the relationships between the various subpopulations.
         </p>
 
+        <p>
+          <a href="https://cran.r-project.org/package=vennLasso"><img src="https://cranlogs.r-pkg.org/badges/grand-total/vennLasso" alt="CRAN downloads"></a>
+        </p>
         <p align="right">
           <a href="http://jaredhuling.github.io/vennLasso/" class="button">Documentation</a>
           <a href="https://cran.r-project.org/package=vennLasso" class="button">Download</a>
