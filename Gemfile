@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
+
+gem 'jekyll', '~> 4.3'
+
 group :jekyll_plugins do
-    gem 'github-pages'
-    gem 'jekyll'
     gem 'jekyll-paginate'
-    gem 'jekyll-scholar'
+    gem 'jekyll-scholar', '~> 6.0'
     gem 'jemoji'
 end

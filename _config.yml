@@ -77,8 +77,8 @@ highlighter: rouge
 include: ['_pages']
 
 
-# Gems
-gems:
+# Plugins
+plugins:
     - jekyll-paginate
     - jekyll/scholar
     - jemoji
