@@ -76,7 +76,7 @@ intervention effects.</p>
 <hr class="research-theme-divider">
 
 <div class="research-theme">
-<h2 class="research-theme-title">Evidence Synthesis, Transportability&amp; and Data-Fusion</h2>
+<h2 class="research-theme-title">Evidence Synthesis, Transportability, &amp; Data-Fusion</h2>
 <p class="research-theme-desc">Methods for combining evidence across multiple studies while preserving
 causal interpretability. This includes causally interpretable random-effects
 meta-analysis, methods combining aggregate and individual participant data,
