@@ -77,7 +77,7 @@ intervention effects.</p>
 <hr class="research-theme-divider">
 
 <div class="research-theme">
-<h2 class="research-theme-title">Evidence Synthesis &amp; Transportability</h2>
+<h2 class="research-theme-title">Evidence Synthesis &amp; Transportability; Data-Fusion</h2>
 <p class="research-theme-desc">Methods for combining evidence across multiple studies while preserving
 causal interpretability. This includes causally interpretable random-effects
 meta-analysis, methods combining aggregate and individual participant data,
@@ -87,17 +87,7 @@ and transportability of causal effects to target populations.</p>
 </div>
 </div>
 
-<hr class="research-theme-divider">
 
-<div class="research-theme">
-<h2 class="research-theme-title">Fairness in Statistical Learning</h2>
-<p class="research-theme-desc">Methods for assessing and ensuring fairness in predictive statistical models
-across intersectional groups and small subpopulations, grounded in
-counterfactual causal reasoning.</p>
-<div class="theme-publications">
-{% bibliography --query @*[keywords~=fairness] --sort_by year --order descending %}
-</div>
-</div>
 
 <hr class="research-theme-divider">
 
