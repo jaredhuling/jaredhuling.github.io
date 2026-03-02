@@ -67,7 +67,7 @@ causal interpretability. This includes causally interpretable random-effects
 meta-analysis, methods combining aggregate and individual participant data from randomized trials when targeting a target population,
 and transportability of causal effects to target populations in the presence of patient nonadherence.</p>
 <div class="theme-publications">
-{% bibliography --query @*[keywords~=meta-analysis || keywords~=transportability || keywords~=data-combining] --sort_by year --order descending %}
+{% bibliography --query @*[keywords~=meta-analysis || keywords~=transportability || keywords~=data-combining || keywords~=data-borrowing] --sort_by year --order descending %}
 </div>
 </div>
 
