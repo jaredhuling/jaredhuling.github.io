@@ -163,11 +163,11 @@ hr {
   gap: 0.125rem;
 
   .page-link {
-    font-size: 0.9375rem;
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 500;
     color: var(--color-text-muted);
     text-decoration: none;
-    padding: 0.3rem 0.65rem;
+    padding: 0.3rem 0.7rem;
     border-radius: var(--radius);
     transition: color 0.15s ease, background 0.15s ease;
 
@@ -346,7 +346,7 @@ hr {
 
 .title {
   font-weight: 600;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   color: var(--color-text);
   display: block;
   margin-bottom: 0.2rem;
@@ -372,7 +372,7 @@ hr {
   display: block;
   margin-bottom: 0.4rem;
 
-  em { font-style: italic; color: var(--color-text); }
+  em { font-style: italic; color: var(--color-accent); }
 }
 
 .links {
@@ -487,12 +487,12 @@ author { font-weight: 600; }
 }
 
 .pub-section-header {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  letter-spacing: -0.01em;
-  padding: 0.55rem 1.1rem;
+  letter-spacing: -0.02em;
+  padding: 0.6rem 1.1rem;
   border-radius: var(--radius);
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
   margin-top: 0;
   display: block;
 }
@@ -507,6 +507,14 @@ author { font-weight: 600; }
   background: var(--color-bg-accent);
   border-left: 4px solid var(--color-accent);
   color: var(--color-accent-hover);
+}
+
+/* Indent the bibliography list within each pub section */
+.pub-section .bibliography {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+  border-left: 2px solid var(--color-border);
+  margin-left: 0.5rem;
 }
 
 /* ============================================================
@@ -639,8 +647,8 @@ footer {
   :root { --pad-x: 1rem; }
 
   .site-nav .page-link {
-    padding: 0.25rem 0.45rem;
-    font-size: 0.8125rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
   }
 
   .profile-section {
@@ -670,5 +678,5 @@ footer {
 
 @media (max-width: 420px) {
   .site-title { font-size: 0.8125rem; }
-  .site-nav .page-link { padding: 0.2rem 0.35rem; font-size: 0.75rem; }
+  .site-nav .page-link { padding: 0.2rem 0.4rem; font-size: 0.8125rem; }
 }
