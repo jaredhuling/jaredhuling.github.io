@@ -77,6 +77,17 @@ and transportability of causal effects to target populations in the presence of 
 <hr class="research-theme-divider">
 
 <div class="research-theme">
+<h2 class="research-theme-title">Causal Inference for Complex Treatments</h2>
+<p class="research-theme-desc">Development of principled methods for confounding control and heterogeneity of effect for situations in which the treatment or intervention 
+of scientific interest is complex and not just binary, such as continuous-valued treatments, functional treatments, and many-valued treatments.</p>
+<div class="theme-publications">
+{% bibliography --query @*[keywords~=causal-complex-treatments] --sort_by year --order descending %}
+</div>
+</div>
+
+<hr class="research-theme-divider">
+
+<div class="research-theme">
 <h2 class="research-theme-title">Population Heterogeneity &amp; Risk Prediction</h2>
 <p class="research-theme-desc">Methods for modeling and leveraging population heterogeneity in statistical
 analyses and for clinical risk prediction. This work focuses on the development of statistical modeling approaches that tailor predictions and analyses 
