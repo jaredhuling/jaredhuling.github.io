@@ -19,7 +19,7 @@ observational data. Topics include weighting methods for continuous,
 binary, and nonstandard treatments, modified treatment policies, handling violations of positivity and other standard causal
 assumptions, methods for generalizability and transportability, handling treatment nonadherence, estimating heterogeneous treatment effects, and more.</p>
 <div class="theme-publications">
-{% bibliography --query @*[keywords~=causal-inference] --sort_by year --order descending %}
+<!-- {% bibliography --query @*[keywords~=causal-inference] --sort_by year --order descending %} -->
 </div>
 </div>
 
