@@ -5,7 +5,8 @@ permalink: /research/
 ---
 
 My research spans several interconnected areas in statistics and biostatistics,
-with a unifying focus on addressing population heterogeneity to improve individual
+with a unifying focus on developing and using state-of-the-art statistical methods for complex 
+observational studies to improve individual
 health outcomes. Below are the main themes of my work, with key publications
 from each area.
 
@@ -16,7 +17,7 @@ from each area.
 <p class="research-theme-desc">Development of principled methods for estimating causal effects from
 observational data. Topics include weighting methods for continuous,
 binary, and nonstandard treatments, modified treatment policies, handling violations of positivity and other standard causal
-assumptions, methods for generalizability and transportability, estimating heterogeneous treatment effects, and more.</p>
+assumptions, methods for generalizability and transportability, handling treatment nonadherence, estimating heterogeneous treatment effects, and more.</p>
 <div class="theme-publications">
 {% bibliography --query @*[keywords~=causal-inference] --sort_by year --order descending %}
 </div>
@@ -32,7 +33,7 @@ groups may reflect pre-existing differences in patient characteristics rather
 than true causal effects. Weighting methods address this by reweighting the
 observed sample so that covariate distributions are balanced across groups,
 enabling valid causal comparisons.
-Classical propensity score approaches can be sensitive to model
+Classical propensity score weighting approaches can be sensitive to model
 misspecification. I develop weighting approaches that are flexible,
 user-friendly, and robust to complex confounding. This includes energy
 balancing weights--a model-free method that directly minimizes distributional
