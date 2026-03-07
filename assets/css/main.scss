@@ -699,6 +699,92 @@ author { font-weight: 600; }
 }
 
 /* ============================================================
+   People page
+   ============================================================ */
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+.person-card {
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-bg-subtle);
+
+  .person-name {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+
+    a {
+      color: var(--color-text);
+      &:hover { color: var(--color-accent); text-decoration: none; }
+    }
+  }
+
+  .person-years {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    margin-bottom: 0.1rem;
+  }
+
+  .person-joint {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+}
+
+.people-alumni-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.25rem;
+
+  li {
+    display: flex;
+    gap: 1.25rem;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid var(--color-border-sub);
+    align-items: flex-start;
+
+    &:last-child { border-bottom: none; }
+  }
+}
+
+.alumni-years {
+  font-size: 0.8125rem;
+  font-family: var(--font-mono);
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+  padding-top: 0.15rem;
+  min-width: 5.5rem;
+}
+
+.alumni-info {
+  flex: 1;
+}
+
+.alumni-name {
+  font-weight: 600;
+  font-size: 0.9375rem;
+}
+
+.alumni-detail {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.alumni-now {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  margin-top: 0.15rem;
+}
+
+/* ============================================================
    Teaching page
    ============================================================ */
 .teaching-list {
@@ -808,6 +894,10 @@ footer {
   .software-entry {
     flex-direction: column;
     gap: 1rem;
+  }
+
+  .people-grid {
+    grid-template-columns: 1fr;
   }
 
   .software-img {
