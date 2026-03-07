@@ -6,61 +6,77 @@ title: People
 
 <div class="pub-section">
 <h2 class="pub-section-header">Postdoctoral Associates</h2>
-<div class="people-grid">
+<ul class="people-current-list">
 
-  <div class="person-card">
-    <div class="person-name">Samhita Pal</div>
-    <div class="person-years">2025 – present</div>
-  </div>
+  <li>
+    <div class="current-info">
+      <span class="current-name">Samhita Pal</span>
+    </div>
+    <span class="current-years">2025 – present</span>
+  </li>
 
-</div>
+</ul>
 </div>
 
 <div class="pub-section">
 <h2 class="pub-section-header">Current PhD Students</h2>
-<div class="people-grid">
+<ul class="people-current-list">
 
-  <div class="person-card">
-    <div class="person-name">Simion De</div>
-    <div class="person-years">2022 – present</div>
-    <div class="person-joint">Joint with Saonli Basu</div>
-  </div>
+  <li>
+    <div class="current-info">
+      <span class="current-name">Simion De</span>
+      <span class="current-joint">Joint with Saonli Basu</span>
+    </div>
+    <span class="current-years">2022 – present</span>
+  </li>
 
-  <div class="person-card">
-    <div class="person-name">Ziren Jiang</div>
-    <div class="person-years">2023 – present</div>
-    <div class="person-joint">Joint with Erjia Cui</div>
-  </div>
+  <li>
+    <div class="current-info">
+      <span class="current-name">Ziren Jiang</span>
+      <span class="current-joint">Joint with Erjia Cui</span>
+    </div>
+    <span class="current-years">2023 – present</span>
+  </li>
 
-  <div class="person-card">
-    <div class="person-name"><a href="https://marthabarnard.github.io/">Martha Barnard</a></div>
-    <div class="person-years">2024 – present</div>
-    <div class="person-joint">Joint with Julian Wolfson</div>
-  </div>
+  <li>
+    <div class="current-info">
+      <span class="current-name"><a href="https://marthabarnard.github.io/">Martha Barnard</a></span>
+      <span class="current-joint">Joint with Julian Wolfson</span>
+    </div>
+    <span class="current-years">2024 – present</span>
+  </li>
 
-  <div class="person-card">
-    <div class="person-name">Nitya Shah</div>
-    <div class="person-years">2024 – present</div>
-  </div>
+  <li>
+    <div class="current-info">
+      <span class="current-name">Nitya Shah</span>
+    </div>
+    <span class="current-years">2024 – present</span>
+  </li>
 
-  <div class="person-card">
-    <div class="person-name">Wei Wang</div>
-    <div class="person-years">2024 – present</div>
-  </div>
+  <li>
+    <div class="current-info">
+      <span class="current-name">Wei Wang</span>
+    </div>
+    <span class="current-years">2024 – present</span>
+  </li>
 
-  <div class="person-card">
-    <div class="person-name">Rui Zhang</div>
-    <div class="person-years">2024 – present</div>
-    <div class="person-joint">Joint with Charles Doss</div>
-  </div>
+  <li>
+    <div class="current-info">
+      <span class="current-name">Rui Zhang</span>
+      <span class="current-joint">Joint with Charles Doss</span>
+    </div>
+    <span class="current-years">2024 – present</span>
+  </li>
 
-  <div class="person-card">
-    <div class="person-name">Milena Silva</div>
-    <div class="person-years">2024 – present</div>
-    <div class="person-joint">Joint with Joe Koopmeiners and Lianne Siegel</div>
-  </div>
+  <li>
+    <div class="current-info">
+      <span class="current-name">Milena Silva</span>
+      <span class="current-joint">Joint with Joe Koopmeiners and Lianne Siegel</span>
+    </div>
+    <span class="current-years">2024 – present</span>
+  </li>
 
-</div>
+</ul>
 </div>
 
 <div class="pub-section">
