@@ -789,10 +789,17 @@ author { font-weight: 600; }
   color: var(--color-text-muted);
 }
 
+.alumni-dissertation {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin-top: 0.15rem;
+}
+
 .alumni-now {
   font-size: 0.8125rem;
   color: var(--color-text-muted);
-  margin-top: 0.15rem;
+  margin-top: 0.1rem;
 }
 
 /* ============================================================

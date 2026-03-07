@@ -88,6 +88,7 @@ title: People
     <div class="alumni-info">
       <span class="alumni-name">Kollin Rott</span>
       <span class="alumni-detail"> &mdash; Joint with James Hodges</span>
+      <div class="alumni-dissertation">&ldquo;Practical improvements in causally-interpretable meta-analysis and transportability&rdquo;</div>
       <div class="alumni-now">Assistant Professor of Teaching, Oregon State University</div>
     </div>
   </li>
@@ -97,6 +98,7 @@ title: People
     <div class="alumni-info">
       <span class="alumni-name">Justin Clark</span>
       <span class="alumni-detail"> &mdash; Joint with James Hodges</span>
+      <div class="alumni-dissertation">&ldquo;New approaches to generalizing results from randomized trials&rdquo;</div>
       <div class="alumni-now">Analysis Group</div>
     </div>
   </li>
@@ -106,6 +108,7 @@ title: People
     <div class="alumni-info">
       <span class="alumni-name">Solvejg Wastvedt</span>
       <span class="alumni-detail"> &mdash; Joint with Julian Wolfson</span>
+      <div class="alumni-dissertation">&ldquo;Fairness estimation for small and intersecting subgroups in clinical applications&rdquo;</div>
       <div class="alumni-now">NORC at the University of Chicago</div>
     </div>
   </li>
