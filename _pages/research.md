@@ -5,14 +5,25 @@ permalink: /research/
 ---
 
 My research spans several interconnected areas in statistics and biostatistics,
-with a unifying focus on developing and using state-of-the-art statistical methods for complex 
+with a unifying focus on developing and using state-of-the-art statistical methods for complex
 observational studies to improve individual
 health outcomes. Below are the main themes of my work, with key publications
 from each area.
 
+<nav class="research-index">
+  <a href="#causal-inference">Causal Inference</a>
+  <a href="#weighting-methods">Weighting Methods</a>
+  <a href="#precision-medicine">Precision Medicine &amp; HTE</a>
+  <a href="#evidence-synthesis">Evidence Synthesis &amp; Transportability</a>
+  <a href="#complex-treatments">Complex Treatments</a>
+  <a href="#population-heterogeneity">Population Heterogeneity</a>
+  <a href="#high-dimensional">High-Dimensional Methods</a>
+  <a href="#health-systems">Health Systems</a>
+</nav>
+
 ---
 
-<div class="research-theme">
+<div class="research-theme" id="causal-inference">
 <h2 class="research-theme-title">Causal Inference</h2>
 <p class="research-theme-desc">Development of principled methods for estimating causal effects from
 observational data. Topics include weighting methods for continuous,
@@ -25,7 +36,7 @@ assumptions, methods for generalizability and transportability, handling treatme
 
 <hr class="research-theme-divider">
 
-<div class="research-theme">
+<div class="research-theme" id="weighting-methods">
 <h2 class="research-theme-title">Weighting Methods for Causal Inference</h2>
 <p class="research-theme-desc">A central challenge in observational studies is confounding: because
 treatment is not randomly assigned, differences in outcomes across treatment
@@ -48,7 +59,7 @@ weighted energy distance, and more.</p>
 
 <hr class="research-theme-divider">
 
-<div class="research-theme">
+<div class="research-theme" id="precision-medicine">
 <h2 class="research-theme-title">Precision Medicine &amp; Heterogeneity of Treatment Effect</h2>
 <p class="research-theme-desc">Statistical methods for personalizing treatment decisions based on individual
 patient characteristics and understanding heterogeneity of treatment effect. This includes estimation of optimal individualized
@@ -61,7 +72,7 @@ types, multi-category treatments, and high-dimensional data.</p>
 
 <hr class="research-theme-divider">
 
-<div class="research-theme">
+<div class="research-theme" id="evidence-synthesis">
 <h2 class="research-theme-title">Evidence Synthesis, Generalizability, Transportability, &amp; Data-Fusion</h2>
 <p class="research-theme-desc">Methods for combining evidence and data across multiple studies while preserving
 causal interpretability. This includes causally interpretable random-effects
@@ -72,13 +83,11 @@ and transportability of causal effects to target populations in the presence of 
 </div>
 </div>
 
-
-
 <hr class="research-theme-divider">
 
-<div class="research-theme">
+<div class="research-theme" id="complex-treatments">
 <h2 class="research-theme-title">Causal Inference for Complex Treatments</h2>
-<p class="research-theme-desc">Development of principled methods for confounding control and heterogeneity of effect for situations in which the treatment or intervention 
+<p class="research-theme-desc">Development of principled methods for confounding control and heterogeneity of effect for situations in which the treatment or intervention
 of scientific interest is complex and not just binary, such as continuous-valued treatments, functional treatments, and many-valued treatments.</p>
 <div class="theme-publications">
 {% bibliography --query @*[keywords~=causal-complex-treatments] --sort_by year --order descending %}
@@ -87,10 +96,10 @@ of scientific interest is complex and not just binary, such as continuous-valued
 
 <hr class="research-theme-divider">
 
-<div class="research-theme">
+<div class="research-theme" id="population-heterogeneity">
 <h2 class="research-theme-title">Population Heterogeneity &amp; Risk Prediction</h2>
 <p class="research-theme-desc">Methods for modeling and leveraging population heterogeneity in statistical
-analyses and for clinical risk prediction. This work focuses on the development of statistical modeling approaches that tailor predictions and analyses 
+analyses and for clinical risk prediction. This work focuses on the development of statistical modeling approaches that tailor predictions and analyses
 in the presence of population heterogeneity instead of one-size-fits-all modeling approaches.
 intervention effects.</p>
 <div class="theme-publications">
@@ -98,11 +107,9 @@ intervention effects.</p>
 </div>
 </div>
 
-
-
 <hr class="research-theme-divider">
 
-<div class="research-theme">
+<div class="research-theme" id="high-dimensional">
 <h2 class="research-theme-title">High-Dimensional &amp; Computational Methods</h2>
 <p class="research-theme-desc">Variable selection and dimensionality reduction for complex, high-dimensional
 data, and efficient computational algorithms for large-scale statistical
@@ -115,7 +122,7 @@ approaches, and optimization algorithms for large datasets.</p>
 
 <hr class="research-theme-divider">
 
-<div class="research-theme">
+<div class="research-theme" id="health-systems">
 <h2 class="research-theme-title">Health Systems Applications</h2>
 <p class="research-theme-desc">Applications of statistical methods to improve healthcare delivery and patient
 outcomes, including hospital risk prediction, readmission reduction, and

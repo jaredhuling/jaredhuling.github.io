@@ -535,6 +535,34 @@ author { font-weight: 600; }
 /* ============================================================
    Research themes page
    ============================================================ */
+/* Research theme index */
+.research-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.5rem 0 0.5rem;
+
+  a {
+    display: inline-block;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    padding: 0.25rem 0.75rem;
+    background: var(--color-bg-subtle);
+    border: 1px solid var(--color-border);
+    border-radius: 99px;
+    color: var(--color-text-muted);
+    text-decoration: none;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+
+    &:hover {
+      background: var(--color-bg-accent);
+      border-color: var(--color-accent);
+      color: var(--color-accent);
+      text-decoration: none;
+    }
+  }
+}
+
 .research-theme {
   margin-bottom: 2.75rem;
   padding-bottom: 0;
