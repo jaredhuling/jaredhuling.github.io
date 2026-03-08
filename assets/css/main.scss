@@ -567,6 +567,7 @@ author { font-weight: 600; }
   margin-bottom: 2.75rem;
   padding-bottom: 0;
   border: none;
+  scroll-margin-top: calc(var(--nav-height) + 1.25rem);
 }
 
 .research-theme-title {
