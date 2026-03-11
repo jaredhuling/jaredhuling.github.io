@@ -47,9 +47,9 @@ enabling valid causal comparisons.
 Classical propensity score weighting approaches can be sensitive to model
 misspecification. I develop weighting approaches that are flexible,
 user-friendly, and robust to complex confounding. This includes energy
-balancing weights--a model-free method that directly minimizes distributional
-imbalance, requiring no tuning parameters and no
-secondary modeling decisions—-as well as independence weights for
+balancing weights, a model-free method that directly minimizes distributional
+imbalance and requires no tuning parameters or
+secondary modeling decisions, as well as independence weights for
 continuous-valued treatments, modified treatment policy estimators based on
 weighted energy distance, and more.</p>
 <div class="theme-publications">
