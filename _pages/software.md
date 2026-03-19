@@ -11,7 +11,7 @@ permalink: /software/
       <img src="/images/subgroups.png" alt="personalized">
     </div>
     <div class="software-content">
-      <h4 class="software-name">personalized</h4>
+      <h4 class="software-name"><a href="http://jaredhuling.org/personalized">personalized</a></h4>
       <p class="software-subtitle">Estimation and validation methods for subgroup identification and personalized medicine</p>
       <p>Designed for the analysis of data where the effect of a treatment or intervention may vary across patients. Works with data from randomized controlled trials or observational studies. Provides fitting and validation of subgroup identification and personalized medicine models under the general subgroup identification framework of <a href="https://doi.org/10.1111/biom.12676">Chen et al. (2017)</a>.</p>
       <div class="software-footer">
@@ -35,7 +35,7 @@ permalink: /software/
       <img src="/images/kernel_balancing_viz.png" alt="forestBalance">
     </div>
     <div class="software-content">
-      <h4 class="software-name">forestBalance</h4>
+      <h4 class="software-name"><a href="http://jaredhuling.org/forestBalance">forestBalance</a></h4>
       <p class="software-subtitle">High-dimensional distributional confounding control with adaptive forest weights</p>
       <p>Implements the methodology of <a href="https://arxiv.org/abs/2512.18069">De and Huling (2025)</a>, constructing weights that minimize a measure of distributional distance between treated and control groups that emphasizes confounding variables. The approach works by first jointly modeling the relationship between covariates, outcome, and treatment and then creates a similarity measure that assesses how much two points share a similar confounding structure. This distance emphasizes balance of variables that affect both treatment and outcome, thereby dealing with high dimensional settings when not all variables are confounders.</p>
       <div class="software-footer">
@@ -73,7 +73,7 @@ permalink: /software/
       <img src="/images/mcp_path.png" alt="oem">
     </div>
     <div class="software-content">
-      <h4 class="software-name">oem</h4>
+      <h4 class="software-name"><a href="http://jaredhuling.org/oem">oem</a></h4>
       <p class="software-subtitle">Orthogonalizing EM algorithm for penalized regression</p>
       <p>Efficient computation for penalized regression models using the Orthogonalizing EM algorithm, designed for tall datasets. Supports lasso, MCP, SCAD, elastic net, group lasso, group MCP/SCAD, and more. Also available as a <a href="https://github.com/jaredhuling/OrthogEM.jl">Julia implementation</a>.</p>
       <div class="software-footer">
@@ -132,7 +132,7 @@ permalink: /software/
       <img src="/images/venn.png" alt="vennLasso">
     </div>
     <div class="software-content">
-      <h4 class="software-name">vennLasso</h4>
+      <h4 class="software-name"><a href="http://jaredhuling.org/vennLasso">vennLasso</a></h4>
       <p class="software-subtitle">Variable selection for heterogeneous populations</p>
       <p>Variable selection for high-dimensional models where population heterogeneity is defined by binary stratifying factors. Yields sparsity patterns that adhere to the hierarchical structure among subpopulations, enabling structured, interpretable variable selection across groups.</p>
       <div class="software-footer">
