@@ -31,7 +31,7 @@ permalink: /software/
 
   <div class="software-entry">
     <div class="software-img">
-      <img src="/images/kernel_balancing_viz.pdf" alt="forestBalance">
+      <img src="/images/kernel_balancing_viz.png" alt="forestBalance">
     </div>
     <div class="software-content">
       <h4 class="software-name">forestBalance</h4>
