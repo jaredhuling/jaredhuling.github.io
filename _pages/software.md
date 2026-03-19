@@ -68,6 +68,30 @@ permalink: /software/
     </div>
   </div>
 
+
+
+  <div class="software-entry">
+    <div class="software-img">
+      <img src="/images/tAUC_readm_test_Coop_Lasso_Group.png" alt="tAUC">
+    </div>
+    <div class="software-content">
+      <h4 class="software-name"><a href="http://jaredhuling.org/swjm">swjm</a></h4>
+      <p class="software-subtitle">Stagewise variable selection for joint models of semi-competing risks</p>
+      <p class="software-author">Co-written with Lingfeng Luo</p>
+      <p>Implements a stagewise variable selection framework for estimating equations and deploy it for two high-dimensional semi-competing risks models, joint frailty model and joint scale-change model. In addition to the lasso and group lasso penalties, we implement the cooperative lasso penalty, which encourages the same sign for effects of the same covariate across the recurrent and terminal event models. </p>
+      <div class="software-footer">
+        <div class="links">
+          <a href="https://github.com/jaredhuling/swjm">GitHub</a>
+          <a href="http://jaredhuling.org/swjm">Website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
   <div class="software-entry">
     <div class="software-img">
       <img src="/images/mcp_path.png" alt="oem">
