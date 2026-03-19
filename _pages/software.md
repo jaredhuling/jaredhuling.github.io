@@ -6,6 +6,7 @@ permalink: /software/
 
 <div class="software-list">
 
+  <!-- ==================== personalized ==================== -->
   <div class="software-entry">
     <div class="software-img">
       <img src="/images/subgroups.png" alt="personalized">
@@ -26,10 +27,8 @@ permalink: /software/
       </div>
     </div>
   </div>
-  
-  
 
-
+  <!-- ==================== forestBalance ==================== -->
   <div class="software-entry">
     <div class="software-img">
       <img src="/images/kernel_balancing_viz.png" alt="forestBalance">
@@ -48,7 +47,7 @@ permalink: /software/
     </div>
   </div>
 
-
+  <!-- ==================== independenceWeights ==================== -->
   <div class="software-entry">
     <div class="software-img">
       <img src="/images/dcow_adjusted.png" alt="independenceWeights">
@@ -68,8 +67,7 @@ permalink: /software/
     </div>
   </div>
 
-
-
+  <!-- ==================== swjm ==================== -->
   <div class="software-entry">
     <div class="software-img">
       <img src="/images/tAUC_readm_test_Coop_Lasso_Group.png" alt="tAUC">
@@ -77,7 +75,7 @@ permalink: /software/
     <div class="software-content">
       <h4 class="software-name"><a href="http://jaredhuling.org/swjm">swjm</a></h4>
       <p class="software-subtitle">Stagewise variable selection for joint models of semi-competing risks</p>
-      <p class="software-author">Co-written with Lingfeng Luo</p>
+      <p class="software-author">Primarily written by Lingfeng Luo</p>
       <p>Implements a stagewise variable selection framework for estimating equations and deploy it for two high-dimensional semi-competing risks models, joint frailty model and joint scale-change model. In addition to the lasso and group lasso penalties, we implement the cooperative lasso penalty, which encourages the same sign for effects of the same covariate across the recurrent and terminal event models. </p>
       <div class="software-footer">
         <div class="links">
@@ -88,10 +86,26 @@ permalink: /software/
     </div>
   </div>
 
+  <!-- ==================== hierNest ==================== -->
+  <div class="software-entry">
+    <div class="software-img">
+      <img src="/images/MDC_DRG_Illustration.png" alt="hierNest">
+    </div>
+    <div class="software-content">
+      <h4 class="software-name"><a href="https://zirenjiang.github.io/hierNest/">hierNest</a></h4>
+      <p class="software-subtitle">Penalized regression with hierarchical nested parameterization structure for heterogeneous populations</p>
+      <p class="software-author">Written by Ziren Jiang</p>
+      <p>Implements a high-dimensional regression model framework when covariate effects vary by subgroups. The focus here is when subgroups are hierarchically defined, such as in readmission prediction settings when regression models may be heterogeneous based on what primary diagnosis an individual had in their initial hospitalization. These diagnoses can then be grouped into larger categories, creating a hierarchical structure. Our approach collapses models by covariate, borrowing strength across groups when needed.</p>
+      <div class="software-footer">
+        <div class="links">
+          <a href="https://github.com/ZirenJiang/hierNest">GitHub</a>
+          <a href="https://ZirenJiang.github.io/hierNest/">Website</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-
-
-
+  <!-- ==================== oem ==================== -->
   <div class="software-entry">
     <div class="software-img">
       <img src="/images/mcp_path.png" alt="oem">
@@ -113,6 +127,7 @@ permalink: /software/
     </div>
   </div>
 
+  <!-- ==================== personalized2part ==================== -->
   <div class="software-entry">
     <div class="software-img">
       <img src="/images/response_histograms_wide.png" alt="personalized2part">
@@ -132,6 +147,7 @@ permalink: /software/
     </div>
   </div>
 
+  <!-- ==================== hierSDR ==================== -->
   <div class="software-entry">
     <div class="software-img">
       <img src="/images/central_mean_subspaces.png" alt="hierSDR">
@@ -151,6 +167,7 @@ permalink: /software/
     </div>
   </div>
 
+  <!-- ==================== vennLasso ==================== -->
   <div class="software-entry">
     <div class="software-img">
       <img src="/images/venn.png" alt="vennLasso">
@@ -171,7 +188,7 @@ permalink: /software/
     </div>
   </div>
 
-
+  <!-- ==================== groupFusedMulti ==================== -->
   <div class="software-entry">
     <div class="software-img">
       <img src="/images/doubly_sparse.png" alt="groupFusedMulti">
@@ -189,6 +206,7 @@ permalink: /software/
     </div>
   </div>
 
+  <!-- ==================== personalizedLong ==================== -->
   <div class="software-entry">
     <div class="software-img">
       <img src="/images/benefit_of_sr_assignments_by_received_paper.png" alt="personalizedLong">
@@ -205,6 +223,7 @@ permalink: /software/
     </div>
   </div>
 
+  <!-- ==================== aftiv ==================== -->
   <div class="software-entry">
     <div class="software-img">
       <img src="/images/talks/iv_assumptions.png" alt="aftiv">
