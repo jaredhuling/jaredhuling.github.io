@@ -25,6 +25,27 @@ permalink: /software/
       </div>
     </div>
   </div>
+  
+  
+
+
+  <div class="software-entry">
+    <div class="software-img">
+      <img src="/images/kernel_balancing_viz.pdf" alt="forestBalance">
+    </div>
+    <div class="software-content">
+      <h4 class="software-name">forestBalance</h4>
+      <p class="software-subtitle">High-dimensional distributional confounding control with adaptive forest weights</p>
+      <p>Implements the methodology of <a href="https://arxiv.org/abs/2512.18069">De and Huling (2025)</a>, constructing weights that minimize a measure of distributional distance between treated and control groups that emphasizes confounding variables. The approach works by first jointly modeling the relationship between covariates, outcome, and treatment and then creates a similarity measure that assesses how much two points share a similar confounding structure. This distance emphasizes balance of variables that affect both treatment and outcome, thereby dealing with high dimensional settings when not all variables are confounders.</p>
+      <div class="software-footer">
+        <div class="links">
+          <a href="https://github.com/jaredhuling/forestBalance">GitHub</a>
+          <a href="https://arxiv.org/abs/2512.18069">Paper</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <div class="software-entry">
     <div class="software-img">
