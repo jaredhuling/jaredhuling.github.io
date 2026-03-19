@@ -20,6 +20,7 @@ permalink: /software/
           <a href="http://jaredhuling.github.io/personalized/">Docs</a>
           <a href="https://cran.r-project.org/package=personalized">CRAN</a>
           <a href="https://github.com/jaredhuling/personalized">GitHub</a>
+          <a href="http://jaredhuling.org/personalized">Website</a>
           <a href="https://www.jstatsoft.org/article/view/v098i05">Paper</a>
         </div>
       </div>
@@ -40,6 +41,7 @@ permalink: /software/
       <div class="software-footer">
         <div class="links">
           <a href="https://github.com/jaredhuling/forestBalance">GitHub</a>
+          <a href="http://jaredhuling.org/forestBalance">Website</a>
           <a href="https://arxiv.org/abs/2512.18069">Paper</a>
         </div>
       </div>
@@ -80,6 +82,7 @@ permalink: /software/
           <a href="http://jaredhuling.github.io/oem/">Docs</a>
           <a href="https://cran.r-project.org/package=oem">CRAN</a>
           <a href="https://github.com/jaredhuling/oem">GitHub</a>
+          <a href="http://jaredhuling.org/oem">Website</a>
           <a href="https://www.jstatsoft.org/article/view/v104i06">Paper</a>
         </div>
       </div>
@@ -138,6 +141,7 @@ permalink: /software/
           <a href="http://jaredhuling.github.io/vennLasso/">Docs</a>
           <a href="https://cran.r-project.org/package=vennLasso">CRAN</a>
           <a href="https://github.com/jaredhuling/vennLasso">GitHub</a>
+          <a href="http://jaredhuling.org/vennLasso">Website</a>
         </div>
       </div>
     </div>
