@@ -100,6 +100,7 @@ permalink: /software/
         <div class="links">
           <a href="https://github.com/ZirenJiang/hierNest">GitHub</a>
           <a href="https://ZirenJiang.github.io/hierNest/">Website</a>
+          <a href="https://arxiv.org/abs/2603.19569">Paper</a>
         </div>
       </div>
     </div>
