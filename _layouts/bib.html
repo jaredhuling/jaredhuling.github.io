@@ -53,6 +53,7 @@
     {% if entry.abstract %}
       <a class="abstract" style="cursor:pointer">[abstract]</a>
     {% endif %}
+    <a class="cite-toggle" style="cursor:pointer">[cite]</a>
     {% if entry.arxiv %}
       <a href="https://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">[arXiv:{{ entry.arxiv }}]</a>
     {% endif %}
@@ -81,5 +82,35 @@
     <p>{{ entry.abstract }}</p>
   </span>
   {% endif %}
+
+  {% comment %}--- Citation panel (BibTeX + MLA) ---{% endcomment %}
+  {% assign lbrace = "{" %}
+  {% assign rbrace = "}" %}
+  {% capture mla_title %}{{ entry.title | remove: lbrace | remove: rbrace }}{% endcapture %}
+  <div class="cite-panel hidden">
+    <div class="cite-tabs">
+      <button class="cite-tab active" data-tab="bibtex">BibTeX</button>
+      <button class="cite-tab" data-tab="mla">MLA</button>
+      <button class="cite-copy" title="Copy to clipboard">Copy</button>
+    </div>
+    <div class="cite-content" data-tab="bibtex">
+      <pre>@{{ entry.type }}{{ lbrace }}{{ entry.key }},
+  author    = {{ lbrace }}{{ entry.author }}{{ rbrace }},
+  title     = {{ lbrace }}{{ entry.title }}{{ rbrace }},{% if entry.journal %}
+  journal   = {{ lbrace }}{{ entry.journal }}{{ rbrace }},{% endif %}{% if entry.booktitle %}
+  booktitle = {{ lbrace }}{{ entry.booktitle }}{{ rbrace }},{% endif %}{% if entry.year %}
+  year      = {{ lbrace }}{{ entry.year }}{{ rbrace }},{% endif %}{% if entry.volume %}
+  volume    = {{ lbrace }}{{ entry.volume }}{{ rbrace }},{% endif %}{% if entry.number %}
+  number    = {{ lbrace }}{{ entry.number }}{{ rbrace }},{% endif %}{% if entry.pages %}
+  pages     = {{ lbrace }}{{ entry.pages }}{{ rbrace }},{% endif %}{% if entry.doi %}
+  doi       = {{ lbrace }}{{ entry.doi }}{{ rbrace }},{% endif %}{% if entry.note %}
+  note      = {{ lbrace }}{{ entry.note }}{{ rbrace }},{% endif %}{% if entry.arxiv %}
+  arxiv     = {{ lbrace }}{{ entry.arxiv }}{{ rbrace }}{% endif %}
+{{ rbrace }}</pre>
+    </div>
+    <div class="cite-content" data-tab="mla" style="display:none">
+      <p class="cite-mla-text">{% for author in entry.author_array %}{% if forloop.length == 1 %}{{ author.last }}, {{ author.first }}{% elsif forloop.first %}{{ author.last }}, {{ author.first }}{% elsif forloop.last %} and {{ author.first }} {{ author.last }}{% else %}, {{ author.first }} {{ author.last }}{% endif %}{% endfor %}. "{{ mla_title }}."{% if entry.type == "article" and entry.journal %} <i>{{ entry.journal }}</i>{% if entry.volume %}, vol. {{ entry.volume }}{% endif %}{% if entry.number %}, no. {{ entry.number }}{% endif %}{% if entry.year %}, {{ entry.year }}{% endif %}{% if entry.pages %}, pp. {{ entry.pages }}{% endif %}.{% if entry.doi %} doi:{{ entry.doi }}.{% endif %}{% elsif entry.type == "inproceedings" and entry.booktitle %} <i>{{ entry.booktitle }}</i>{% if entry.volume %}, vol. {{ entry.volume }}{% endif %}{% if entry.year %}, {{ entry.year }}{% endif %}{% if entry.pages %}, pp. {{ entry.pages }}{% endif %}.{% if entry.doi %} doi:{{ entry.doi }}.{% endif %}{% else %}{% if entry.year %} {{ entry.year }}.{% endif %}{% if entry.arxiv %} Preprint, arXiv:{{ entry.arxiv }}.{% elsif entry.note %} {{ entry.note }}.{% endif %}{% endif %}</p>
+    </div>
+  </div>
 
 </div>
