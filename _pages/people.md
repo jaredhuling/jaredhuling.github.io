@@ -11,6 +11,7 @@ title: People
   <li>
     <div class="current-info">
       <span class="current-name">Samhita Pal</span>
+      <span class="current-joint">Joint with Amir Asiaee</span>
     </div>
     <span class="current-years">2025 – present</span>
   </li>
