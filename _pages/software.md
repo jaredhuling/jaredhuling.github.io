@@ -80,6 +80,7 @@ permalink: /software/
       <p>Implements a stagewise variable selection framework for estimating equations and deploy it for two high-dimensional semi-competing risks models, joint frailty model and joint scale-change model. In addition to the lasso and group lasso penalties, we implement the cooperative lasso penalty, which encourages the same sign for effects of the same covariate across the recurrent and terminal event models. </p>
       <div class="software-footer">
         <div class="links">
+          <a href="https://cran.r-project.org/package=swjm">CRAN</a>
           <a href="https://github.com/jaredhuling/swjm">GitHub</a>
           <a href="http://jaredhuling.org/swjm">Website</a>
         </div>
@@ -99,6 +100,7 @@ permalink: /software/
       <p>Implements a high-dimensional regression model framework when covariate effects vary by subgroups. The focus here is when subgroups are hierarchically defined, such as in readmission prediction settings when regression models may be heterogeneous based on what primary diagnosis an individual had in their initial hospitalization. These diagnoses can then be grouped into larger categories, creating a hierarchical structure. Our approach collapses models by covariate, borrowing strength across groups when needed.</p>
       <div class="software-footer">
         <div class="links">
+          <a href="https://cran.r-project.org/package=hierNest">CRAN</a>
           <a href="https://github.com/ZirenJiang/hierNest">GitHub</a>
           <a href="https://ZirenJiang.github.io/hierNest/">Website</a>
           <a href="https://arxiv.org/abs/2603.19569">Paper</a>
