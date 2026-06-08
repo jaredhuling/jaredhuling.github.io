@@ -41,14 +41,6 @@ title: People
 
   <li>
     <div class="current-info">
-      <span class="current-name"><a href="https://marthabarnard.github.io/">Martha Barnard</a></span>
-      <span class="current-joint">Joint with Julian Wolfson</span>
-    </div>
-    <span class="current-years">2024 – present</span>
-  </li>
-
-  <li>
-    <div class="current-info">
       <span class="current-name">Nitya Shah</span>
     </div>
     <span class="current-years">2024 – present</span>
@@ -83,6 +75,18 @@ title: People
 <div class="pub-section">
 <h2 class="pub-section-header">PhD Alumni</h2>
 <ul class="people-alumni-list">
+
+
+  <li>
+    <span class="alumni-years">2024–2026</span>
+    <div class="alumni-info">
+      <span class="alumni-name"><a href="https://marthabarnard.github.io/">Martha Barnard</a></span>
+      <span class="alumni-detail"> &mdash; Joint with Julian Wolfson</span>
+      <div class="alumni-dissertation">&ldquo;Statistical methods for mobile health data and causal effect estimation under positivity violations&rdquo;</div>
+      <div class="alumni-now">Post-doctoral Associate, University of Pennsylvania</div>
+    </div>
+  </li>
+
 
   <li>
     <span class="alumni-years">2021–2024</span>
