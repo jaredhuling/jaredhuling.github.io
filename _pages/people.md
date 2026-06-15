@@ -33,7 +33,7 @@ title: People
 
   <li>
     <div class="current-info">
-      <span class="current-name">Ziren Jiang</span>
+      <span class="current-name"><a href="https://zirenjiang.github.io/">Ziren Jiang</a></span>
       <span class="current-joint">Joint with Erjia Cui</span>
     </div>
     <span class="current-years">2023 – present</span>
