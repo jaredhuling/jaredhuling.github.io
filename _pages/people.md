@@ -91,7 +91,7 @@ title: People
   <li>
     <span class="alumni-years">2021–2024</span>
     <div class="alumni-info">
-      <span class="alumni-name">Kollin Rott</span>
+      <span class="alumni-name"><a href="https://stat.oregonstate.edu/directory/kollin-rott">Kollin Rott</a></span>
       <span class="alumni-detail"> &mdash; Joint with James Hodges</span>
       <div class="alumni-dissertation">&ldquo;Practical improvements in causally-interpretable meta-analysis and transportability&rdquo;</div>
       <div class="alumni-now">Assistant Professor of Teaching, Oregon State University</div>
