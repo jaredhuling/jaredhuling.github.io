@@ -850,11 +850,6 @@ author { font-weight: 600; }
   font-size: 0.9375rem;
   font-weight: 600;
   color: var(--color-text);
-
-  a {
-    color: var(--color-text);
-    &:hover { color: var(--color-accent); text-decoration: none; }
-  }
 }
 
 .current-joint {
