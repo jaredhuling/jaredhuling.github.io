@@ -10,7 +10,7 @@ title: People
 
   <li>
     <div class="current-info">
-      <span class="current-name">Samhita Pal</span>
+      <span class="current-name"><a href="https://samhitapal3.github.io/">Samhita Pal</a></span>
       <span class="current-joint">Joint with Amir Asiaee</span>
     </div>
     <span class="current-years">2025 – present</span>
