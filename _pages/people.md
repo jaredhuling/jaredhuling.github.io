@@ -61,13 +61,6 @@ title: People
     <span class="current-years">2024 – present</span>
   </li>
 
-  <li>
-    <div class="current-info">
-      <span class="current-name">Milena Silva</span>
-      <span class="current-joint">Joint with Joe Koopmeiners and Lianne Siegel</span>
-    </div>
-    <span class="current-years">2024 – present</span>
-  </li>
 
 </ul>
 </div>
@@ -76,6 +69,17 @@ title: People
 <h2 class="pub-section-header">PhD Alumni</h2>
 <ul class="people-alumni-list">
 
+
+
+
+  <li>
+  <span class="alumni-years">2024–2026</span>
+    <div class="alumni-info">
+      <span class="alumni-name">Milena Silva</span>
+      <span class="alumni-detail">Joint with Joe Koopmeiners and Lianne Siegel</span>
+      <div class="alumni-dissertation">&ldquo;Transportability methods for estimating the effects of a low nicotine standard on smoking behavior&rdquo;</div>
+    </div>
+  </li>
 
   <li>
     <span class="alumni-years">2024–2026</span>
