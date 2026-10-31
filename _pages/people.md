@@ -23,13 +23,6 @@ title: People
 <h2 class="pub-section-header">Current PhD Students</h2>
 <ul class="people-current-list">
 
-  <li>
-    <div class="current-info">
-      <span class="current-name">Simion De</span>
-      <span class="current-joint">Joint with Saonli Basu</span>
-    </div>
-    <span class="current-years">2022 – present</span>
-  </li>
 
   <li>
     <div class="current-info">
@@ -69,8 +62,14 @@ title: People
 <h2 class="pub-section-header">PhD Alumni</h2>
 <ul class="people-alumni-list">
 
-
-
+  <li>
+    <span class="alumni-years">2022 – 2026</span>
+    <div class="alumni-info">
+      <span class="alumni-name">Simion De</span>
+      <span class="alumni-detail">Joint with Saonli Basu</span>
+      <div class="alumni-dissertation">&ldquo;High-Dimensional Observational Inference: Kernel Based Balancing Methods for Causal Estimation and Transportability and Efficient Mixed Models for Genetic Data&rdquo;</div>
+    </div>
+  </li>
 
   <li>
   <span class="alumni-years">2024–2026</span>
