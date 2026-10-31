@@ -63,7 +63,7 @@ title: People
 <ul class="people-alumni-list">
 
   <li>
-    <span class="alumni-years">2022 – 2026</span>
+    <span class="alumni-years">2022-2026</span>
     <div class="alumni-info">
       <span class="alumni-name">Simion De</span>
       <span class="alumni-detail">Joint with Saonli Basu</span>
