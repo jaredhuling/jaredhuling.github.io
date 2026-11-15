@@ -68,6 +68,33 @@ permalink: /software/
     </div>
   </div>
 
+  <!-- ==================== fastglm ==================== -->
+  <div class="software-entry">
+    <div class="software-img">
+      <img src="/images/fastglm_logistic_speed.png" alt="fastglm">
+    </div>
+    <div class="software-content">
+      <h4 class="software-name"><a href="https://jaredhuling.org/fastglm/">fastglm</a></h4>
+      <p class="software-subtitle">Fast and stable fitting of generalized linear models and their extensions</p>
+      <p>A highy efficient and numerically stable C++ (RcppEigen) engine for GLMs and related regression models. Works with familiar R methods such as <code>summary()</code>, <code>predict()</code>, and <code>vcov()</code>.</p>
+      <ul>
+        <li><strong>Speed:</strong> up to ten times faster than <code>glm()</code>, with identical estimates up to numerical precision, and a choice of six matrix decompositions.</li>
+        <li><strong>Stability:</strong> step-halving safeguards following <a href="https://doi.org/10.32614/RJ-2011-012">Marschner (2011)</a> and better starting values, so fits converge on poorly conditioned problems where <code>glm()</code> can fail.</li>
+        <li><strong>Models:</strong> GLMs, negative-binomial models, hurdle, zero-inflated, two-part, and ordinal regression, with optional <strong>Firth bias reduction</strong> for all.</li>
+        <li><strong>Large data:</strong> sparse, <code>bigmemory</code>, and streamed inputs, including database queries and Parquet files, for data too large to fit in memory.</li>
+        <li><strong>Inference:</strong> robust and clustered standard errors, profile and score tests, bootstrap, and predictions with standard errors.</li>
+      </ul>
+      <div class="software-footer">
+        <a href="https://cran.r-project.org/package=fastglm"><img src="https://cranlogs.r-pkg.org/badges/grand-total/fastglm" alt="CRAN downloads"></a>
+        <div class="links">
+          <a href="https://cran.r-project.org/package=fastglm">CRAN</a>
+          <a href="https://github.com/jaredhuling/fastglm">GitHub</a>
+          <a href="https://jaredhuling.org/fastglm/">Website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- ==================== swjm ==================== -->
   <div class="software-entry">
     <div class="software-img">

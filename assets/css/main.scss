@@ -806,6 +806,17 @@ author { font-weight: 600; }
   margin-bottom: 0.75rem;
 }
 
+.software-content > ul {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  line-height: 1.55;
+  margin: 0 0 0.75rem 1.1rem;
+  padding: 0;
+
+  li { margin-bottom: 0.3rem; }
+  strong { color: var(--color-text); }
+}
+
 .software-footer {
   display: flex;
   align-items: center;
