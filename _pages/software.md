@@ -38,6 +38,7 @@ permalink: /software/
       <p class="software-subtitle">High-dimensional distributional confounding control with adaptive forest weights</p>
       <p>Implements the methodology of <a href="https://arxiv.org/abs/2512.18069">De and Huling (2025)</a>, constructing weights that minimize a measure of distributional distance between treated and control groups that emphasizes confounding variables. The approach works by first jointly modeling the relationship between covariates, outcome, and treatment and then creates a similarity measure that assesses how much two points share a similar confounding structure. This distance emphasizes balance of variables that affect both treatment and outcome, thereby dealing with high dimensional settings when not all variables are confounders.</p>
       <div class="software-footer">
+        <a href="https://cran.r-project.org/package=forestBalance"><img src="https://cranlogs.r-pkg.org/badges/grand-total/forestBalance" alt="CRAN downloads"></a>
         <div class="links">
           <a href="https://cran.r-project.org/package=forestBalance">CRAN</a>
           <a href="https://github.com/jaredhuling/forestBalance">GitHub</a>
@@ -106,6 +107,7 @@ permalink: /software/
       <p class="software-author">Primarily written by Lingfeng Luo</p>
       <p>Implements a stagewise variable selection framework for estimating equations and deploy it for two high-dimensional semi-competing risks models, joint frailty model and joint scale-change model. In addition to the lasso and group lasso penalties, we implement the cooperative lasso penalty, which encourages the same sign for effects of the same covariate across the recurrent and terminal event models. </p>
       <div class="software-footer">
+        <a href="https://cran.r-project.org/package=swjm"><img src="https://cranlogs.r-pkg.org/badges/grand-total/swjm" alt="CRAN downloads"></a>
         <div class="links">
           <a href="https://cran.r-project.org/package=swjm">CRAN</a>
           <a href="https://github.com/jaredhuling/swjm">GitHub</a>
@@ -126,6 +128,7 @@ permalink: /software/
       <p class="software-author">Written by Ziren Jiang</p>
       <p>Implements a high-dimensional regression model framework when covariate effects vary by subgroups. The focus here is when subgroups are hierarchically defined, such as in readmission prediction settings when regression models may be heterogeneous based on what primary diagnosis an individual had in their initial hospitalization. These diagnoses can then be grouped into larger categories, creating a hierarchical structure. Our approach collapses models by covariate, borrowing strength across groups when needed.</p>
       <div class="software-footer">
+        <a href="https://cran.r-project.org/package=hierNest"><img src="https://cranlogs.r-pkg.org/badges/grand-total/hierNest" alt="CRAN downloads"></a>
         <div class="links">
           <a href="https://cran.r-project.org/package=hierNest">CRAN</a>
           <a href="https://github.com/ZirenJiang/hierNest">GitHub</a>
